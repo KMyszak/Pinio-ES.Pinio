@@ -1,0 +1,34 @@
+site_name: Dokumentacja Pinio & ES.Pinio
+icon: favicon.png
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  language: pl
+  logo: logo_wiki_nasweb.png
+  palette:
+    primary: custom
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+nav:
+  - Strona Główna: 
+    - NASweb.md
+    - NASwebio.md
+    - Infrormacje techniczne:
+      - Home.md
+      - NASweb-polski.md
+      - NASweb-english.md
