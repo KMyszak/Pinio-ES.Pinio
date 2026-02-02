@@ -1,13 +1,13 @@
 :root {
-  --md-primary-fg-color:        #DC3545;
-  --md-primary-fg-color--light: #ECB7B7;
-  --md-primary-fg-color--dark:  #90030C;
+  --md-primary-fg-color:        #083B5B;
+  --md-primary-fg-color--light: #F28C14;
+  --md-primary-fg-color--dark:  #144869;
 }
 
 /* Pomniejszenie głównej treści (paragrafy i listy) */
 .md-typeset p,
 .md-typeset li {
-    font-size: 16px !important;   /* mniejszy tekst niż domyślny */
+    font-size: 16px !important;  
     line-height: 1.6 !important;
 }
 
@@ -16,4 +16,8 @@
     font-size: 0.85rem !important;
 }
 
-/* Nagłówki pozostają bez zmian */
+.md-typeset img {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 2px;
+}

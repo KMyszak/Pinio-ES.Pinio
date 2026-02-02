@@ -5,7 +5,7 @@ extra_css:
 theme:
   name: material
   language: pl
-  logo: logo_wiki_nasweb.png
+  logo: logo.png
   palette:
     primary: custom
   features:
@@ -14,7 +14,6 @@ theme:
     - navigation.top
     - navigation.sections
     - navigation.indexes
-    - navigation.path
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -26,7 +25,45 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
   - Strona Główna: 
-    - NASweb.md
-    - NASwebio.md
+    - zmienic
   - ES.Pinio:
     - ES_Pinio/index.md
+  - Pinio+ESPHome:
+    - Pinio_ESPHome/index.md
+  - Pinio+MicroPython:
+    - Pinio_MicroPython/index.md
+  - MQTT:
+    - MQTT/index.md
+    - MQTT/Instalacja-dodatku.md
+    - MQTT/Tworzenie-uzytkownika.md
+    - MQTT/Dodanie-urzadzenia.md
+    - MQTT/Integracja.md
+    - MQTT/Encje.md
+  - Home Assistant:
+    - HomeAssistant/index.md
+    - HomeAssistant/Opis/Home-Assistant-Operating-System.md
+    - HomeAssistant/Opis/Zmiana-nazwy.md
+    - HomeAssistant/Opis/Edycja-encji.md
+    - Automatyzacja Home Assistant:
+      - HomeAssistant/Automatyzacje/index.md
+    - Automatyzacje:
+      - HomeAssistant/Automatyzacje/Tryby-automatyzacji.md
+      - HomeAssistant/Automatyzacje/Kiedy.md
+      - HomeAssistant/Automatyzacje/Jezeli.md
+      - HomeAssistant/Automatyzacje/Wykonaj.md
+      - HomeAssistant/Automatyzacje/Blok.md
+      - HomeAssistant/Automatyzacje/Nowa-automatyzacja.md
+    - Sceny:
+      - HomeAssistant/Sceny/Nowa-scena.md
+      - HomeAssistant/Sceny/Aktywacja-sceny.md
+    - Skrypty:
+      - HomeAssistant/Skrypty/Nowy-skrypt.md
+    - Schematy:
+      - HomeAssistant/Schematy/Nowy-schemat.md
+  - Konfiguracja:
+    - Konfiguracja/index.md
+  - Firmware:
+    - Firmware/index.md
+  - Problemy:
+    - Problemy/index.md
+
