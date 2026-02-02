@@ -1,7 +1,7 @@
 site_name: Dokumentacja Pinio & ES.Pinio
 icon: favicon.png
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css?v=2
 theme:
   name: material
   language: pl
