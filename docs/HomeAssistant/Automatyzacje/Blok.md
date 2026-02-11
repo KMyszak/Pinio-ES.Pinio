@@ -17,9 +17,11 @@ Pozwalają one budować bardziej złożone warunki, na przykład:
 
 ### Przykład
 
-Zastosowanie konstruktora `LUB/OR`.
+Zastosowanie konstruktora `LUB/OR`:
 
-Realizuje on funkcję (Switch1 **OFF** i Przekaźnik 2 **ON**) LUB (Wejście 2 **ON** i Przekaźnik 2 **OFF**): 
+!!! quote ""
+
+    Realizuje on funkcję (Switch1 **OFF** i Przekaźnik 2 **ON**) LUB (Wejście 2 **ON** i Przekaźnik 2 **OFF**). 
 
 <img width="900" alt="obraz" src="https://github.com/user-attachments/assets/554463e9-813e-4623-a22e-2b8dc7432c69" />
 
@@ -35,6 +37,8 @@ W sekcji `Wykonaj` dostępne są funkcje, które umożliwiają modyfikowanie spo
 
 Przykład użycia konstruktorów `Powtórzenie` oraz `Opóźnienie`:
 
-Przekaźniki 1 i 2 w urządzeniu Pinio zostają przełączone **10 razy**, z **jednosekundową przerwą** pomiędzy przełączeniami.
+!!! quote ""
+
+    Przekaźniki 1 i 2 w urządzeniu Pinio zostają przełączone **10 razy**, z **jednosekundową przerwą** pomiędzy przełączeniami.
 
 <img width="900" alt="obraz" src="https://github.com/user-attachments/assets/52499549-b115-4230-be10-f011a1476519" />

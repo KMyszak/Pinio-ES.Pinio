@@ -64,4 +64,4 @@ Home Assistant opiera się na kilku kluczowych elementach:
 
 !!! tip ""
 
-    Dowiedz się więcej, czym jest HA ze strony [home-assistant.io :material-open-in-new:](https://www.home-assistant.io/)
+    Dowiedz się więcej, czym jest Home Assistant ze strony [home-assistant.io :material-open-in-new:](https://www.home-assistant.io/)

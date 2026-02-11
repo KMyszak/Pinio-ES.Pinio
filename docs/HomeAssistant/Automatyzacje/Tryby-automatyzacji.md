@@ -13,7 +13,10 @@ Automatyzacje pozwalają uruchamiać wiele akcji jednocześnie, a ich zachowanie
 
 !!! info "Schemat działania trybów"
 
-    <img width="545" height="319" alt="obraz" src="https://github.com/user-attachments/assets/9feb29d7-fccc-4a66-ae4a-43c807d71792" />
+    <div style="text-align:center;">
+        <img width="720" height="444" alt="obraz" src="https://github.com/user-attachments/assets/986e66ec-2c63-4458-8f10-6431a5db0092" />
+    </div>
+    
 
 ---
 

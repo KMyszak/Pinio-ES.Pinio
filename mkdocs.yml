@@ -14,9 +14,13 @@ theme:
     - navigation.top
     - navigation.sections
     - navigation.indexes
+    - content.code.copy
 markdown_extensions:
   - admonition
+  - codehilite
   - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.superfences
   - attr_list
   - md_in_html
@@ -28,8 +32,24 @@ nav:
     - zmienic
   - ES.Pinio:
     - ES_Pinio/index.md
+    - ES_Pinio/Pierwsze-uruchomienie.md
+    - ES_Pinio/Podstawowe-ustawienia-i-GPIO.md
+    - Czujniki:
+      - ES_Pinio/ES.Pinio-Różne-czujniki.md
+      - ES_Pinio/ES.Pinio-Kilka-czujników-1-Wire.md
+    - ES_Pinio/Konsola.md
+    - ES_Pinio/Edycja-MQTT.md
+    - ES_Pinio/Diagnostyka.md
+    - Aktualizacja opgrogramowania:
+      - Bezprzewodowa (OTA):
+        - ES_Pinio/Aktualizacja-przez-web-server.md
+        - ES_Pinio/Aktualizacja-przez-plik-lokalny.md
+      - ES_Pinio/ES.Pinio-Reczna-aktualizacja.md
+    - ES_Pinio/ES.Pinio-Backup.md
   - Pinio+ESPHome:
     - Pinio_ESPHome/index.md
+    - Pinio_ESPHome/Instalacja-dodatku-ESPHome.md
+    - Pinio_ESPHome/Status-urzadzenia.md
   - Pinio+MicroPython:
     - Pinio_MicroPython/index.md
   - MQTT:

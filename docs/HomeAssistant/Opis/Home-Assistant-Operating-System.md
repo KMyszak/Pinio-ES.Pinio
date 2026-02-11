@@ -39,16 +39,14 @@ Panel webowy dostępny pod adresem `twoja_domena.haos.app` umożliwia:
 2. Wybierz na lewym pasku bocznym:  
 
     `Użytkownik → Ogólny → Ustawienia użytkownika → Zmień kolejność i ukryj elementy na pasku bocznym`
-    <p align="center">
-        <img width="594" height="211" alt="obraz" src="https://github.com/user-attachments/assets/bf159d3d-1faf-4e65-bd4e-c5fff086f19a" />
-    </p>
-    
+
+    <img width="594" height="211" alt="obraz" src="https://github.com/user-attachments/assets/bf159d3d-1faf-4e65-bd4e-c5fff086f19a" />
    
     !!! info ""
 
         W tym widoku możesz **dodawać, usuwać i reorganizować** dashboardy widoczne na pasku.  
 
-!!! note "Szybka edycja"
+!!! tip "Szybka edycja"
 
     Tryb można także uruchomić przytrzymując `Home Assistant` (lewy górny róg ekranu) lewym przyciskiem myszy przez 2 sekundy.
 
