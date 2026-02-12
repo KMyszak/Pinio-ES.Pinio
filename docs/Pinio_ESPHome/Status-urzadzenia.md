@@ -14,9 +14,8 @@ Status diody STA:
     ¹ Opcję można zmienić poprzez przełączenie encji Status LED
 
 Encję **Status LED** najprościej znaleźć przez wyszukanie w `Rejestrze encji` lub przechodząc do panelu urządzenia `Ustawienia → Urządzenia oraz usługi → ESPHome` do sekcji **Sterowanie**:  
-  
-  <img width="292" height="36" alt="obraz" src="https://github.com/user-attachments/assets/888083f3-060c-4e4b-bd82-2f8fba1c5fa4" />
 
+<img width="300" alt="obraz" src="https://github.com/user-attachments/assets/9867cea6-8ac7-4a5e-9d20-58b8c542bcdc" />
 
 !!! info "Dioda statusowa"
 

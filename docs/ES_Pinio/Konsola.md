@@ -17,4 +17,4 @@
 
         <img width="700" height="157" alt="obraz" src="https://github.com/user-attachments/assets/e150bdac-4ee3-4bd2-a9b8-45a1d671af46" />
 
-4. Przejdź do ustawień [MQTT :material-open-in-new:](Edycja-MQTT.md)
+4. Przejdź do ustawień [**MQTT :material-open-in-new:**](Edycja-MQTT.md)

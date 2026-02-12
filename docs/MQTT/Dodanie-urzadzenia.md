@@ -28,5 +28,5 @@
 
     <img width="378" height="197" alt="obraz" src="https://github.com/user-attachments/assets/a2f0225d-496e-4c24-8a47-8d60d8418016" />
 
-6. Przejdź do [integracja](../MQTT/Integracja.md) urządzeń
+6. Przejdź do [**integracja**](../MQTT/Integracja.md) urządzeń
 

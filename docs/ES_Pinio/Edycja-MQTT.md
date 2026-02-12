@@ -13,21 +13,21 @@ Aby połączyć ES.Pinio z Home Assistant należy znać **IP** brokera `MQTT`, *
     | **User**    | Nazwa użytkownika do uwierzytelnienia w brokerze MQTT |
     | **Password**| Hasło do uwierzytelnienia w brokerze MQTT |
     | **Topic**   | Unikalny temat identyfikujący twoje urządzenie (np. `hallswitch`, `kitchen-light`) - zaleca się użycie jednego słowa |
-    | **FullTopic** | Pełna definicja tematu - zmień ją, jeśli chcesz korzystać z wielopoziomowych tematów dla swoich urządzeń, np. `lights/%prefix%/%topic%/`. Więcej informacji dla [FullTopic :material-open-in-new:](https://tasmota.github.io/docs/MQTT/#mqtt-topic-definition) |
+    | **FullTopic** | Pełna definicja tematu - zmień ją, jeśli chcesz korzystać z wielopoziomowych tematów dla swoich urządzeń, np. `lights/%prefix%/%topic%/`. Więcej informacji dla [**FullTopic :material-open-in-new:**](https://tasmota.github.io/docs/MQTT/#mqtt-topic-definition) |
 
-    !!! example "Przykładowe ustawienia"  
+    #### Przykładowe ustawienia
 
-        <img width="320" height="596" alt="obraz" src="https://github.com/user-attachments/assets/37bb805e-13ce-48c7-8206-493b391af172" />
+    <img width="320" height="596" alt="obraz" src="https://github.com/user-attachments/assets/37bb805e-13ce-48c7-8206-493b391af172" />
 
 3. Kliknij **Save**
-4. Zaloguj się do Home Assistant (`https://twoja_domena.haos.app`)
+4. Zaloguj się do **Home Assistant** (`https://twoja_domena.haos.app`)
 5. Przejdź do `Ustawienia → Urządzenia oraz usługi`:     
     Urządzenie powinno zostać wykryte:  
 
     <img width="291" height="223" alt="obraz" src="https://github.com/user-attachments/assets/d71c4048-de15-4bd0-9bba-5509704003ac" />
 
 6. Kliknij **UTWÓRZ**, następnie **ZATWIERDŹ** 
-7. Po odświeżeniu strony, jeśli wszystko zostało poprawnie ustawione, Home Assistant automatycznie wykryje 15 dostępnych encji, które możesz wykorzystać w dalszej integracji:      
+7. Po odświeżeniu strony, jeśli wszystko zostało poprawnie ustawione, **Home Assistant** automatycznie wykryje 15 dostępnych encji, które możesz wykorzystać w dalszej integracji:      
 
     <img width="575" height="178" alt="obraz" src="https://github.com/user-attachments/assets/27e5273d-8288-4129-8555-369648d65f29" />
 

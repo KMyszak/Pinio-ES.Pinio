@@ -7,8 +7,8 @@
 > <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/e5c16ba9-166b-43ee-97fe-4eb3bb6b867f" />  
 4. Kliknij w prawym dolnym rogu **`+ Importuj schemat`**  
     W tym miejscu masz dwie możliwości importu:
-    - [Bezpośrednik link](#bezposredni-link)
-    - [My Home Assistant](#my-home-assistant)
+    - [**Bezpośrednik link :material-open-in-new:**](#bezposredni-link)
+    - [**My Home Assistant :material-open-in-new:**](#my-home-assistant)
 
 
 ## Bezpośredni link

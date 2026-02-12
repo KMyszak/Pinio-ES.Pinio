@@ -29,4 +29,4 @@ Działa w modelu **publish/subscribe**:
 
 !!! tip ""
 
-    Dowiedz się więcej, czym jest MQTT z artykułów [MQTT Essentials :material-open-in-new:](https://www.hivemq.com/mqtt/)
+    Dowiedz się więcej, czym jest MQTT z artykułów [**MQTT Essentials :material-open-in-new:**](https://www.hivemq.com/mqtt/)

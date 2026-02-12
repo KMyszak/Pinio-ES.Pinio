@@ -29,7 +29,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
   - Strona Główna: 
-    - zmienic
+    - index.md
   - ES.Pinio:
     - ES_Pinio/index.md
     - ES_Pinio/Pierwsze-uruchomienie.md
@@ -46,11 +46,16 @@ nav:
         - ES_Pinio/Aktualizacja-przez-plik-lokalny.md
       - ES_Pinio/ES.Pinio-Reczna-aktualizacja.md
     - ES_Pinio/ES.Pinio-Backup.md
-  - Pinio+ESPHome:
+  - Pinio + ESPHome:
     - Pinio_ESPHome/index.md
     - Pinio_ESPHome/Instalacja-dodatku-ESPHome.md
+    - Pinio_ESPHome//Pierwsza-konfiguracja-ESPHome.md
+    - Pinio_ESPHome/Kilka-czujników-1-Wire.md
+    - Pinio_ESPHome/
+    - Pinio_ESPHome/
     - Pinio_ESPHome/Status-urzadzenia.md
-  - Pinio+MicroPython:
+    
+  - Pinio + MicroPython:
     - Pinio_MicroPython/index.md
   - MQTT:
     - MQTT/index.md

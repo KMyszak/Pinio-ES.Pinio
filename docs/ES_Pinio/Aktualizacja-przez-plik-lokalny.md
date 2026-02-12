@@ -27,7 +27,7 @@ Wersja `MINIMAL` zajmuje znacznie mniej miejsca niż docelowy firmware, dzięki 
 
         [http://ota.tasmota.com/tasmota/tasmota-minimal.bin.gz](http://ota.tasmota.com/tasmota/tasmota-minimal.bin.gz) ← najnowsza wersja `MINIMAL`
 
-2. Połącz się z urządzeniem wpisując jego adres IP w przeglądarce (w razie trudności zajrzyj do [Problemy :material-open-in-new:](Problemy.md)
+2. Połącz się z urządzeniem wpisując jego adres IP w przeglądarce (w razie trudności zajrzyj do [**Problemy** :material-open-in-new:](Problemy.md))
 3. Przejdź do `Firmware Upgrade`:  
 
     <img width="292" height="479" alt="obraz" src="https://github.com/user-attachments/assets/f64de808-4432-4d9c-9289-acd0e9f9db5b" />

@@ -38,7 +38,8 @@
 
         Jeśli nie widzisz żadnych plików, kliknij ikonę 🛑 lub wybierz opcję z zakładki `Run → Stop/Restart backend`:
         
-        <img width="433" height="74" alt="k_pinio_2" src="https://github.com/user-attachments/assets/92a162bf-47f8-4aeb-a12a-3233088ee52e" />
+        <img width="443" height="76" alt="obraz" src="https://github.com/user-attachments/assets/ba95bfcc-6982-4c98-aed1-ca798240fff1" />
+
 
 5. W funkcji `create_mqtt_discovery()` w słowniku `device_info` zmień wartość `"name"` i zapisz plik:
 ```

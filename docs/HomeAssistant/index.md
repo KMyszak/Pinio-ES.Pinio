@@ -12,22 +12,22 @@ Działa jako centralny system, który łączy urządzenia, usługi oraz automaty
 
 Home Assistant opiera się na kilku kluczowych elementach:
 
-**Integracje**
+#### Integracje
 
 - dodają obsługę urządzeń, usług oraz protokołów (np. Zigbee, Z-Wave, Wi-Fi, MQTT)  
 - umożliwiają komunikację między HA a sprzętem  
 
-**Encje**
+#### Encje
     
 - podstawowe elementy reprezentujące stan lub funkcję urządzenia  
 - (np. temperatura, przełącznik, czujnik ruchu, oświetlenie)  
 
-**Wyzwalacze, warunki** i **akcje**
+#### Wyzwalacze, warunki i akcje
     
 - budują automatyzacje reagujące na zdarzenia  
 - umożliwiają wykonywanie zadań bez udziału użytkownika  
 
-**Frontend**
+#### Frontend
     
 - intuicyjny interfejs www i aplikacja mobilna
 - pozwalają na sterowanie, monitorowanie i konfigurację systemu

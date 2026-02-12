@@ -2,8 +2,9 @@
 
 Oprogramowanie Tasmota automatycznie wykrywa nowe czujniki (wybranego typu) po restarcie urządzenia.  
 
-Typ czujnika został wybrany podczas [konfiguracji :material-open-in-new:](Podstawowe-ustawienia-i-GPIO.md):  
-    <img width="320" height="32" alt="obraz" src="https://github.com/user-attachments/assets/9fe54da8-d1d9-41fb-950a-a05f4453faa5" />
+Typ czujnika został wybrany podczas [**konfiguracji :material-open-in-new:**](Podstawowe-ustawienia-i-GPIO.md):  
+
+<img width="320" height="32" alt="obraz" src="https://github.com/user-attachments/assets/9fe54da8-d1d9-41fb-950a-a05f4453faa5" />
 
 ---
 
@@ -17,4 +18,4 @@ Podłączone 2 czujniki:
 
 !!! info ""
     
-    Podłączenie kolejnych czujników sprawia, że zostają zmienione ich nazwy przez co także ich encje, więc należy je ręcznie dodać/edytować w dashboardzie.
+    Podłączenie kolejnych czujników sprawia, że zostają zmienione ich **nazwy** przez co także ich **encje**, więc należy je ręcznie dodać/edytować w dashboardzie.

@@ -21,7 +21,7 @@ Zastosowanie konstruktora `LUB/OR`:
 
 !!! quote ""
 
-    Realizuje on funkcję (Switch1 **OFF** i Przekaźnik 2 **ON**) LUB (Wejście 2 **ON** i Przekaźnik 2 **OFF**). 
+    Realizowana jest funkcja [Switch1 **OFF** i Przekaźnik 2 **ON**] LUB [Wejście 2 **ON** i Przekaźnik 2 **OFF**]: 
 
 <img width="900" alt="obraz" src="https://github.com/user-attachments/assets/554463e9-813e-4623-a22e-2b8dc7432c69" />
 

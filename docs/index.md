@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Pinio & ES.Pinio
 
 <div class="grid cards" markdown>
@@ -6,9 +12,9 @@
 
     ---
 
-    Poznaj kontroler ES.Pinio oparty na ESP-12F - jego możliwości, sposób działania oraz konfigurację sprzętową i sieciową.
+    Poznaj kontroler ES.Pinio oparty na ESP8266 - jego możliwości, sposób działania oraz konfigurację sprzętową i sieciową.
 
-    [:octicons-arrow-right-24: Więcej]()
+    [:octicons-arrow-right-24: Więcej](ES_Pinio/index.md)
 
 - :material-chip:{ .lg .middle } __Pinio + ESPHome__
 
@@ -16,47 +22,47 @@
 
     Zobacz, jak działa kontroler w środowisku ESPHome, jak go skonfigurować i jak łączy się z Home Assistantem.
 
-    [:octicons-arrow-right-24: Więcej]()
+    [:octicons-arrow-right-24: Więcej](Pinio_ESPHome/index.md)
 
 - :material-code-tags:{ .lg .middle } __Pinio + MicroPython__
 
     ---
 
-    Pełna dokumentacja, przykłady i przewodnik po programowaniu kontrolera w MicroPythonie.
+    Pełna dokumentacja, przykłady i przewodnik po programowaniu urządzenia Pinio w MicroPythonie.
 
-    [:octicons-arrow-right-24: Więcej]()
+    [:octicons-arrow-right-24: Więcej](Pinio_MicroPython/index.md)
 
 - :material-connection:{ .lg .middle } __MQTT__
 
     ---
 
-    Jak działa komunikacja MQTT - tematy, payloady, integracja i praktyczne przykłady.
+    Jak działa komunikacja MQTT - tematy, payloady, integracja i przykłady.
 
-    [:octicons-arrow-right-24: Więcej]()
+    [:octicons-arrow-right-24: Więcej](MQTT/index.md)
 
 - :material-home-assistant:{ .lg .middle } __Home Assistant__
 
     ---
 
-    Integracja z Home Assistant: konfiguracja, automatyzacje, encje, oraz najlepsze praktyki.
+    Integracja z Home Assistant: konfiguracja, automatyzacje, encje, oraz praktyczne przykłady.
 
-    [:octicons-arrow-right-24: Więcej]()
+    [:octicons-arrow-right-24: Więcej](HomeAssistant/index.md)
 
 - :material-cog-transfer:{ .lg .middle } __Konfiguracja__
 
     ---
 
-    Wszystko o konfiguracji kontrolera, aplikacji oraz integracji - krok po kroku w jednym miejscu.
+    Wszystko o konfiguracji urządzeń, aplikacji oraz integracji - krok po kroku w jednym miejscu.
 
-    [:octicons-arrow-right-24: Więcej]()
+    [:octicons-arrow-right-24: Więcej](Konfiguracja/index.md)
 
 - :material-update:{ .lg .middle } __Firmware__
 
     ---
 
-    Jak aktualizować, flashować i zarządzać firmware kontrolera - procedury oraz narzędzia.
+    Jak aktualizować, flashować i zarządzać firmware urządzenia - procedury oraz narzędzia.
 
-    [:octicons-arrow-right-24: Więcej]()
+    [:octicons-arrow-right-24: Więcej](Firmware/index.md)
 
 - :material-alert-circle:{ .lg .middle } __Problemy__
 
@@ -64,6 +70,6 @@
 
     Najczęstsze problemy, diagnoza krok po kroku oraz gotowe rozwiązania, które szybko przywrócą działanie systemu.
 
-    [:octicons-arrow-right-24: Więcej]()
+    [:octicons-arrow-right-24: Więcej](Problemy/index.md)
 
 </div>

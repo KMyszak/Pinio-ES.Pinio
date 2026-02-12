@@ -21,7 +21,7 @@
 
         <img width="904" height="497" alt="obraz" src="https://github.com/user-attachments/assets/33b0d95d-8fed-4682-b11b-55bc6b491603" />
 
-6. Zapisz konfigurację - jeżeli ustawienia MQTT są identyczne jak w [`config.py`](Edycja-config.py), dodatek automatycznie wykryje urządzenie (jeśli nie zostało wykryte przejdź do [Problemy](../Problemy/index.md)):
+6. Zapisz konfigurację - jeżeli ustawienia MQTT są identyczne jak w [`config.py`](Edycja-config.py), dodatek automatycznie wykryje urządzenie (jeśli nie zostało wykryte przejdź do [**Problemy**](../Problemy/index.md)):
 
     <img width="719" alt="obraz" src="https://github.com/user-attachments/assets/cc823a2f-e7e4-4948-a407-6aec2474eca4" />
 
