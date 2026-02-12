@@ -20,7 +20,7 @@ Automatyzacje pozwalają uruchamiać wiele akcji jednocześnie, a ich zachowanie
 
 ---
 
-## Limity uruchmień
+## Limity uruchomień
 
 W trybach `Kolejkowanie` i `Równoległy` parametr **Długość kolejki** / **Maksymalna liczba równoległych uruchomień** określa maksymalną liczbę instancji automatyzacji, które mogą być jednocześnie uruchomione lub oczekiwać w kolejce (domyślnie 10).
 

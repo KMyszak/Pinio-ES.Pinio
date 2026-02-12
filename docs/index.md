@@ -20,7 +20,7 @@ hide:
 
     ---
 
-    Zobacz, jak działa kontroler w środowisku ESPHome, jak go skonfigurować i jak łączy się z Home Assistantem.
+    Zobacz, jak działa kontroler w środowisku ESPHome, jak go skonfigurować i jak łączy się z Home Assistant.
 
     [:octicons-arrow-right-24: Więcej](Pinio_ESPHome/index.md)
 

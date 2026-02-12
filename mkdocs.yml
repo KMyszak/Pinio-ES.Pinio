@@ -15,6 +15,7 @@ theme:
     - navigation.sections
     - navigation.indexes
     - content.code.copy
+    - navigation.path
 markdown_extensions:
   - admonition
   - codehilite
@@ -22,41 +23,54 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
   - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
 nav:
   - Strona Główna: 
     - index.md
+
   - ES.Pinio:
-    - ES_Pinio/index.md
-    - ES_Pinio/Pierwsze-uruchomienie.md
-    - ES_Pinio/Podstawowe-ustawienia-i-GPIO.md
-    - Czujniki:
-      - ES_Pinio/ES.Pinio-Różne-czujniki.md
-      - ES_Pinio/ES.Pinio-Kilka-czujników-1-Wire.md
-    - ES_Pinio/Konsola.md
-    - ES_Pinio/Edycja-MQTT.md
-    - ES_Pinio/Diagnostyka.md
-    - Aktualizacja opgrogramowania:
-      - Bezprzewodowa (OTA):
-        - ES_Pinio/Aktualizacja-przez-web-server.md
-        - ES_Pinio/Aktualizacja-przez-plik-lokalny.md
-      - ES_Pinio/ES.Pinio-Reczna-aktualizacja.md
-    - ES_Pinio/ES.Pinio-Backup.md
+      - ES_Pinio/index.md
+      - Pierwsze kroki:
+        - ES_Pinio/Pierwsze-uruchomienie.md
+        - ES_Pinio/Podstawowe-ustawienia-i-GPIO.md
+        - ES_Pinio/Konsola.md
+        - ES_Pinio/Edycja-MQTT.md
+      - Czujniki:
+        - ES_Pinio/ES.Pinio-Różne-czujniki.md
+        - ES_Pinio/ES.Pinio-Kilka-czujników-1-Wire.md
+      - Diagnostyka:
+        - ES_Pinio/Diagnostyka.md
+        - ES_Pinio/ES.Pinio-Status-urządzenia.md
+      - Aktualizacja opgrogramowania:
+        - Bezprzewodowa (OTA):
+          - ES_Pinio/Aktualizacja-przez-web-server.md
+          - ES_Pinio/Aktualizacja-przez-plik-lokalny.md
+          - ES_Pinio/ES.Pinio-Reczna-aktualizacja.md
+      - ES_Pinio/ES.Pinio-Backup.md
+
   - Pinio + ESPHome:
     - Pinio_ESPHome/index.md
-    - Pinio_ESPHome/Instalacja-dodatku-ESPHome.md
-    - Pinio_ESPHome//Pierwsza-konfiguracja-ESPHome.md
-    - Pinio_ESPHome/Kilka-czujników-1-Wire.md
-    - Pinio_ESPHome/
-    - Pinio_ESPHome/
-    - Pinio_ESPHome/Status-urzadzenia.md
-    
+    - Pierwsze kroki:
+      - Pinio_ESPHome/Instalacja-dodatku-ESPHome.md
+      - Pinio_ESPHome/Pierwsza-konfiguracja-ESPHome.md
+      - Pinio_ESPHome/Kilka-czujników-1-Wire.md
+      - Pinio_ESPHome/Wgrywanie-.uf2.md
+    - Oprogramowanie:
+      - Pinio_ESPHome/Aktualizacja-bezprzewodowa.md
+      - Pinio_ESPHome/Aktualizacja-oprogramowania.md
+    - Diagnostyka:
+      - Pinio_ESPHome/Status-urzadzenia.md
+
   - Pinio + MicroPython:
     - Pinio_MicroPython/index.md
+  
   - MQTT:
     - MQTT/index.md
     - MQTT/Instalacja-dodatku.md
@@ -64,6 +78,7 @@ nav:
     - MQTT/Dodanie-urzadzenia.md
     - MQTT/Integracja.md
     - MQTT/Encje.md
+
   - Home Assistant:
     - HomeAssistant/index.md
     - HomeAssistant/Opis/Home-Assistant-Operating-System.md
@@ -85,10 +100,12 @@ nav:
       - HomeAssistant/Skrypty/Nowy-skrypt.md
     - Schematy:
       - HomeAssistant/Schematy/Nowy-schemat.md
+
   - Konfiguracja:
     - Konfiguracja/index.md
+
   - Firmware:
     - Firmware/index.md
+
   - Problemy:
     - Problemy/index.md
-

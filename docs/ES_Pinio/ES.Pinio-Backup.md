@@ -1,6 +1,6 @@
 # Backup ustawień
 
-## Stworzenie Backupu
+## Tworzenie Backupu
 
 1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [Problemy :material-open-in-new:](Problemy.md)
 2. Przejdź do `Configuration` i kliknij `Backup`:  

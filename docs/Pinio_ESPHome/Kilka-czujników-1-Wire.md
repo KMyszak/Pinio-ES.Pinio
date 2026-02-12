@@ -21,7 +21,7 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika (tego **SAMEGO** typu n
         
         Każdy z nich ma swój unikalny adres hex (0x...)
 
-5. Zapisz adresy i zamknij konsolę
+5. **Zapisz** adresy i zamknij konsolę
 6. Dodaj czujniki do kodu `.YAML` przechodząc do zakładki **EDIT**:  
 
     <img width="403" height="121" alt="obraz" src="https://github.com/user-attachments/assets/ca76fba7-03c2-452a-8c5d-e93d956d4488" />
@@ -50,5 +50,5 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika (tego **SAMEGO** typu n
     ```
     !!! info "Postępuj analogicznie z większą liczbą czujników."
 
-7. Kliknij **SAVE**, **INSTALL** i pobierz plik `.uf2` tak jak w pierwszej [konfiguracji](Pierwsza-konfiguracja-ESPHome) lub wgraj przez [OTA](Aktualizacja-bezprzewodowa-(OTA))
-8. Przejdź do [**wgrywania**](WGRYWANIE-.YAML) firmware
+7. Kliknij **SAVE**, **INSTALL** i pobierz plik `.uf2` tak jak w pierwszej [**konfiguracji**](../../Pinio_ESPHome/Pierwsza-konfiguracja-ESPHome) lub wgraj przez [**bezprzewodwo**](../../Pinio_ESPHome/Aktualizacja-bezprzewodowa)
+8. Przejdź do [**wgrywania**](../../Pinio_ESPHome/WGRYWANIE-.YAML) firmware
