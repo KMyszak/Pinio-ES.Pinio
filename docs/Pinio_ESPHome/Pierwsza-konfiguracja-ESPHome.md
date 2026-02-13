@@ -14,8 +14,6 @@
 
     <img width="371" height="129" alt="obraz" src="https://github.com/user-attachments/assets/3deac809-f62a-423e-a5f0-d0d29f89203a" />
 
----
-
 ## Edycja konfiguracji
 
 1. Przejdź do edycji klikając **EDIT**:  

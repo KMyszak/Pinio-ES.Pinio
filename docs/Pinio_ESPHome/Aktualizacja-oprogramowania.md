@@ -2,7 +2,7 @@
 
 Aktualizację oprogramowania można wykonać na dwa sposoby:
 
-- wykorzystując powiadomienie w `Ustawienia`
+- wykorzystując dostępne powiadomienie w `Ustawieniach`
 - przez panel `ESPHome Builder`
 
 
@@ -22,34 +22,64 @@ Aktualizację oprogramowania można wykonać na dwa sposoby:
 
 === "ESPHome Builder"
 
-    1. Wybierz na pasku bocznym **ESPHome Builder** (jeśli go nie widzisz → [Pokaż na pasku bocznym](ESPHome-Builder)): 
+    1. Wybierz na pasku bocznym **ESPHome Builder**: 
 
         <img width="209" alt="obraz" src="https://github.com/user-attachments/assets/f078b6cd-35d3-4da9-b244-fdfed223b755" />
+
+        ??? failure "Brak skrótu"
+
+            Jeśli nie widzisz skrótu na pasku bocznym:
+            
+            - przejdź do **konfiguracji** lub
+            - przejdź do **interejsu użytkownika**
+
+            === "Konfiguracja"
+                
+                Z menu po lewej stronie wybierz `Ustawienia → Aplikacje → ESPHome Builder`:
+
+                <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
+
+                Zaznacz **Pokaż na pasku bocznym**:
+
+                <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/c85b76f1-343c-4a04-9d09-4ff0459b5d02" />
+
+            === "Ustawienia aplikacji"
+
+                `Ustawienia Aplikacje `
 
     2. Wybierz urządzenie które chcesz zaktualizować i kliknij `UPDATE`. Jeśli chcesz zaktualizować wszystkie urządzenia kliknij `UPDATE ALL` (prawy górny róg):
 
         <img width="402" height="129" alt="obraz" src="https://github.com/user-attachments/assets/abc035e8-5510-442a-9e42-14b155e83ff4" />    
 
-        === "UPDATE"
+    === "UPDATE"
 
-            W przypadku wyboru jednego urządzenia pojawi się okno z wyborem formy instalacji oprogramowania, tak jak miało to miejsce przy jego pierwszej edycji - należy postępować analogicznie:
+        W przypadku wyboru jednego urządzenia pojawi się okno z wyborem formy instalacji oprogramowania, tak jak miało to miejsce przy jego pierwszej edycji - należy postępować analogicznie:
 
-            - aktualizacja manualna → [Manual download :material-open-in-new:](../../Pinio_ESPHome/Wgrywanie-.uf2)
-            - aktualizacja bezprzewodowa → [Wirelessly :material-open-in-new:](../../Pinio_ESPHome/Aktualizacja-bezprzewodowa)
+        - aktualizacja bezprzewodowa → [Wirelessly :material-open-in-new:](../../Pinio_ESPHome/Aktualizacja-bezprzewodowa)
+        - aktualizacja manualna → [Manual download :material-open-in-new:](../../Pinio_ESPHome/Wgrywanie-.uf2)
+        
+        <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/70cd2f33-648b-4888-a6b1-6eed000a9bdb" />
 
-            <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/70cd2f33-648b-4888-a6b1-6eed000a9bdb" />
+    === "UPDATE ALL"
 
-        === "UPDATE ALL"
+        Celem aktualzacji wszystkich urządzeń, najwygodniej będzie skorzystać z opcji `UPDATE ALL` w panelu **ESPHome Builder**:
 
-            1. Wybór `UPDATE ALL` spowoduje pojawienie się komunikatu, który należy potwierdzić: 
-                <img width="238" height="125" alt="obraz" src="https://github.com/user-attachments/assets/5be8d1fa-c126-4e9c-bea1-1ff8cb4d2dce" />
-            
-            2. Zostanie otworzone okno z logami `Update All`:
-                <img width="556" height="153" alt="obraz" src="https://github.com/user-attachments/assets/c2f0895d-c86a-4953-8250-4e9ea6d9909f" />
+        <img width="514" height="57" alt="obraz" src="https://github.com/user-attachments/assets/0a353b95-108d-4391-8686-6f530056df07" />
 
-            3. Cała aktualizacja trwa do kilku minut, a udany proces powinien zostać zakończony `SUCCESS`:
-                <img width="556" height="317" alt="obraz" src="https://github.com/user-attachments/assets/94936056-d3d0-4176-b70e-37f419d5f58e" />
-            
-            4. Urządzenie jest zaktualizowane i gotowe do pracy
+        ---
+
+        1. Wybór `UPDATE ALL` spowoduje pojawienie się komunikatu, który należy potwierdzić: 
+
+            <img width="230" src="https://github.com/user-attachments/assets/ece46699-b94f-4179-a504-409ccac9d4bb" />
+        
+        2. Zostanie otworzone okno z logami:
+
+            <img width="600" alt="obraz" src="https://github.com/user-attachments/assets/5fa1f087-17e7-4ebb-af8a-aa88836c4453" />
+
+        3. Cała aktualizacja trwa do kilku minut, a udany proces powinien zostać zakończony `SUCCESS`:
+
+            <img width="600" alt="obraz" src="https://github.com/user-attachments/assets/88931646-47c5-46ed-b9ef-71df2756a539" />
+        
+        4. Urządzenia są zaktualizowane i gotowe do pracy
 
     

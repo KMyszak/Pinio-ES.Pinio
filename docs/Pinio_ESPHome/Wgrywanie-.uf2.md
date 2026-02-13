@@ -26,7 +26,7 @@
 
     <img width="310" alt="obraz" src="https://github.com/user-attachments/assets/872ffa1b-f219-4ccd-97a7-269725a2df33" />
 
----
+## Dostępne encje
 
 Do dyspozycji użytkownika są następujące encje:
 ```

@@ -52,7 +52,7 @@ nav:
         - Bezprzewodowa (OTA):
           - ES_Pinio/Aktualizacja-przez-web-server.md
           - ES_Pinio/Aktualizacja-przez-plik-lokalny.md
-          - ES_Pinio/ES.Pinio-Reczna-aktualizacja.md
+        - ES_Pinio/ES.Pinio-Reczna-aktualizacja.md
       - ES_Pinio/ES.Pinio-Backup.md
 
   - Pinio + ESPHome:
@@ -70,6 +70,13 @@ nav:
 
   - Pinio + MicroPython:
     - Pinio_MicroPython/index.md
+    - Pierwsze kroki:
+      - Pinio_MicroPython/Polaczenie-z-PC.md
+      - Pinio_MicroPython/Edycja-config.md
+      - Pinio_MicroPython/Kilka-czujnikow-1-Wire.md
+    - Diagnostyka:
+      - Pinio_MicroPython/Access-Point.md
+      - Pinio_MicroPython/Status-urzadzenia.md
   
   - MQTT:
     - MQTT/index.md
@@ -101,11 +108,18 @@ nav:
     - Schematy:
       - HomeAssistant/Schematy/Nowy-schemat.md
 
-  - Konfiguracja:
-    - Konfiguracja/index.md
-
   - Firmware:
     - Firmware/index.md
+    - ES.Pinio:
+      - Firmware/ES_Pinio.md
+    - Potrzebne oprogramowanie:
+      - Firmware/esptool.md
+      - Firmware/tasmotizer.md
+      - Firmware/tasmota.md
+    - Firmware/PortCOM.md
+
+    - Pinio + Micropython:
+      - Firmware/Pinio_MicroPython.md
 
   - Problemy:
     - Problemy/index.md

@@ -13,7 +13,7 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika (tego **SAMEGO** typu n
 
 4. Obserwuj dane wyjściowe:
 
-    <img width="700" height="90" alt="obraz" src="https://github.com/user-attachments/assets/24b48e1e-d02e-4dd8-8063-615d52985a1d" />
+    <img width="700" height="90" alt="obraz" src="https://github.com/user-attachments/assets/955246cf-d666-4021-b693-3d4f0eda3554" />
 
     !!! success "Wykryte czujniki"
 

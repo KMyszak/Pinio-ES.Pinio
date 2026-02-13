@@ -9,8 +9,6 @@ Aby podłączyć czujniki różnego typu należy skorzystać z **portów rozszer
 - `GIPO15` 
 - `GPIO2`
 - `GPIO0`    
-    
----
 
 ## Ogólne wytyczne
 
@@ -37,8 +35,6 @@ Przy połączeniu należy mieć na uwadze kilka kwestii, ponieważ można podł�
     - przekaźniki sterowane bezpośrednio z pinu, które mogą wprowadzić **LOW** lub **HIGH** w momencie zasilania
     - duże obciążenia, które mogą ściągnąć pin do niewłaściwego stanu
     - mają wewnętrzne pull-upy lub pull-downy niezgodne z wymaganym stanem
-
----
 
 ## Przykład
 

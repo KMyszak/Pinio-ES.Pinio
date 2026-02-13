@@ -1,5 +1,5 @@
 # Staus urządzenia
-<img width="220" alt="obraz" align="left" src="https://github.com/user-attachments/assets/a81b3409-c0bd-4fa9-9cbc-7a433915e9b0" />
+<img width="203" alt="obraz" align="left" src="https://github.com/user-attachments/assets/a81b3409-c0bd-4fa9-9cbc-7a433915e9b0" />
 
 Dioda statusu **STA** sygnalizuje pracę urządzenia, a jej zachowanie można zmienić przy pomocy zmiennej `LedState`. Przez zmiany w konsoli ustawiony jest `tryb 4`.
 
@@ -9,7 +9,7 @@ Status diody STA:
 
   - **wyłączona** → urządzenie połączone z **Home Assistant**
   - **miganie** przy wysyłaniu subskrypcji/publikacji/stanów → poprawne działanie
-  - cykl 1s **ON** / 1s **OFF** → proces łączenia z WiFi 
+  - cykl 1s **ON** / 1s **OFF** → proces łączenia z Wi-Fi 
   - cykl 2s **ON** / 2s **OFF** → proces łączenia z MQTT  
 
 

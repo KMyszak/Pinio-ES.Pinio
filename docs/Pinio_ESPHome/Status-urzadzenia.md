@@ -22,7 +22,6 @@ Encję **Status LED** najprościej znaleźć przez wyszukanie w `Rejestrze encji
     Dioda włączy się ponownie po zresetowaniu urządzenia. 
     Aby wyłączyć automatyczne zapalanie diody statusowej STA należy edytować plik `.YAML` 
 
----
 ## Wyłączenie automatycznego zapalania diody STA
 
 1. Przejdź do `ESPHome Builder` (zakładka w menu po lewej stronie):

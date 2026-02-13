@@ -15,8 +15,6 @@ Wersja `MINIMAL` zajmuje znacznie mniej miejsca niż docelowy firmware, dzięki 
     Warto pamiętać, że `MINIMAL` **nie posiada pełnej funkcjonalności** - służy jedynie jako tymczasowy tryb umożliwiający aktualizację.   
     Po instalacji właściwego firmware parametry i ustawienia urządzenia zostają zachowane.
 
----
-
 ## Instalacja
 
 1. Pobierz wersję `MINIMAL`:

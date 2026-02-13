@@ -11,8 +11,6 @@
 
     <img width="438" height="90" alt="obraz" src="https://github.com/user-attachments/assets/9c015ff5-914f-4d7a-b083-dc7349fce4aa" />
 
----
-
 ## Przywrócenie backupu
 
 1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce

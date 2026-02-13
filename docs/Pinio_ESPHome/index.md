@@ -8,19 +8,15 @@ Moduł idealnie integruje się z ekosystemem **Home Assistant**, umożliwiając 
 
 **PINIO** idealnie sprawdza się jako interfejs wykonawczy, statusowy oraz pomiarowy w inteligentnych instalacjach, pozwalając na szybkie uruchomienie automatyki z wykorzystaniem natywnego ESPHome API (kod YAML).
 
----
-
 ## Raspberry Pi Pico W
 
 <img width="120" align="left" alt="obraz" src="https://github.com/user-attachments/assets/95632930-a802-40da-9c9a-f1d0e1fafafe" />
 
 Urządzenie bazuje na mikrokontrolerze Raspberry Pi Pico W (RP2040) i działa z ESPHome, co pozwala na łatwą konfigurację i obsługę nawet bez wiedzy programistycznej.
 
-**Raspberry Pi Pico W** to niewielka, energooszczędna płytka oparta na dwurdzeniowym układzie RP2040, wzbogacona o moduł WiFi 2.4 GHz. Dzięki niskiemu poborowi mocy i szybkiemu startowi świetnie nadaje się do aplikacji IoT, czujników, sterowników oraz prostych urządzeń automatyki. 
+**Raspberry Pi Pico W** to niewielka, energooszczędna płytka oparta na dwurdzeniowym układzie RP2040, wzbogacona o moduł Wi-Fi 2.4 GHz. Dzięki niskiemu poborowi mocy i szybkiemu startowi świetnie nadaje się do aplikacji IoT, czujników, sterowników oraz prostych urządzeń automatyki. 
 
-Udostępnia bogaty zestaw interfejsów - `GPIO`, `UART`, `SPI`, `I²C`, `PWM` oraz przetwornik ADC — co pozwala łatwo podłączać różne peryferia. Dzięki wbudowanemu WiFi może pełnić rolę prostego serwera, klienta HTTP/MQTT lub urządzenia działającego w trybie Access Point. 
-
----
+Udostępnia bogaty zestaw interfejsów - `GPIO`, `UART`, `SPI`, `I²C`, `PWM` oraz przetwornik ADC — co pozwala łatwo podłączać różne peryferia. Dzięki wbudowanemu Wi-Fi może pełnić rolę prostego serwera, klienta HTTP/MQTT lub urządzenia działającego w trybie Access Point. 
 
 ## Funkcje
 
@@ -33,8 +29,6 @@ To idealne narzędzie dla integratorów:
 - **złącza:** GPIO, terminal‑block, wyjścia na diody statusu i przycisk reset
 - **obudowa:** przystosowana do montażu na szynie DIN (TH35)
 - **wsparcie:** przykładowy kod YAML w ESPHome, czytelna dokumentacja, brak ograniczeń licencyjnych
-
----
 
 ## Zastosowanie
 
