@@ -1,7 +1,8 @@
-# Staus urządzenia
+# Status urządzenia
+
 <img width="203" alt="obraz" align="left" src="https://github.com/user-attachments/assets/a81b3409-c0bd-4fa9-9cbc-7a433915e9b0" />
 
-Dioda statusu **STA** sygnalizuje pracę urządzenia, a jej zachowanie można zmienić przy pomocy zmiennej `LedState`. Przez zmiany w konsoli ustawiony jest `tryb 4`.
+Dioda statusowa **STA** sygnalizuje pracę urządzenia, a jej zachowanie można zmienić przy pomocy zmiennej `LedState`. Przez zmiany w konsoli ustawiony jest `tryb 4`.
 
 
 
@@ -15,7 +16,7 @@ Status diody STA:
 
 ## Tryby diody STA
 
-Dostępne tryby, które można wybrać poprzez zmianę wartości zmiennej `LedState` w [**konsoli**](../../ES_Pinio/Konsola):  
+Dostępne tryby, które można wybrać poprzez zmianę wartości zmiennej `LedState` w [**konsoli**](Konsola.md):  
 
 
 | Wartość | Opis                                                              |

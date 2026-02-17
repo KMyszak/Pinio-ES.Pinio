@@ -20,9 +20,9 @@
 
         Dodatkowo możesz dodać urządzenie do `Obszaru` oraz przypisać mu `Etykietę`
 
----
-
 ## Zmiana przez plik
+
+Zmiany można wprowadzić poprzez plik konfiguracyjny na urządzeniu opartym na **Raspberry Pi Pico W 2**, korzystającym z języka programowania, np. MicroPython.
 
 1. Uruchom program **Thonny**
 2. Podłącz **Pinio** do komputera przez kabel microUSB

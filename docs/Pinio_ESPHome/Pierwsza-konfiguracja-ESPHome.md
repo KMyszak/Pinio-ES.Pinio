@@ -1,9 +1,45 @@
-1. Wybierz na pasku bocznym **ESPHome Builder** (jeśli go nie widzisz → [Pokaż na pasku bocznym](ESPHome-Builder)): 
-    
-    <img width="209" height="98" alt="obraz" src="https://github.com/user-attachments/assets/f078b6cd-35d3-4da9-b244-fdfed223b755" />
+# Pierwsza konfiguracja ESPHome 
 
-2. Kliknij **`+ NEW DEVICE`**: 
-    
+Pierwsza konfiguracja polega na utworzeniu nowego urządzenia w dodatku **ESPHome**, przypisaniu mu nazwy i przygotowaniu podstawowego pliku `.YAML`. Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje się widoczne w **Home Assistant**. 
+
+---
+
+## Dodanie urządzenia
+
+1. Na pasku bocznym wybierz **ESPHome Builder**: 
+
+    <img width="230" alt="obraz" src="https://github.com/user-attachments/assets/fead98e2-a8eb-4f5e-adb7-caf5b4bb9e2d" />
+
+    ??? failure "Brak skrótu"
+
+        Jeśli nie widzisz skrótu na pasku bocznym:
+        
+        - przejdź do **konfiguracji** lub
+        - przejdź do **interejsu użytkownika**
+
+        === "Konfiguracja"
+            
+            1.Z menu po lewej stronie wybierz `Ustawienia → Aplikacje → ESPHome Builder`:
+
+            <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
+
+            2.Zaznacz **Pokaż na pasku bocznym**:
+
+            <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/c85b76f1-343c-4a04-9d09-4ff0459b5d02" />
+
+        === "Ustawienia aplikacji"
+
+            1.Z menu po lewej stronie wybierz:  
+                `Ustawienia → Aplikacje → Zainstaluj aplikację`
+
+            2.Wyszukaj dodatek **ESPHome** i wybierz `ESPHome Device Builder`:   
+
+            <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
+
+            3.Kliknij **Otwórz interfejs użytkownika**
+
+2. Kliknij **+ NEW DEVICE**: 
+
     <img width="293" height="124" alt="obraz" src="https://github.com/user-attachments/assets/4f2c7f89-8fe2-4a56-8217-097bf8a66dbf" />
 
 3. Kliknij **Continue**
@@ -17,7 +53,6 @@
 ## Edycja konfiguracji
 
 1. Przejdź do edycji klikając **EDIT**:  
-
     <img width="371" height="129" alt="obraz" src="https://github.com/user-attachments/assets/ed969c22-e043-43eb-b0fa-cc2ba651247b" />
 
 2. Dodaj kod do pliku `.yaml`:
@@ -71,20 +106,17 @@
 
     !!! info "Nazwy"
 
-        W tym miejscu możesz zmienić zmienne `name` dla **wejść** (binary_sensor), **wyjść** (switch) i **czujnika temperatury** (sensor) - wpłynie to na nazwy encji w Home Assistant  
+        W tym miejscu możesz zmienić zmienne `name` dla **wejść** (binary_sensor), **wyjść** (switch) i **czujnika temperatury** (sensor) - wpłynie to na nazwy encji w Home Assistant.  
 
 3. Kliknij w prawym górnym rogu **SAVE**, następnie **INSTALL**
 4. Wybierz **Manual download**
 5. Pierwsze kompilowanie projektu trwa około 5 minut:  
+    <img width="420 alt="obraz" src="https://github.com/user-attachments/assets/d860d512-1b22-40d6-9ff3-68f653e40272" />
 
-    <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/d10554a1-22dc-4579-a910-f2a2130c3e08" />
-
-6. Po zakończonej kompilacji kliknij `3. Download project`:  
-
-    <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/779b1301-5691-4656-a40f-4a0862e982fb" />
+6. Po zakończonej kompilacji kliknij **3. Download project**:  
+    <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/049db2e9-1d0e-4d71-80da-c670d105f53f" />
 
 7. Wybierz `UF2 factory format`:  
+    <img width="320" alt="obraz" src="https://github.com/user-attachments/assets/1fd1055a-a028-4160-9c42-97f6f0261cbd" />
 
-    <img width="320" alt="obraz" src="https://github.com/user-attachments/assets/470bdf1e-43ed-40a7-a809-cb6bdc5fbb17" />
-
-8. Przejdź do [**wgrywania**](../../Pinio_ESPHome/Wgrywanie-.uf2) firmware
+8. Przejdź do [**wgrywania**](Wgrywanie-.uf2.md) firmware

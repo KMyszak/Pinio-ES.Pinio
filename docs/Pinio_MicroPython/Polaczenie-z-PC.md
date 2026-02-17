@@ -1,5 +1,9 @@
 # Połączenie z komputerem
 
+**Raspberry Pi Pico 2W** łączy się z komputerem za pomocą standardowego kabla micro‑USB typu B (kabel musi obsługiwać transmisję danych, nie tylko ładowanie). Do odczytu, edycji oraz wgrywania plików na płytkę należy użyć odpowiedniego oprogramowania, np. [**Thonny IDE :material-open-in-new:**](https://thonny.org/).
+
+---
+
 1. Uruchom program **Thonny**
 2. Podłącz **Pinio** do komputera przez kabel microUSB
 3. Kliknij LPM w prawym dolnym rogu okna i wybierz z listy:  
@@ -16,4 +20,4 @@
 
         <img width="443" height="76" alt="obraz" src="https://github.com/user-attachments/assets/ba95bfcc-6982-4c98-aed1-ca798240fff1" />
 
-5. Przejdź do [**konfiguracja config.py**](Edycja-config.py)
+5. Przejdź do [**Edycja config.py**](Edycja-config.md)

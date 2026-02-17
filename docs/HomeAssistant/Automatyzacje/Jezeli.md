@@ -14,8 +14,6 @@ Warunki można wprowadzić przez wybór `Urządzenie` lub `Encja` klikając **`+
 
 <img width="890" alt="obraz" src="https://github.com/user-attachments/assets/09103462-d023-4660-8f99-34ff5ab83122" />
 
----
-
 ## Przykład
 
 Zastosowanie obu wariantów tego samego warunku:

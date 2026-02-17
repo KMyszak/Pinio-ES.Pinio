@@ -8,8 +8,6 @@ Można przypisać kilka warunków i akcja zostanie wykonana, jeżeli **jeden** z
 
     [Dowiedz się więcej na temat wyzwalaczy :material-open-in-new:](https://www.home-assistant.io/docs/automation/trigger/) 
 
----
-
 ## Przykład
 
 Zmiana stanu `Wejście 1` **LUB** `Wejście 2` przez **3 sekundy** spowoduje aktywację warunku i przejście do `Wykonaj`:
@@ -17,9 +15,7 @@ Zmiana stanu `Wejście 1` **LUB** `Wejście 2` przez **3 sekundy** spowoduje akt
 <img width="800" alt="obraz" src="https://github.com/user-attachments/assets/30c41b58-f541-4963-9d15-2a6ebda06616" />
     
 !!! warning "Wybór warunku"
-    Należy pamiętać o poprawnym doborze `warunku` (formie jego wyzwolenia), ponieważ w przykładzie jest: `zmieni się stan lub atrybut`, przez co automatyzacja może zostać wywołana przez samo podłączenie urządzenia do zasilania, ponieważ encja `zmieni stan` - z **niedostępnej** na **on/off**.
-
----
+    Należy pamiętać o poprawnym doborze `warunku` (formie jego wyzwolenia), ponieważ w przykładzie jest `zmieni się stan lub atrybut`, przez co automatyzacja może zostać wywołana przez samo podłączenie urządzenia do zasilania, ponieważ encja `zmieni stan` - z **niedostępnej** na **on/off**.
 
 ## Sprawdzenie działania warunku
 

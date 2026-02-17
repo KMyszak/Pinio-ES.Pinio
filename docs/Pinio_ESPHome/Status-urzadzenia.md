@@ -2,7 +2,7 @@
 
 <img width="200" align="left" alt="obraz" src="https://github.com/user-attachments/assets/a311e24b-7518-4c6c-97aa-9c195ab1cc30" />
 
-Na urządzeniu po poprawnie przeprowadzonej [konfiguracji :material-open-in-new:](Pierwsza-konfiguracja-ESPHome#edycja-konfiguracji) dioda statusowa **STA** pracuje w konfiguracji:
+Na urządzeniu po poprawnie przeprowadzonej [konfiguracji](Pierwsza-konfiguracja-ESPHome.md#edycja-konfiguracji) dioda statusowa **STA** pracuje w konfiguracji:
 
 
 Status diody STA: 
@@ -26,7 +26,7 @@ Encję **Status LED** najprościej znaleźć przez wyszukanie w `Rejestrze encji
 
 1. Przejdź do `ESPHome Builder` (zakładka w menu po lewej stronie):
 
-    <img width="200" alt="obraz" src="https://github.com/user-attachments/assets/25000b81-d563-45da-8053-3f9dc9ff7174" />
+    <img width="230" alt="obraz" src="https://github.com/user-attachments/assets/fead98e2-a8eb-4f5e-adb7-caf5b4bb9e2d" />
 
 2. Wybierz edycję kodu klikając **EDIT**:  
 
@@ -43,5 +43,43 @@ Encję **Status LED** najprościej znaleźć przez wyszukanie w `Rejestrze encji
         restore_mode: ALWAYS_ON  ←  usuń tę linię
     ```
 4. Kliknij w prawym górnym rogu **SAVE**, następnie **INSTALL**
-5. Wybierz [**Manual download**](Pierwsza-konfiguracja-ESPHome#edycja-konfiguracji) lub [**Wirelessly**](Aktualizacja-bezprzewodowa-(OTA))
-6. Po restarcie dioda już nie będzie się automatycznie zapalać - wciąż będzie informować o ostrzeżeniach i błedach
+5. Wybierz **Manual download** lub **Wirelessly**:
+
+    <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/6d538c45-59d7-4560-af3b-d1b329fa4226" />
+
+=== "Manual download"
+
+    <ol start="6">
+        <li>Wybierz <strong>Manual download</strong>:<br>
+            <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/13ece7ce-0c48-469b-8867-c96a428002d1" />
+        </li>
+        <li>Pierwsze kompilowanie projektu trwa około 5 minut:<br>
+            <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/d10554a1-22dc-4579-a910-f2a2130c3e08" />
+        </li>
+        <li>Po zakończonej kompilacji kliknij <code>3. Download project</code>:<br>
+            <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/779b1301-5691-4656-a40f-4a0862e982fb" />
+        </li>
+        <li>Wybierz <code>UF2 factory format</code>:<br>
+            <img width="320" alt="obraz" src="https://github.com/user-attachments/assets/470bdf1e-43ed-40a7-a809-cb6bdc5fbb17" />
+        </li>
+        <li>Przejdź do <a href="../Wgrywanie-.uf2/"><strong>wgrywania</strong></a> firmware</li>
+        <li>Po restarcie dioda już nie będzie się automatycznie zapalać - wciąż będzie informować o&nbsp;ostrzeżeniach i błędach</li>
+    </ol>
+
+=== "Wirelessly"
+
+    <ol start="6">
+        <li>Wybierz <strong>Wirelessly</strong>:<br>
+            <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/adf9d6c7-618f-4374-b9e4-370ca8234820" />
+        </li>
+        <li>Cały proces trwa około 5 minut:<br>
+            <img width="567" height="113" alt="obraz" src="https://github.com/user-attachments/assets/43e42ce9-b589-43fc-aa08-0261c797c8dd" />
+        </li>
+        <li>Po zakończonej <strong>instalacji OTA</strong> pojawi się komunikat:<br>
+            <img width="567" height="56" alt="obraz" src="https://github.com/user-attachments/assets/2e1c3e6c-160f-4210-9fa2-b17ac451cd9d" />
+        </li>
+        <li>Po restarcie dioda już nie będzie się automatycznie zapalać - wciąż będzie informować o&nbsp;ostrzeżeniach i błędach</li>
+    </ol>
+
+
+

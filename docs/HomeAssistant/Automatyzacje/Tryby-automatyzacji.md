@@ -2,8 +2,6 @@
 
 Automatyzacje pozwalają uruchamiać wiele akcji jednocześnie, a ich zachowanie zależy od wybranego **trybu pracy**. **Domyślnie** aktywny jest tryb `Pojedynczy`.  
 
----
-
 ## Dostępne tryby
 
 - **Pojedynczy** - kolejne wywołanie **nie rozpocznie** nowej automatyzacji, a system wygeneruje ostrzeżenie  
@@ -16,17 +14,12 @@ Automatyzacje pozwalają uruchamiać wiele akcji jednocześnie, a ich zachowanie
     <div style="text-align:center;">
         <img width="720" height="444" alt="obraz" src="https://github.com/user-attachments/assets/986e66ec-2c63-4458-8f10-6431a5db0092" />
     </div>
-    
-
----
 
 ## Limity uruchomień
 
 W trybach `Kolejkowanie` i `Równoległy` parametr **Długość kolejki** / **Maksymalna liczba równoległych uruchomień** określa maksymalną liczbę instancji automatyzacji, które mogą być jednocześnie uruchomione lub oczekiwać w kolejce (domyślnie 10).
 
 Po przekroczeniu limitu system zapisze wpis w logach, informujący o zbyt dużej liczbie wywołań.   
-
----
 
 ## Zmiana trybu
 

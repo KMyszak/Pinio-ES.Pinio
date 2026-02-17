@@ -2,6 +2,7 @@
 
 Zarówno `Jeżeli` i `Wykonaj` posiadają własne elementy dodatkowe zwane **blokami**.
 
+---
 
 ## Jeżeli
 

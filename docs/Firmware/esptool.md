@@ -1,4 +1,4 @@
-# Program esptool
+# Narzędzie esptool
 
 `esptool` to oficjalne narzędzie wiersza poleceń służące do wgrywania firmware na układy ESP8266 i ESP32. Działa bezpośrednio przez port UART i zapewnia pełną kontrolę nad procesem flashowania, w tym kasowanie pamięci, odczyt informacji o chipie i przesyłanie plików `.bin`.
 

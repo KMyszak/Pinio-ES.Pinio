@@ -1,6 +1,10 @@
 # Encje
 
-Dla urządzeń **Pinio** (MicroPython + MQTT) dostępne jest 5 [encji](https://www.home-assistant.io/docs/configuration/entities_domains/) (*entities*):
+**Encje** to pojedyncze obiekty reprezentujące urządzenia lub ich funkcje, takie jak czujnik temperatury, przekaźnik czy dioda LED. Każda encja ma swój unikalny identyfikator, stan i właściwości, które mogą być odczytywane lub zmieniane przez system automatyki. 
+
+Dzięki **encjom** można łatwo integrować i kontrolować różne elementy sprzętowe w jednym środowisku.
+
+Dla urządzeń **Pinio** (MicroPython + MQTT) dostępne jest 5 [**encji :material-open-in-new:**](https://www.home-assistant.io/docs/configuration/entities_domains/) (*entities*):
 
 !!! note "Sterowanie"
     **RELAY 1** - Wyjście 1 (GPIO20)  
@@ -15,11 +19,9 @@ Dla urządzeń **Pinio** (MicroPython + MQTT) dostępne jest 5 [encji](https://w
 
 ## 1 urządzenie
 
-Klikając `1 urządzenie`:  
+<img width="200" align="right" alt="obraz" src="https://github.com/user-attachments/assets/50fe0354-e281-44e0-bd41-beda77be7bfe" />
 
-<img width="217" height="84" alt="obraz" src="https://github.com/user-attachments/assets/50fe0354-e281-44e0-bd41-beda77be7bfe" />  
-  
-otworzy się panel MQTT, w którym dostępne są wszystkie encje wraz z możliwością ich edycji oraz szybkiego dodania do dashboardu:
+Klikając `1 urządzenie` otworzy się panel MQTT, w którym dostępne są wszystkie encje wraz z możliwością ich edycji oraz szybkiego dodania do dashboardu:
 
 <img width="521" alt="obraz" src="https://github.com/user-attachments/assets/9482097c-1b39-4da0-964b-5f381ee8549f" />
 
@@ -31,11 +33,9 @@ otworzy się panel MQTT, w którym dostępne są wszystkie encje wraz z możliwo
 
 ## 5 encji
 
-Klikając `5 encji`:
+<img width="200" align="right" alt="obraz" src="https://github.com/user-attachments/assets/40ff36ab-02ee-40bb-b005-fb30f37c15ea" />
 
-<img width="217" height="84" alt="obraz" src="https://github.com/user-attachments/assets/40ff36ab-02ee-40bb-b005-fb30f37c15ea" />
-
-otworzy się **Rejestr encji** powiązanych z urządzeniem:
+Klikając `5 encji` otworzy się **Rejestr encji** powiązanych z urządzeniem. Rejestr pokazuje wszystkie powiązane encje, umożliwiając szybki podgląd i zarządzanie funkcjami urządzenia:
 
 <img width="521" alt="obraz" src="https://github.com/user-attachments/assets/e258815b-573b-47a1-bd60-9e3ed5e730d8" />
 

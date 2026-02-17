@@ -1,6 +1,6 @@
 # Program Tasmotizer
 
-**Tasmotizer** to proste narzędzie z interfejsem graficznym służące do wgrywania firmware Tasmota (i innych plików .bin) na urządzenia ESP. Automatycznie wykrywa port USB, ułatwia flashowanie oraz pozwala jednocześnie ustawić podstawowe parametry, takie jak Wi-Fi czy MQTT.
+**Tasmotizer** to proste narzędzie z interfejsem graficznym służące do wgrywania firmware **Tasmota** na urządzenia ESP. Automatycznie wykrywa port USB, ułatwia flashowanie oraz pozwala jednocześnie ustawić podstawowe parametry, takie jak Wi-Fi czy MQTT.
 
 1. Przejdź na stronę:
 

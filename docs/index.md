@@ -12,7 +12,9 @@ hide:
 
     ---
 
-    Poznaj kontroler ES.Pinio oparty na ESP8266 - jego możliwości, sposób działania oraz konfigurację sprzętową i sieciową.
+    Poznaj kontroler ES.Pinio oparty na ESP8266 - jego możliwości, sposób działania oraz konfigurację.
+
+    ---
 
     [:octicons-arrow-right-24: Więcej](ES_Pinio/index.md)
 
@@ -22,6 +24,8 @@ hide:
 
     Zobacz, jak działa kontroler w środowisku ESPHome, jak go skonfigurować i jak łączy się z Home Assistant.
 
+    ---
+
     [:octicons-arrow-right-24: Więcej](Pinio_ESPHome/index.md)
 
 - :material-code-tags:{ .lg .middle } __Pinio + MicroPython__
@@ -29,6 +33,8 @@ hide:
     ---
 
     Pełna dokumentacja, przykłady i przewodnik po programowaniu urządzenia Pinio w MicroPythonie.
+
+    ---
 
     [:octicons-arrow-right-24: Więcej](Pinio_MicroPython/index.md)
 
@@ -38,6 +44,8 @@ hide:
 
     Jak działa komunikacja MQTT - tematy, payloady, integracja i przykłady.
 
+    ---
+
     [:octicons-arrow-right-24: Więcej](MQTT/index.md)
 
 - :material-home-assistant:{ .lg .middle } __Home Assistant__
@@ -46,15 +54,9 @@ hide:
 
     Integracja z Home Assistant: konfiguracja, automatyzacje, encje, oraz praktyczne przykłady.
 
-    [:octicons-arrow-right-24: Więcej](HomeAssistant/index.md)
-
-- :material-cog-transfer:{ .lg .middle } __Konfiguracja__
-
     ---
 
-    Wszystko o konfiguracji urządzeń, aplikacji oraz integracji - krok po kroku w jednym miejscu.
-
-    [:octicons-arrow-right-24: Więcej](Konfiguracja/index.md)
+    [:octicons-arrow-right-24: Więcej](HomeAssistant/index.md)
 
 - :material-update:{ .lg .middle } __Firmware__
 
@@ -62,14 +64,18 @@ hide:
 
     Jak aktualizować, flashować i zarządzać firmware urządzenia - procedury oraz narzędzia.
 
+    ---
+
     [:octicons-arrow-right-24: Więcej](Firmware/index.md)
 
-- :material-alert-circle:{ .lg .middle } __Problemy__
+- :material-alert-circle:{ .lg .middle } __FAQ__
 
     ---
 
     Najczęstsze problemy, diagnoza krok po kroku oraz gotowe rozwiązania, które szybko przywrócą działanie systemu.
 
-    [:octicons-arrow-right-24: Więcej](Problemy/index.md)
+    ---
+    
+    [:octicons-arrow-right-24: Więcej](FAQ/index.md)
 
 </div>

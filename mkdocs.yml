@@ -1,5 +1,4 @@
-site_name: Dokumentacja Pinio & ES.Pinio
-icon: favicon.png
+site_name:  ES.Pinio & Pinio 
 extra_css:
   - stylesheets/extra.css?v=2
 theme:
@@ -28,8 +27,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Strona Główna: 
@@ -43,24 +42,26 @@ nav:
         - ES_Pinio/Konsola.md
         - ES_Pinio/Edycja-MQTT.md
       - Czujniki:
-        - ES_Pinio/ES.Pinio-Różne-czujniki.md
-        - ES_Pinio/ES.Pinio-Kilka-czujników-1-Wire.md
+        - ES_Pinio/Kilka-czujnikow-1-Wire.md
+        - ES_Pinio/Rozne-czujniki.md
       - Diagnostyka:
         - ES_Pinio/Diagnostyka.md
-        - ES_Pinio/ES.Pinio-Status-urządzenia.md
+        - ES_Pinio/Status-urzadzenia.md
       - Aktualizacja opgrogramowania:
         - Bezprzewodowa (OTA):
           - ES_Pinio/Aktualizacja-przez-web-server.md
           - ES_Pinio/Aktualizacja-przez-plik-lokalny.md
-        - ES_Pinio/ES.Pinio-Reczna-aktualizacja.md
-      - ES_Pinio/ES.Pinio-Backup.md
+          - ES_Pinio/Aktualizacja-przez-konsole.md
+        - ES_Pinio/Reczna-aktualizacja.md
+      - ES_Pinio/Backup.md
 
   - Pinio + ESPHome:
     - Pinio_ESPHome/index.md
     - Pierwsze kroki:
       - Pinio_ESPHome/Instalacja-dodatku-ESPHome.md
       - Pinio_ESPHome/Pierwsza-konfiguracja-ESPHome.md
-      - Pinio_ESPHome/Kilka-czujników-1-Wire.md
+    - Czujniki:
+      - Pinio_ESPHome/Kilka-czujnikow-1-Wire.md
       - Pinio_ESPHome/Wgrywanie-.uf2.md
     - Oprogramowanie:
       - Pinio_ESPHome/Aktualizacja-bezprzewodowa.md
@@ -121,5 +122,8 @@ nav:
     - Pinio + Micropython:
       - Firmware/Pinio_MicroPython.md
 
-  - Problemy:
-    - Problemy/index.md
+  - FAQ:
+    - FAQ/index.md
+    - ES.Pinio: FAQ/ES.Pinio-problemy.md
+    - Pinio + ESPHome: FAQ/Pinio-ESPHome-Problemy.md
+    - Pinio + MicroPython: FAQ/Pinio-MicroPython-problemy.md

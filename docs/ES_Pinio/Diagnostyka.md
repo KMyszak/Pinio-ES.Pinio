@@ -1,10 +1,13 @@
 # Panel diagnostyczny
 
-Oprogramowanie **Tasmota** posiada dodatkowe encje, które znajdują się w panelu głównym urządzenia w oknie `Diagnostyka` - większość z nich jest wyłączonych. 
+Oprogramowanie **Tasmota** posiada dodatkowe encje, które znajdują się w panelu głównym urządzenia w&nbsp;oknie `Diagnostyka` - większość z nich jest wyłączonych. 
 
-Panel pozwala na szybkie sprawdzenie bieżącego stanu urządzenia - dzięki niemu można w łatwy sposób uzyskać wiele kluczowych informacji:
+Panel pozwala na szybkie sprawdzenie bieżącego stanu urządzenia - dzięki niemu można w łatwy sposób uzyskać wiele kluczowych informacji.
+
+---
 
 <img width="250" alt="obraz" align="right" src="https://github.com/user-attachments/assets/18b7acbe-5baa-4fc6-852b-b9525d42e040" />
+
 
 | Parametr               | Opis                                             |
 |------------------------|--------------------------------------------------|

@@ -1,6 +1,8 @@
 # Edycja config.py
 
-W pliku `config.py` w znajdziesz `default_config` - domyślną konfigurację połączenia Wi-Fi i MQTT:
+W pliku `config.py` znajduje się słownik `default_config`, który przechowuje domyślną konfigurację połączenia Wi‑Fi i MQTT.
+
+---
 
 | Parametr            | Opis                               |
 |---------------------|------------------------------------|
@@ -13,6 +15,6 @@ W pliku `config.py` w znajdziesz `default_config` - domyślną konfigurację po�
 | **lwt_topic**       | Temat wiadomości "birth" i "will"  |
 | **discovery_prefix**| Prefiks wykrywania                 |
 
-!!! warning "Po wprowadzonych zmianach USUŃ plik `conifg.json` (jeśli został utworzony) - zostanie on utworzony na nowo z poprawnymi danymi, a kolejne zmiany najlepiej wprowadzać przez `conifg.json`"
+!!! warning "Po wprowadzonych zmianach USUŃ plik *conifg.json* (jeśli został utworzony) - zostanie on utworzony na nowo z poprawnymi danymi, a kolejne zmiany najlepiej wprowadzać bezpośrednio w pliku *conifg.json*"
 
 !!! info "Wartości powinny być identyczne jak te ustawione w konfiguracji **MQTT** w **Home Assistant**"

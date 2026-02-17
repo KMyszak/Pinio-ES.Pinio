@@ -1,12 +1,19 @@
 # Tworzenie użytkownika
-1. Przejdź na stronę swojego Home Assistant (haos.app)
+
+Po zainstalowaniu dodatku należy utworzyć **nowego użytkownika**, który będzie używany do autoryzacji połączeń **MQTT**. W tym celu w ustawieniach dodatku definiuje się nazwę użytkownika oraz hasło, które następnie wykorzystuje się w aplikacjach lub urządzeniach łączących się z brokerem. 
+
+Dzięki temu dostęp do brokera jest **kontrolowany** i **bezpieczny**.
+
+---
+
+1. Przejdź na stronę swojego **Home Assistant** (np. *haos.app*)
 2. Z menu po lewej stronie wybierz:  
-     `Ustawienia → Dodatki → Mosquitto broker`
-     <img width="745" height="121" alt="obraz" src="https://github.com/user-attachments/assets/209eb0a8-f0c5-4f49-88a5-16f4d10a1862" />
+     `Ustawienia → Aplikacje → Mosquitto broker`
+     <img width="750" alt="obraz" src="https://github.com/user-attachments/assets/fdec6d58-f374-4139-a7b4-40b34c8e27bb" />
 
-3. Przejdź do zakładki `Konfiguracja`. W sekcji `Logins` kliknij przycisk **Utwórz**:  
+3. Przejdź do zakładki `Konfiguracja`, w sekcji `Logins` kliknij przycisk **Utwórz**:  
 
-    <img width="745" alt="obraz" src="https://github.com/user-attachments/assets/a7f2962e-e89e-4eec-ba7a-08deaec72aaa" />
+    <img width="750" alt="obraz" src="https://github.com/user-attachments/assets/399f5577-199e-4fb9-a4e4-7ffad22f1ceb" />
 
 4. Wprowadź dane użytkownika i kliknij **Utwórz**:   
 
@@ -20,9 +27,10 @@
 
         W razie problemów uruchom ponownie cały Home Assistant.  
 
-6. Przejdź do [**integracji urządzenia**](../MQTT/Integracja.md) z dodatkiem
+6. Przejdź do [**Integracja**](Integracja.md)
 
 ---
+
 ## Tworzenie kolejnego użytkownika
 
 Dodatkowego użytkownika wprowadzamy w identyczny sposób: 
@@ -37,8 +45,14 @@ Dodatkowego użytkownika wprowadzamy w identyczny sposób:
 
 ## Tryb YAML
 
+Pliki konfiguracyjne **ESPHome** używają **YAML**, czyli przyjaznego dla człowieka standardu serializacji danych.
+
+**YAML** został zaprojektowany tak, aby był czytelny i łatwy do edycji, ale czasami może sprawiać problemy, zwłaszcza jeśli chodzi o wcięcia - jest nadzbiorem **JSON**, więc składnia **JSON** może być również używana w plikach **YAML**.
+
+Więcej o **YAML** dowiesz sie ze strony [**https://esphome.io/guides/yaml/ :material-open-in-new:**](https://esphome.io/guides/yaml/)
+
 !!! tip ""
 
-    Całość można także wprowadzić korzystając z **trybu YAML**, rozwijając menu klikając **`⋮`** w prawym górnym rogu: 
+    Aby skorzystać z **trybu YAML**, należy rozwinąc menu klikając **`⋮`** w prawym górnym rogu:
 
     <img width="745" alt="obraz" src="https://github.com/user-attachments/assets/f2370eb1-6170-4288-a510-4053a9cf902a" />

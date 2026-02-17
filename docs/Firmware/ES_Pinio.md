@@ -11,15 +11,15 @@ Od tego zależy, jakie narzędzia będą potrzebne do wgrania firmware:
 - **Wersja z wlutowanym konwerterem:** 
     
     - przewód microUSB
-    - oprogramowanie [**Tasmotizer**]()
-    - obraz [**Tasmota**]()
+    - program [**Tasmotizer**](tasmotizer.md)
+    - obraz [**Tasmota**](tasmota.md)
 
 - **Wersja bez wbudowanego konwertera:** 
 
     - konwerter USB-UART (np. FTDI FT232RL USB)
     - przewody połączeniowe do komunikacji ESP-12F ⇄ konwerter USB-UART
-    - oprogramowanie [**esptool**]()
-    - obraz [**Tasmota**]()
+    - oprogramowanie [**esptool**](esptool.md)
+    - obraz [**Tasmota**](tasmota.md)
 
 ## Procedura instalacji
 
@@ -83,11 +83,11 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
             <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/c63bac99-92ce-40dc-ad3d-fd114b760731" />
 
         9. Zresetuj urządzenie klikając przycisk **RST** na urządzeniu.  
-        10. Przejdź do dalszej [**konfiguracji**](../../ES_Pinio/Pierwsze-uruchomienie)    
+        10. Przejdź do dalszej [**konfiguracji**](../ES_Pinio/Pierwsze-uruchomienie.md)    
 
         !!! info "Problemy"
         
-            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](ES.Pinio-problemy)
+            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](../FAQ/ES.Pinio-problemy.md)
     
     === "Alternatywna"
 
@@ -141,11 +141,11 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
             <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/c63bac99-92ce-40dc-ad3d-fd114b760731" />
 
         9. Zresetuj urządzenie klikając przycisk **RST** na urządzeniu.  
-        10. Przejdź do dalszej [**konfiguracji**](../../ES_Pinio/Pierwsze-uruchomienie)    
+        10. Przejdź do dalszej [**konfiguracji**](../ES_Pinio/Pierwsze-uruchomienie.md)    
 
         !!! info "Problemy"
         
-            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](ES.Pinio-problemy)
+            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](../FAQ/ES.Pinio-problemy.md)
 
 === "Wlutowany konwerter"
 
@@ -155,12 +155,12 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
         
         <img width="364" height="544" alt="obraz" src="https://github.com/user-attachments/assets/1b4cd00a-52ad-4cc7-978a-2b7ebcb58ed9" />
 
-    2. Otwórz program `Tasmotizer` [(**tasmotizer-1.2.exe**)](https://github.com/chomtech/pinio-docs/wiki/ES.Pinio-wymagane-oprogramowanie#tasmotizer):
-    3. Wybierz odpowiedni port z listy `Select port` (sprawdzenie portu → [COM](ES.Pinio-wymagane-oprogramowanie#sprawdzenie-portu-com)):
+    2. Otwórz program `Tasmotizer` [(**tasmotizer-1.2.exe**)](../Firmware/tasmotizer.md):
+    3. Wybierz odpowiedni port z listy `Select port` (sprawdzenie portu → [COM](../Firmware/PortCOM.md)):
         
         <img width="492" height="460" alt="obraz" src="https://github.com/user-attachments/assets/f53fed15-72a2-47b2-8e58-4e823aa7eef8" />
 
-    4. W sekcji `Select image` wybierz pobrany plik [**tasmota.bin**](ES.Pinio-wymagane-oprogramowanie#tasmota):
+    4. W sekcji `Select image` wybierz pobrany plik [**tasmota.bin**](../Firmware/tasmota.md):
     
         <img width="492" height="460" alt="obraz" src="https://github.com/user-attachments/assets/f21bdaf8-90fa-49db-9e8c-f1a5c4812a5f" />
 
@@ -175,7 +175,7 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
     6. Po zakończeniu pojawi się informacja:
     
         <img width="301" height="108" alt="obraz" src="https://github.com/user-attachments/assets/ade67d2f-71ac-49eb-99b8-a2ceab9bb66e" />
-    7. Urządzenie zostanie zresetowane i uruchomi swój AP, z którym możesz się połączyć celem zmiany ustawień Wi-Fi → [**łączenie z Access Pointem**](Pierwsze-uruchomienie-ES.Pinio)
+    7. Urządzenie zostanie zresetowane i uruchomi swój AP, z którym możesz się połączyć celem zmiany ustawień Wi-Fi → [**łączenie z Access Pointem**](../ES_Pinio/Pierwsze-uruchomienie.md)
 
     !!! tip "Zmiana ustawień przez program"
     
@@ -187,4 +187,4 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
         
         <img width="300" height="123" alt="obraz" src="https://github.com/user-attachments/assets/c213f1df-0984-4e74-b100-22ec17327274" />
         
-        Dalszą edycję należy przeprowadzić przez przeglądarkę, korzystając z uzyskanego adresu IP → [**Konfiguracja**](Podstawowe-ustawienia-i-GPIO)
+        Dalszą edycję należy przeprowadzić przez przeglądarkę, korzystając z uzyskanego adresu IP → [**Konfiguracja**](../ES_Pinio/Podstawowe-ustawienia-i-GPIO.md)

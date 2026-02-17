@@ -41,4 +41,4 @@ Wgranie firmware polega na przesłaniu pobranego pliku na pamięć urządzenia *
 
 4. Przenieś pobrany plik `.uf2` na dysk **RP2350**
 5. **Raspberry Pi Pico 2 W** zrestartuje się automatycznie - po chwili zniknie jako dysk USB
-6. Przejdź do dalszej [**konfiguracji**](../../Pinio_MicroPython/Polaczenie-z-PC)
+6. Przejdź do dalszej [**konfiguracji**](../Pinio_MicroPython/Polaczenie-z-PC.md)

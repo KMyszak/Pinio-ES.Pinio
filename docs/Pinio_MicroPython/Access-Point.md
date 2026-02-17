@@ -5,8 +5,8 @@ Jeśli urządzenie napotka problem z połączeniem z siecią Wi-Fi lub brokerem 
 Umożliwia on zmianę podstawowych ustawień bez konieczności fizycznego połączenia z urządzeniem - przez połączenie z AP (korzystając z Wi-Fi):  
 
 ```
-    SSID = Pinio_{MAC}       # Nazwa utworzonego Access Pointa (MAC urządzenia)
-    password = 12345678      # Hasło do logowania
+   SSID = Pinio_{MAC}      # Nazwa utworzonego Access Pointa (MAC urządzenia)
+   password = 12345678     # Hasło do logowania
 ```
 !!! info ""
 
@@ -50,8 +50,8 @@ Umożliwia on zmianę podstawowych ustawień bez konieczności fizycznego połą
     <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/2943b70b-18b3-4321-8537-18b2f3729391" />
 
 
-!!! info "Jeśli nie nastąpi połączenie z urządzeniem, zresetuje się ono po 3 minutach (wartość można zmienić w module `webserver.py`)"
+!!! info "Jeśli nie nastąpi połączenie z urządzeniem, zresetuje się ono po 3 minutach (wartość można zmienić w module *webserver.py*)"
 
-!!! failure "Jeśli po zmianach i restarcie urządzenie dalej poprawnie nie łączy sie z MQTT sprawdź poprawność zmiennych z danymi [użytkownika](../../MQTT/Tworzenie-uzytkownika/) i [MQTT](../../MQTT/Integracja/)"
+!!! failure "Jeśli po zmianach i restarcie urządzenie dalej poprawnie nie łączy sie z MQTT sprawdź poprawność zmiennych z danymi [użytkownika](../MQTT/Tworzenie-uzytkownika.md) i [MQTT](../MQTT/Integracja.md)"
 
 
