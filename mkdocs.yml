@@ -124,6 +124,6 @@ nav:
 
   - FAQ:
     - FAQ/index.md
-    - ES.Pinio: FAQ/ES.Pinio-problemy.md
-    - Pinio + ESPHome: FAQ/Pinio-ESPHome-Problemy.md
-    - Pinio + MicroPython: FAQ/Pinio-MicroPython-problemy.md
+    - ES.Pinio: FAQ/ES.Pinio.md
+    - Pinio + ESPHome: FAQ/Pinio-ESPHome.md
+    - Pinio + MicroPython: FAQ/Pinio-MicroPython.md

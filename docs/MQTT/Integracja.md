@@ -27,7 +27,7 @@ Integracja zapewnia spójny przepływ danych między urządzeniami a systemem, a
 
         <img width="904" height="497" alt="obraz" src="https://github.com/user-attachments/assets/33b0d95d-8fed-4682-b11b-55bc6b491603" />
 
-6. Zapisz konfigurację - jeżeli ustawienia MQTT są identyczne jak w [`config.py`](../Pinio_MicroPython/Edycja-config.md), dodatek automatycznie wykryje urządzenie (jeśli nie zostało wykryte przejdź do [**FAQ**](../FAQ/Pinio-ESPHome-Problemy.md)):
+6. Zapisz konfigurację - jeżeli ustawienia MQTT są identyczne jak w [`config.py`](../Pinio_MicroPython/Edycja-config.md), dodatek automatycznie wykryje urządzenie (jeśli nie zostało wykryte przejdź do [**FAQ**](../FAQ/Pinio-ESPHome.md)):
 
     <img width="719" alt="obraz" src="https://github.com/user-attachments/assets/cc823a2f-e7e4-4948-a407-6aec2474eca4" />
 

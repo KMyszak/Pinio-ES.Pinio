@@ -1,10 +1,12 @@
 # Instalacja MicroPythona
 
-Instalacja MicroPythona pozwala przekształcić płytkę **Pinio** w pełni programowalne urządzenie **IoT**. Dzięki temu można uruchamiać własne skrypty w języku Python i integrować urządzenia z różnymi systemami automatyki.
+Instalacja MicroPythona pozwala przekształcić płytkę **Pinio** w pełni programowalne urządzenie **IoT**. Dzięki temu można uruchamiać własne skrypty i integrować urządzenia z różnymi systemami automatyki.
+
+---
 
 ## Wymagane narzędzia
 
-Do instalacji potrzebne są podstawowe narzędzia, które pozwolą na połączenie i wgranie firmware’u na płytkę - ważne jest, aby przewód USB był sprawny, a komputer miał zainstalowane sterowniki dla danego modułu:
+Do instalacji potrzebne są podstawowe narzędzia, które pozwolą na połączenie i wgranie firmware’u na płytkę - ważne jest, aby przewód USB był sprawny, a komputer miał zainstalowane aktualne sterowniki:
 
 - **przewód microUSB** - zapewnia połączenie płytki z komputerem
 - **pobrany firmware MicroPython** - plik `.bin` ze strony producenta, zgodny z modułem Raspberry Pi Pico 2 W
@@ -16,7 +18,7 @@ Proces instalacji dzieli się na kilka prostych kroków, które należy wykonać
 ### Pobranie firmware
 
 Firmware MicroPython można pobrać ze strony oficjalnej lub z repozytorium producenta modułu.
-Warto upewnić się, że wersja firmware jest zgodna z Twoim modułem i wspiera wszystkie potrzebne funkcje.
+Warto upewnić się, że wersja firmware jest zgodna z modułem (**Raspberry Pico Pi 2W**) i wspiera wszystkie potrzebne funkcje.
 
 1. Przejdź na stronę:  
 

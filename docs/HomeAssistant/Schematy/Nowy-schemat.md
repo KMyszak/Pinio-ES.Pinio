@@ -1,10 +1,12 @@
 **Schematy** (blueprints) – to gotowe wzorce automatyzacji lub skryptów, które można łatwo ponownie wykorzystać, uzupełniając jedynie własne parametry. Dzięki nim nie trzeba pisać logiki od zera.
 
+---
+
 1. Przejdź na stronę swojego Home Assistant (haos.app)
 2. Z menu po lewej stronie wybierz:   
-`Ustawienia → Automatyzacje i sceny`  
+     `Ustawienia → Automatyzacje i sceny`  
 3. W górnej belce wybierz `Schematy`:
-> <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/e5c16ba9-166b-43ee-97fe-4eb3bb6b867f" />  
+     <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/e5c16ba9-166b-43ee-97fe-4eb3bb6b867f" />  
 4. Kliknij w prawym dolnym rogu **`+ Importuj schemat`**  
     W tym miejscu masz dwie możliwości importu:
     - **Bezpośrednik link**

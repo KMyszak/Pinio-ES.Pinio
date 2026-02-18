@@ -11,7 +11,7 @@ Po zapisaniu ustawień **ES.Pinio** automatycznie uruchomi się ponownie i zaczn
 
 ---
 
-1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio-problemy.md))
+1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md))
 2. Przejdź do `Configuration → Other`:
     <img width="643" height="478" alt="obraz" src="https://github.com/user-attachments/assets/3c10d388-3a8a-4dd2-bdb4-b5d0f06f5062" />
 

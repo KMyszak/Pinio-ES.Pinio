@@ -1,8 +1,10 @@
 # Sceny
 
-**Sceny** w Home Assistant można traktować jak uproszczone automatyzacje - zamiast logiki z `wyzwalaczami` i `warunkami` zawierają tylko akcję końcową, czyli ustawienie określonego stanu urządzeń. 
+**Sceny** w Home Assistant można traktować jak uproszczone automatyzacje - zamiast logiki z&nbsp;`wyzwalaczami` i `warunkami` zawierają tylko akcję końcową, czyli ustawienie określonego stanu urządzeń. 
 
 Automatyzacje mogą je uruchamiać, ale same sceny **nie reagują** na zdarzenia - działają jak gotowe ustawienia, które można włączyć ręcznie lub przez regułę.
+
+---
 
 1. Przejdź na stronę swojego Home Assistant (haos.app)
 2. Z menu po lewej stronie wybierz:  
@@ -19,11 +21,10 @@ Automatyzacje mogą je uruchamiać, ale same sceny **nie reagują** na zdarzenia
     - **Edycja na żywo** (pełna edycja) - w tym trybie wszystkie zmiany dla sceny są natychmiast stosowane w twoich urządzeniach i encjach
     - **Tryb podglądu** - możesz tylko zmienić szczegóły sceny i usunąć urządzenia lub encje
 
-5. W panelu należy wybrać nazwę sceny   
-   Dodatkowo można zmienić jej ikonę oraz dodać ją do istniejącego obszaru:
+5. W panelu należy wybrać nazwę sceny (dodatkowo można zmienić jej ikonę oraz dodać ją do istniejącego obszaru):
     <img width="1038" height="216" alt="obraz" src="https://github.com/user-attachments/assets/99d1fe40-b2c7-46e3-8d1c-eb615b3a4055" />
 
-6. Wybierz urządzenie lub urządzenia które ma obejmować scena (zostaną wybrane jego wyjścia - `RELAY 1` oraz `RELAY 2`):
+6. Wybierz urządzenie lub urządzenia które ma obejmować scena (zostaną wybrane jego **wyjścia** - `RELAY 1` oraz `RELAY 2`):
     <img width="1038" height="140" alt="obraz" src="https://github.com/user-attachments/assets/74acfce8-6504-4239-ba0e-6872dfb4a253" />
 
 7. W panelu z encjami, można wybrać poszczególne encje urządzenia (w panelu `Urządzenia` dodawane są wszystkie dostępne):

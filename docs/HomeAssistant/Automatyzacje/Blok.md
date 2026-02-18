@@ -1,12 +1,14 @@
 # Blok
 
-Zarówno `Jeżeli` i `Wykonaj` posiadają własne elementy dodatkowe zwane **blokami**.
+Zarówno `Jeżeli` i `Wykonaj` posiadają własne elementy dodatkowe zwane **blokami**. **Bloki** pozwalają łączyć wiele warunków w bardziej złożone reguły. Użytkownik może z nich skorzystać, aby określić, w jaki sposób system ma oceniać zestaw warunków.  
+
+Dzięki temu **automatyzacje** stają się elastyczne i mogą reagować tylko wtedy, gdy spełnione są dokładnie określone kryteria.
 
 ---
 
 ## Jeżeli
 
-W sekcji `Jeżeli` dostępne są dodatkowe funkcje działające jak bramki logiczne (AND, OR, NOT).  
+W sekcji `Jeżeli` dostępne są dodatkowe funkcje działające jak bramki logiczne (**AND**, **OR**, **NOT**).  
 Pozwalają one budować bardziej złożone warunki, na przykład:
 
 !!! quote ""
@@ -40,6 +42,6 @@ Przykład użycia konstruktorów `Powtórzenie` oraz `Opóźnienie`:
 
 !!! quote ""
 
-    Przekaźniki 1 i 2 w urządzeniu Pinio zostają przełączone **10 razy**, z **jednosekundową przerwą** pomiędzy przełączeniami.
+    Przekaźnik 1 i 2 w urządzeniu **Pinio** zostają przełączone **10 razy**, z **jednosekundową przerwą** pomiędzy przełączeniami.
 
 <img width="900" alt="obraz" src="https://github.com/user-attachments/assets/52499549-b115-4230-be10-f011a1476519" />

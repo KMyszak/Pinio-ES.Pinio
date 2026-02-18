@@ -10,7 +10,7 @@ W tym miejscu deklarowane są dodatkowe `warunki`, które **muszą** być spełn
 
     [Dowiedz się więcej na temat warunków :material-open-in-new: ](https://www.home-assistant.io/docs/automation/condition/)      
               
-Warunki można wprowadzić przez wybór `Urządzenie` lub `Encja` klikając **`+ Dodaj warunek`**:
+Warunki można wprowadzić przez wybór `Urządzenie` lub `Encja` klikając **+ Dodaj warunek**:
 
 <img width="890" alt="obraz" src="https://github.com/user-attachments/assets/09103462-d023-4660-8f99-34ff5ab83122" />
 

@@ -2,12 +2,14 @@
 
 Automatyzacje pozwalają uruchamiać wiele akcji jednocześnie, a ich zachowanie zależy od wybranego **trybu pracy**. **Domyślnie** aktywny jest tryb `Pojedynczy`.  
 
+---
+
 ## Dostępne tryby
 
-- **Pojedynczy** - kolejne wywołanie **nie rozpocznie** nowej automatyzacji, a system wygeneruje ostrzeżenie  
+- **Pojedynczy** - kolejne wywołanie **NIE** rozpocznie nowej automatyzacji, a system wygeneruje ostrzeżenie  
 - **Uruchom ponownie** - zatrzymuje poprzednią instancję i natychmiast uruchamia automatyzację od nowa  
 - **Kolejkowanie** - każde wywołanie trafia do kolejki i zostanie uruchomione dopiero po zakończeniu poprzednich   
-- **Równoległy** - każde wywołanie uruchamia nową instancję automatyzacji, działającą równolegle z pozostałymi  
+- **Równoległy** - każde wywołanie uruchamia nową instancję automatyzacji, działającą równolegle z&nbsp;pozostałymi  
 
 !!! info "Schemat działania trybów"
 

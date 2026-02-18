@@ -1,4 +1,6 @@
-W razie problemów z połączeniem się lub dziwnym zachowaniem urządzenia, warto zacząć od przywrócenia ustawień domyślnych lub - jeśli to nie pomoże - całkowitego wymazania pamięci flash.
+# ES.Pinio
+
+!!! tip "W razie problemów z połączeniem się lub dziwnym zachowaniem urządzenia, warto zacząć od przywrócenia ustawień domyślnych lub - jeśli to nie pomoże - całkowitego wymazania pamięci flash"
 
 ---
 
@@ -85,4 +87,4 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
 
 !!! info "Więcej przypadków i rozwiązań"
 
-    Szczegółowa lista często występujących problemów Tasmoty dostępna jest w oficjalnym FAQ: [tasmota.github.io/docs/FAQ :material-open-in-new:](https://tasmota.github.io/docs/FAQ)
+    Szczegółowa lista często występujących problemów Tasmoty dostępna jest w oficjalnym FAQ: [**tasmota.github.io/docs/FAQ :material-open-in-new:**](https://tasmota.github.io/docs/FAQ)

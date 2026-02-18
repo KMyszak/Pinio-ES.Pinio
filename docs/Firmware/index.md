@@ -2,7 +2,7 @@
 
 Zakładka Firmware prezentuje proces aktualizacji lub instalacji oprogramowania dla dwóch urządzeń: 
 
-- **ES.Pinio** - oparte na **ESP8266**, działające pod kontrolą Tasmota, z jak i bez wbudowanego konwertera
+- **ES.Pinio** - oparte na **ESP8266**, działające pod kontrolą Tasmota - z jak i bez wbudowanego konwertera
 - **Pinio** - działające z **Raspberry Pi Pico W 2** z dedykowanym firmware napisanym w MicroPythonie
 
 Pokazuje wymagane składniki, narzędzia oraz kroki niezbędne do wgrania nowego oprogramowania, ułatwiając użytkownikowi bezpieczne i poprawne przeprowadzenie całego procesu.

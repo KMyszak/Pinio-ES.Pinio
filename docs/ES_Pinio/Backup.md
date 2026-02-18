@@ -6,7 +6,7 @@
 
 ## Tworzenie Backupu
 
-1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**Problemy**](../FAQ/ES.Pinio-problemy.md))
+1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**Problemy**](../FAQ/ES.Pinio.md))
 2. Przejdź do `Configuration` i kliknij `Backup`:  
     <img width="643" height="659" alt="obraz" src="https://github.com/user-attachments/assets/acef971e-61bc-42c8-bce9-37f6e4b0c9c9" />
 

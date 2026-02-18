@@ -25,20 +25,23 @@ Od tego zależy, jakie narzędzia będą potrzebne do wgrania firmware:
 
 Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
-- **Zewnętrzny konwerter USB-UART:** można zastosować dwie metody:
+- **Zewnętrzny konwerter USB-UART**   
+    Można zastosować dwie metody:   
     - **Rekomendowana:**  zasilanie z wbudowanego stabilizatora płytki - bezpieczne i stabilne
     - **Alternatywna:** zasilanie bezpośrednio z konwertera USB-UART - **WYŁĄCZNIE 3,3 V!**
-- **Wlutowany konwerter USB:** firmware można wgrać za pomocą programu Tasmotizer, który automatycznie wykrywa płytkę i przesyła plik MicroPython
+- **Wbudowany konwerter USB**  
+    Firmware można wgrać za pomocą programu Tasmotizer, który automatycznie wykrywa płytkę i&nbsp;przesyła plik
 
 === "Zewnętrzny konwerter"
 
-    Zewnętrzny konwerter pozwala na połączenie płytki bez wbudowanego USB i przesłanie firmware’u. Wybór metody zależy od sposobu zasilania i stabilności połączenia.
+    Zewnętrzny konwerter pozwala na połączenie płytki bez wbudowanego USB i przesłanie firmware’u.   
+    Wybór metody zależy od sposobu zasilania i stabilności połączenia.
 
     === "Rekomendowana"
 
         Firmware wgrywa się przy zasilaniu z wbudowanego stabilizatora płytki. Jest to metoda bezpieczna i stabilna, minimalizująca ryzyko uszkodzenia płytki podczas programowania.
 
-        1. Podłącz ES.Pinio do zasilania (12 VDC) oraz ESP-12F do konwertera USB:     
+        1. Podłącz **ES.Pinio** do zasilania (12 VDC) oraz **ESP-12F** do konwertera USB:     
         
             <img width="500" alt="schemat polaczenia esp12f" src="https://github.com/user-attachments/assets/f6a390f1-e84c-42fd-bcd5-89b84aceb9e5" />
 
@@ -87,14 +90,14 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
         !!! info "Problemy"
         
-            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](../FAQ/ES.Pinio-problemy.md)
+            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](../FAQ/ES.Pinio.md)
     
     === "Alternatywna"
 
-        !!! danger "Firmware można wgrać przy zasilaniu bezpośrednio z konwertera, TYLKO przy 3,3 V."
+        !!! danger "Firmware można wgrać przy zasilaniu bezpośrednio z konwertera TYLKO przy 3,3 V."
         Ta metoda jest przydatna, gdy wbudowany stabilizator nie jest dostępny, ale wymaga szczególnej ostrożności.
 
-        1. Podłącz ES.Pinio korzystając wyłącznie z konwertera USB:  
+        1. Podłącz **ES.Pinio** korzystając wyłącznie z konwertera USB:  
         
             !!! warning "Pamiętaj o ustawieniu zworki na konwerterze USB na 3,3 V (VCC)!"
             
@@ -145,17 +148,17 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
         !!! info "Problemy"
         
-            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](../FAQ/ES.Pinio-problemy.md)
+            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](../FAQ/ES.Pinio.md)
 
-=== "Wlutowany konwerter"
+=== "Wbudowany konwerter"
 
     Firmware wgrywa się za pomocą programu **Tasmotizer**, który automatycznie wykrywa płytkę i przesyła obraz **Tasmota**. Metoda jest szybka i wygodna, idealna dla płytek z wbudowanym portem USB, bez konieczności dodatkowego sprzętu.
 
-    1. Podłącz urządzenie przez przewód microUSB do komputera:
+    1. Podłącz **ES.Pinio** przez przewód microUSB do komputera:
         
         <img width="364" height="544" alt="obraz" src="https://github.com/user-attachments/assets/1b4cd00a-52ad-4cc7-978a-2b7ebcb58ed9" />
 
-    2. Otwórz program `Tasmotizer` [(**tasmotizer-1.2.exe**)](../Firmware/tasmotizer.md):
+    2. Otwórz program **Tasmotizer** [(**tasmotizer-1.2.exe**)](../Firmware/tasmotizer.md):
     3. Wybierz odpowiedni port z listy `Select port` (sprawdzenie portu → [COM](../Firmware/PortCOM.md)):
         
         <img width="492" height="460" alt="obraz" src="https://github.com/user-attachments/assets/f53fed15-72a2-47b2-8e58-4e823aa7eef8" />
@@ -170,7 +173,7 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
         
         !!! info ""
         
-            Dioda **STA** powinna zacząć świecić oraz mrugać dioda na układzie ESP-12F
+            Dioda **STA** powinna zacząć świecić oraz mrugać dioda na układzie **ESP-12F**
 
     6. Po zakończeniu pojawi się informacja:
     
@@ -179,11 +182,11 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
     !!! tip "Zmiana ustawień przez program"
     
-        Ustawienia Wi-Fi (oraz MQTT) można zmienić przez program, wybierając przycisk `Send config`, następnie zaznaczając okienko WiFi, wpisując poprawne dane i klikając przycisk `Save`:
+        Ustawienia Wi-Fi (oraz MQTT) można zmienić przez program, wybierając przycisk **Send config**, następnie zaznaczając okienko Wi-Fi, wpisując poprawne dane i klikając przycisk **Save**:
         
         <img width="642" height="375" alt="obraz" src="https://github.com/user-attachments/assets/ed3ca8c1-de72-4da6-88ba-a5617c573807" />
         
-        Urządzenie się zrestartuje, a po kilku sekundach można odczytać jego IP klikając przycisk `Get IP`:
+        Urządzenie się zrestartuje, a po kilku sekundach można odczytać jego **IP** klikając przycisk **Get IP**:
         
         <img width="300" height="123" alt="obraz" src="https://github.com/user-attachments/assets/c213f1df-0984-4e74-b100-22ec17327274" />
         

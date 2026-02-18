@@ -1,5 +1,9 @@
 # Zmiana nazwy
 
+Nazwę urządzenia można zmienić bezpośrednio w interfejsie **Home Assistant**. Zmiana jest natychmiastowa i automatycznie aktualizuje powiązane encje.
+
+---
+
 ## Zmiana przez Home Assistant
 
 1. Przejdź na stronę swojego Home Assistant (haos.app)
@@ -18,11 +22,11 @@
 
     !!! info ""
 
-        Dodatkowo możesz dodać urządzenie do `Obszaru` oraz przypisać mu `Etykietę`
+        Dodatkowo możesz dodać urządzenie do *Obszaru* oraz przypisać mu *Etykietę*
 
 ## Zmiana przez plik
 
-Zmiany można wprowadzić poprzez plik konfiguracyjny na urządzeniu opartym na **Raspberry Pi Pico W 2**, korzystającym z języka programowania, np. MicroPython.
+Zmiany ustawień można wprowadzać również poprzez modyfikację pliku konfiguracyjnego znajdującego się na urządzeniu **Pinio** opartym na **Raspberry Pi Pico W 2**. Plik edytuje się bezpośrednio w systemie plików mikrokontrolera (np. za pomocą **Thonny** lub innego środowiska).
 
 1. Uruchom program **Thonny**
 2. Podłącz **Pinio** do komputera przez kabel microUSB

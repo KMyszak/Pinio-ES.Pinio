@@ -1,3 +1,9 @@
+# Edycja encji
+
+Encje można edytować bezpośrednio z poziomu **Home Assistant** wybierając interesującą pozycję. W&nbsp;panelu szczegółów dostępne są opcje zmiany nazwy, ikony oraz parametrów widoczności, co pozwala dostosować sposób prezentacji i organizacji danych w interfejsie użytkownika.
+
+---
+
 1. Z menu po lewej stronie wybierz:  
 
     `Ustawienia → Urządzenia oraz usługi → Rejestr encji`

@@ -1,7 +1,9 @@
 # Automatyzacja Home Assistant
 
-Przejdź na stronę swojego Home Assistant (haos.app) i z menu po lewej stronie wybierz:  
+Przejdź na stronę swojego **Home Assistant** (*haos.app*) i z menu po lewej stronie wybierz:  
 `Ustawienia → Automatyzacje oraz sceny`
+
+---
 
 ### Automatyzacja
 
@@ -13,7 +15,7 @@ Automatyzacje pozwalają na wykonywanie określonych działań w reakcji na zdar
 
 ### Sceny
 
-Sceny pozwalają zapisać i przywrócić określony stan wielu urządzeń jednocześnie - np. włączyć światła w konkretnych kolorach i jasności. Służą do szybkiego przełączania ustawień w domu.  
+Sceny umożliwiają zapisać i przywrócić określony stan wielu urządzeń jednocześnie - np. włączyć światła w konkretnych kolorach i jasności. Służą do szybkiego przełączania ustawień w domu.  
 
 [Dowiedz się więcej o tworzeniu scen :material-open-in-new:](https://www.home-assistant.io/docs/scene/)
 

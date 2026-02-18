@@ -42,7 +42,7 @@ Przy połączeniu należy mieć na uwadze kilka kwestii, ponieważ można podł�
 
 Podłączenie dodatkowego czujnika pomiaru temperatury i wilgotności typu DHT11:
 
-1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**Problemy**](../FAQ/ES.Pinio-problemy.md))
+1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**Problemy**](../FAQ/ES.Pinio.md))
 2. Przejdź do `Configuration → Module` i wybierz dla `GPIO2` opcję **DHT11**:  
     <img width="830" height="561" alt="obraz" src="https://github.com/user-attachments/assets/d558c59d-6d55-44cb-b45b-b8304474b153" />
     

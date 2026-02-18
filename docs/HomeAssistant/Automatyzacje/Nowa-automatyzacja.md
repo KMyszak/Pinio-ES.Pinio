@@ -1,5 +1,11 @@
 # Nowa automatyzacja
 
+Tworzenie nowej automatyzacji w **Home Assistant** polega na zdefiniowaniu, *kiedy* ma zostać uruchomiona, jakie *warunki* muszą być spełnione oraz jaką *akcję* system ma wykonać. W kreatorze użytkownik wybiera **wyzwalacz**, opcjonalnie dodaje **warunki** i określa **działania**, które mają zostać wykonane. 
+
+Proces jest intuicyjny i umożliwia budowanie zarówno prostych, jak i bardziej złożonych scenariuszy automatyki domowej.
+
+---
+
 1. Przejdź do:  
 
     `Ustawienia → Automatyzacje oraz sceny`
@@ -14,10 +20,10 @@
 
 4. Dodaj wszystkie wymagane elementy:
 
-    - [wyzwalacz :material-open-in-new:](../../HomeAssistant/Automatyzacje/Kiedy.md)
-    - [warunek :material-open-in-new:](../../HomeAssistant/Automatyzacje/Jezeli.md) 
-    - [akcja :material-open-in-new:](../../HomeAssistant/Automatyzacje/Wykonaj.md)
-    - [elementy dodatkowe :material-open-in-new:](../../HomeAssistant/Automatyzacje/Blok.md)
+    - [**wyzwalacz**](../../HomeAssistant/Automatyzacje/Kiedy.md)
+    - [**warunek**](../../HomeAssistant/Automatyzacje/Jezeli.md) 
+    - [**akcja**](../../HomeAssistant/Automatyzacje/Wykonaj.md)
+    - [**elementy**](../../HomeAssistant/Automatyzacje/Blok.md)
 
 5. **Zapisz** automatyzację
 
