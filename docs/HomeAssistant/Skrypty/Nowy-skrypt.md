@@ -1,6 +1,6 @@
 **Skrypty** – przypominają automatyzacje, ale nie mają wyzwalaczy ani warunków - to czysta lista akcji do wykonania w określonej kolejności, uruchamiana ręcznie lub z automatyzacji albo przez scenę.
 
-1. Przejdź na stronę swojego Home Assistant (haos.app)
+1. Przejdź na stronę swojego **Home Assistant** (*haos.app*)
 2. Z menu po lewej stronie wybierz:   
  `Ustawienia → Automatyzacje oraz sceny`
 3. Wybierz `Skrypty` z górnej belki:

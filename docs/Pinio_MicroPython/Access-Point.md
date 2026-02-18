@@ -1,16 +1,15 @@
 # Access Point
 
-Jeśli urządzenie napotka problem z połączeniem z siecią Wi-Fi lub brokerem **MQTT**, automatycznie uruchomi własny **webserver** w trybie Access Point - dioda statusowa STA migająca **dwa razy** co 2 sekundy.  
+Jeśli urządzenie napotka na problem z połączeniem z siecią Wi-Fi lub brokerem **MQTT**, automatycznie uruchomi własny **webserver** w trybie Access Point - dioda statusowa STA migająca **dwa razy** co 2&nbsp;sekundy.  
 
 Umożliwia on zmianę podstawowych ustawień bez konieczności fizycznego połączenia z urządzeniem - przez połączenie z AP (korzystając z Wi-Fi):  
 
-```
-   SSID = Pinio_{MAC}      # Nazwa utworzonego Access Pointa (MAC urządzenia)
-   password = 12345678     # Hasło do logowania
-```
+- **SSID = Pinio_{MAC}** -  nazwa utworzonego Access Pointa (MAC urządzenia)
+- **password = 12345678** - hasło do logowania
+
 !!! info ""
 
-    Obie zmienne można zmienić w pliku `webserver.py` w funkcji `start_ap()`:
+    Obie zmienne można zmienić w pliku ***webserver.py*** w funkcji ***start_ap()***:
 
     ```
     ∙∙∙
@@ -31,7 +30,7 @@ Umożliwia on zmianę podstawowych ustawień bez konieczności fizycznego połą
 
 ## Łącznie z Access Pointem 
 
-1. Połącz się z siecią Wi-Fi o nazwie **Pinio_{MAC}** (SSID i hasło z pliku `webserver.py`)
+1. Połącz się z siecią Wi-Fi o nazwie **Pinio_{MAC}** (**SSID** i **hasło** z pliku `webserver.py`)
 2. W przeglądarce wpisz adres `192.168.4.1`:    
 
     <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/40c5685c-89e5-4e63-8395-9ac33e414e91" />

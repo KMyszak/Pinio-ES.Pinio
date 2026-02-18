@@ -1,8 +1,8 @@
 # Blok
 
-Zarówno `Jeżeli` i `Wykonaj` posiadają własne elementy dodatkowe zwane **blokami**. **Bloki** pozwalają łączyć wiele warunków w bardziej złożone reguły. Użytkownik może z nich skorzystać, aby określić, w jaki sposób system ma oceniać zestaw warunków.  
+Zarówno `Jeżeli` i `Wykonaj` posiadają własne elementy dodatkowe zwane **blokami**.   
 
-Dzięki temu **automatyzacje** stają się elastyczne i mogą reagować tylko wtedy, gdy spełnione są dokładnie określone kryteria.
+**Bloki** pozwalają łączyć wiele warunków w bardziej złożone reguły. Użytkownik może z nich skorzystać, aby określić, w jaki sposób system ma oceniać zestaw warunków. Dzięki temu **automatyzacje** stają się elastyczne i mogą reagować tylko wtedy, gdy spełnione są dokładnie określone kryteria.
 
 ---
 
@@ -20,11 +20,11 @@ Pozwalają one budować bardziej złożone warunki, na przykład:
 
 ### Przykład
 
-Zastosowanie konstruktora `LUB/OR`:
+Zastosowanie konstruktora `LUB`/`OR`:
 
 !!! quote ""
 
-    Realizowana jest funkcja [Switch1 **OFF** i Przekaźnik 2 **ON**] LUB [Wejście 2 **ON** i Przekaźnik 2 **OFF**]: 
+    Realizowana jest funkcja **Switch1 OFF** i **Przekaźnik 2 ON** *LUB* **Wejście 2 ON** i **Przekaźnik 2 OFF**. 
 
 <img width="900" alt="obraz" src="https://github.com/user-attachments/assets/554463e9-813e-4623-a22e-2b8dc7432c69" />
 

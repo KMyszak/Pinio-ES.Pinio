@@ -1,12 +1,13 @@
-# Pierwsza konfiguracja ESPHome 
+# Pierwsza konfiguracja
 
-Pierwsza konfiguracja polega na utworzeniu nowego urządzenia w dodatku **ESPHome**, przypisaniu mu nazwy i przygotowaniu podstawowego pliku `.YAML`. Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje się widoczne w **Home Assistant**. 
+Pierwsza konfiguracja polega na utworzeniu nowego urządzenia w dodatku **ESPHome**, przypisaniu mu nazwy i przygotowaniu podstawowego pliku `.YAML`.   
+Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje się widoczne w **Home Assistant**. 
 
 ---
 
 ## Dodanie urządzenia
 
-1. Na pasku bocznym wybierz **ESPHome Builder**: 
+1. Wybierz na pasku bocznym **ESPHome Builder**: 
 
     <img width="230" alt="obraz" src="https://github.com/user-attachments/assets/fead98e2-a8eb-4f5e-adb7-caf5b4bb9e2d" />
 
@@ -106,14 +107,14 @@ Pierwsza konfiguracja polega na utworzeniu nowego urządzenia w dodatku **ESPHom
 
     !!! info "Nazwy"
 
-        W tym miejscu możesz zmienić zmienne `name` dla **wejść** (binary_sensor), **wyjść** (switch) i **czujnika temperatury** (sensor) - wpłynie to na nazwy encji w Home Assistant.  
+        W tym miejscu możesz zmienić zmienne *name* dla **wejść** (binary_sensor), **wyjść** (switch) i **czujnika temperatury** (sensor) - wpłynie to na nazwy encji w Home Assistant.  
 
 3. Kliknij w prawym górnym rogu **SAVE**, następnie **INSTALL**
 4. Wybierz **Manual download**
 5. Pierwsze kompilowanie projektu trwa około 5 minut:  
     <img width="420 alt="obraz" src="https://github.com/user-attachments/assets/d860d512-1b22-40d6-9ff3-68f653e40272" />
 
-6. Po zakończonej kompilacji kliknij **3. Download project**:  
+6. Po zakończonej kompilacji kliknij ***3. Download project***:  
     <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/049db2e9-1d0e-4d71-80da-c670d105f53f" />
 
 7. Wybierz `UF2 factory format`:  

@@ -2,7 +2,7 @@
 
 ## Czym jest MQTT?
 
-**MQTT (Message Queuing Telemetry Transport)** to lekki protokół komunikacyjny stworzony z myślą o&nbsp;urządzeniach **IoT** - małych, energooszczędnych i często działających w niestabilnych sieciach.
+**MQTT** (**Message Queuing Telemetry Transport**) to lekki protokół komunikacyjny stworzony z myślą o&nbsp;urządzeniach **IoT** - małych, energooszczędnych i często działających w niestabilnych sieciach.
 
 Działa w modelu **publish/subscribe**:
 
@@ -11,8 +11,8 @@ Działa w modelu **publish/subscribe**:
 
 ## Jak to działa w praktyce?
 
-- urządzenie nawiązuje połączenie z siecią Wi-Fi
-- łączy się z serwerem MQTT (tzw. *brokerem*)
+- urządzenie nawiązuje **połączenie** z siecią Wi-Fi
+- łączy się z **serwerem MQTT** (tzw. *brokerem*)
 - **publikuje** dane (np. temperaturę) na określony topic
 - **nasłuchuje** poleceń wysyłanych na inny topic
 

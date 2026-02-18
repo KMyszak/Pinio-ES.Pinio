@@ -6,16 +6,18 @@
 
 ## Tworzenie Backupu
 
-1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**Problemy**](../FAQ/ES.Pinio.md))
+1. Połącz się z urządzeniem wpisując jego adres IP w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md#sprawdzenie-przypisanego-ip-do-urzadzenia))
 2. Przejdź do `Configuration` i kliknij `Backup`:  
     <img width="643" height="659" alt="obraz" src="https://github.com/user-attachments/assets/acef971e-61bc-42c8-bce9-37f6e4b0c9c9" />
 
 3. Zostanie pobrany plik backup `.dmp`:   
     <img width="438" height="90" alt="obraz" src="https://github.com/user-attachments/assets/9c015ff5-914f-4d7a-b083-dc7349fce4aa" />
 
+---
+
 ## Przywrócenie backupu
 
-1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce
+1. Połącz się z urządzeniem wpisując jego adres IP w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md#sprawdzenie-przypisanego-ip-do-urzadzenia))
 2. Przejdź do `Configuration → Restore`:  
     <img width="643" height="659" alt="obraz" src="https://github.com/user-attachments/assets/6cc35296-c846-4935-9630-e8a31a5316f8" />
 

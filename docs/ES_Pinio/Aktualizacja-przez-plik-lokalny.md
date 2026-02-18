@@ -1,12 +1,13 @@
 # Aktualizacja przez plik lokalny
 
-Aktualizacja firmware może być również przeprowadzona z lokalnego pliku `.bin`.
+Aktualizacja firmware może zostać przeprowadzona przy użyciu lokalnego pliku `.bin` pobranego z oficjalnej strony **Tasmota**. Producent udostępnia różne warianty oprogramowania, w tym wersję **uniwersalną**, **minimalną** czy zoptymalizowaną pod **urządzenia z wyświetlaczem**.   
+Wersja standardowa oferowana jest w wielu opcjach językowych, a w razie potrzeby dostępne są również wcześniejsze wydania.
 
 ## Wersja minimal
 
 <img width="230" align="right" alt="obraz" src="https://github.com/user-attachments/assets/4b95e8dd-6578-4820-b68a-0f44ca2c95e3" />
 
-Aby zaktualizować urządzenie z pliku lokalnego, musi ono mieć wgrany firmware w wersji `MINIMAL` - wynika to z ograniczonej ilości pamięci dostępnej w urządzeniu.
+Aby **zaktualizować** urządzenie z pliku lokalnego, musi ono mieć wgrany firmware w wersji `MINIMAL` - wynika to z ograniczonej ilości pamięci dostępnej w urządzeniu.
 
 Wersja `MINIMAL` zajmuje znacznie mniej miejsca niż docelowy firmware, dzięki czemu urządzenie jest w stanie przeprowadzić aktualizację dwuetapową.
 
@@ -14,7 +15,7 @@ Wersja `MINIMAL` zajmuje znacznie mniej miejsca niż docelowy firmware, dzięki 
 
 !!! info "Funkcjonalność"
     
-    Warto pamiętać, że `MINIMAL` **nie posiada pełnej funkcjonalności** - służy jedynie jako tymczasowy tryb umożliwiający aktualizację.   
+    Warto pamiętać, że *MINIMAL* **nie posiada pełnej funkcjonalności** - służy jedynie jako tymczasowy tryb umożliwiający aktualizację.   
     Po instalacji właściwego firmware parametry i ustawienia urządzenia zostają zachowane.
 
 ## Instalacja
@@ -25,9 +26,9 @@ Wersja `MINIMAL` zajmuje znacznie mniej miejsca niż docelowy firmware, dzięki 
     
         Można ją również wgrać przez [OTA](Aktualizacja-przez-web-server.md) wklejając w miejsce **OTA Url**:  
 
-        [http://ota.tasmota.com/tasmota/tasmota-minimal.bin.gz](http://ota.tasmota.com/tasmota/tasmota-minimal.bin.gz) ← najnowsza wersja `MINIMAL`
+        [http://ota.tasmota.com/tasmota/tasmota-minimal.bin.gz](http://ota.tasmota.com/tasmota/tasmota-minimal.bin.gz)
 
-2. Połącz się z urządzeniem wpisując jego adres IP w przeglądarce (w razie trudności zajrzyj do [**Problemy**](../FAQ/ES.Pinio.md))
+2. Połącz się z urządzeniem wpisując jego adres IP w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md#sprawdzenie-przypisanego-ip-do-urzadzenia))
 3. Przejdź do `Firmware Upgrade`:  
     <img width="292" height="479" alt="obraz" src="https://github.com/user-attachments/assets/f64de808-4432-4d9c-9289-acd0e9f9db5b" />
 

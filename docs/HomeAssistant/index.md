@@ -4,7 +4,7 @@
 
 **Home Assistant** to otwarto‑źródłowa platforma automatyki domowej, która pozwala integrować i&nbsp;kontrolować urządzenia z różnych ekosystemów - wszystko w jednym miejscu, lokalnie i bez konieczności korzystania z chmury.
 
-Działa jako **centralny system**, łącząc urządzenia, usługi i automatyzacje, dzięki czemu można np. sterować światłami, czujnikami, klimatyzacją, a także reagować na zmiany w czasie rzeczywistym. 
+Działa jako **centralny system** łącząc urządzenia, usługi i automatyzacje, dzięki czemu można np. sterować światłami, czujnikami, klimatyzacją, a także reagować na zmiany w czasie rzeczywistym. 
 
 **Home Assistant** umożliwia tworzenie scenariuszy i reguł automatyzacji, integrację z asystentami głosowymi, a także monitorowanie stanu domu z poziomu **przeglądarki** lub **aplikacji mobilnej**.
 
@@ -22,7 +22,7 @@ Działa jako **centralny system**, łącząc urządzenia, usługi i automatyzacj
 #### Encje
     
 - podstawowe elementy reprezentujące stan lub funkcję urządzenia  
-- służą do monitorowanie i sterowanie sprzętem
+- służą do monitorowania i sterowania sprzętem
 
 #### Wyzwalacze, warunki i akcje
     
@@ -31,7 +31,7 @@ Działa jako **centralny system**, łącząc urządzenia, usługi i automatyzacj
 
 #### Frontend
     
-- intuicyjny interfejs www i aplikacja mobilna
+- intuicyjny *interfejs www* i aplikacja mobilna
 - daje dostęp do sterowania, monitorowania i konfiguracji systemu
 
 ## Jak to działa w praktyce?

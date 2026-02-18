@@ -1,14 +1,13 @@
 # Wgrywanie Tasmoty
-Tasmota to **otwarte oprogramowanie** przeznaczone dla modułów **ESP8266**, które umożliwia sterowanie urządzeniami IoT bez potrzeby korzystania z chmury producenta.
+Tasmota to **otwarte oprogramowanie** przeznaczone dla modułów **ESP8266**, które umożliwia sterowanie urządzeniami **IoT** bez potrzeby korzystania z chmury producenta.
 
-Pozwala na konfigurację przez **przeglądarkę internetową** lub **MQTT**, wspiera szeroką gamę czujników, przekaźników i inteligentnych wtyczek, a jego główną zaletą jest pełna kontrola nad urządzeniem lokalnie.
+Pozwala na konfigurację przez **przeglądarkę internetową** lub **MQTT**. Wspiera szeroką gamę czujników, przekaźników i inteligentnych wtyczek, a jego główną zaletą jest pełna kontrola nad urządzeniem **lokalnie**.
 
 ## Wymagane narzędzia
 
-Płytka występuje w dwóch wersjach: z wbudowanym konwerterem USB–UART lub bez niego.
-Od tego zależy, jakie narzędzia będą potrzebne do wgrania firmware:
+Płytka występuje w dwóch wersjach i od tego zależy, jakie narzędzia będą potrzebne do wgrania **firmware**:
 
-- **Wersja z wlutowanym konwerterem:** 
+- **Wersja z wbudowanym konwerterem:** 
     
     - przewód microUSB
     - program [**Tasmotizer**](tasmotizer.md)
@@ -16,7 +15,7 @@ Od tego zależy, jakie narzędzia będą potrzebne do wgrania firmware:
 
 - **Wersja bez wbudowanego konwertera:** 
 
-    - konwerter USB-UART (np. FTDI FT232RL USB)
+    - konwerter USB-UART (np. *FTDI FT232RL USB*)
     - przewody połączeniowe do komunikacji ESP-12F ⇄ konwerter USB-UART
     - oprogramowanie [**esptool**](esptool.md)
     - obraz [**Tasmota**](tasmota.md)
@@ -25,12 +24,55 @@ Od tego zależy, jakie narzędzia będą potrzebne do wgrania firmware:
 
 Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
+- **Wbudowany konwerter USB**  
+    Firmware można wgrać za pomocą programu Tasmotizer, który automatycznie wykrywa płytkę i&nbsp;przesyła plik
+
 - **Zewnętrzny konwerter USB-UART**   
     Można zastosować dwie metody:   
     - **Rekomendowana:**  zasilanie z wbudowanego stabilizatora płytki - bezpieczne i stabilne
     - **Alternatywna:** zasilanie bezpośrednio z konwertera USB-UART - **WYŁĄCZNIE 3,3 V!**
-- **Wbudowany konwerter USB**  
-    Firmware można wgrać za pomocą programu Tasmotizer, który automatycznie wykrywa płytkę i&nbsp;przesyła plik
+
+=== "Wbudowany konwerter"
+
+    **Firmware** jest wgrywany za pomocą programu **Tasmotizer**, który automatycznie wykrywa płytkę i przesyła obraz **Tasmota**. Metoda jest szybka i wygodna bez konieczności używania dodatkowego sprzętu.
+
+    1. Podłącz **ES.Pinio** przez przewód microUSB do komputera:
+        
+        <img width="320" alt="obraz" src="https://github.com/user-attachments/assets/a1960707-2f9a-4e0f-a597-47b5bb02d2f2" />
+
+    2. Otwórz program **Tasmotizer** [(**tasmotizer-1.2.exe**)](../Firmware/tasmotizer.md):
+    3. Wybierz odpowiedni port z listy `Select port` (jak sprawdzić [**portCOM**](../Firmware/PortCOM.md)):
+        
+        <img width="450" alt="obraz" src="https://github.com/user-attachments/assets/f53fed15-72a2-47b2-8e58-4e823aa7eef8" />
+
+    4. W sekcji `Select image` wybierz pobrany plik [**tasmota.bin**](../Firmware/tasmota.md):
+    
+        <img width="450" alt="obraz" src="https://github.com/user-attachments/assets/f21bdaf8-90fa-49db-9e8c-f1a5c4812a5f" />
+
+    5. Kliknij `Tasmotize!` - rozpocznie się proces flashowania:
+    
+        <img width="380" alt="obraz" src="https://github.com/user-attachments/assets/443b04ff-7143-4574-a173-b3d4f62651fd" />
+        
+        !!! info ""
+        
+            Dioda **STA** powinna zacząć świecić oraz mrugać dioda na układzie **ESP-12F**
+
+    6. Po zakończeniu pojawi się informacja:
+    
+        <img width="301" height="108" alt="obraz" src="https://github.com/user-attachments/assets/ade67d2f-71ac-49eb-99b8-a2ceab9bb66e" />
+    7. Urządzenie zostanie zresetowane i uruchomi swój AP, z którym możesz się połączyć celem zmiany ustawień Wi-Fi → [**łączenie z Access Pointem**](../ES_Pinio/Pierwsze-uruchomienie.md)
+
+    !!! tip "Zmiana ustawień przez program"
+    
+        Ustawienia Wi-Fi (oraz MQTT) można zmienić przez program, wybierając przycisk **Send config**, następnie zaznaczając okienko Wi-Fi, wpisując poprawne dane i klikając przycisk **Save**:
+        
+        <img width="642" height="375" alt="obraz" src="https://github.com/user-attachments/assets/ed3ca8c1-de72-4da6-88ba-a5617c573807" />
+        
+        Urządzenie się zrestartuje, a po kilku sekundach można odczytać jego **IP** klikając przycisk **Get IP**:
+        
+        <img width="300" height="123" alt="obraz" src="https://github.com/user-attachments/assets/c213f1df-0984-4e74-b100-22ec17327274" />
+        
+        Dalszą edycję należy przeprowadzić przez przeglądarkę, korzystając z uzyskanego **adresu IP** - przejdź do  [**Podstawowe ustawienia**](../ES_Pinio/Podstawowe-ustawienia-i-GPIO.md)
 
 === "Zewnętrzny konwerter"
 
@@ -39,14 +81,14 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
     === "Rekomendowana"
 
-        Firmware wgrywa się przy zasilaniu z wbudowanego stabilizatora płytki. Jest to metoda bezpieczna i stabilna, minimalizująca ryzyko uszkodzenia płytki podczas programowania.
+        Firmware wgrywa się przy zasilaniu z wbudowanego stabilizatora płytki. Jest to metoda bezpieczna, stabilna i minimalizująca ryzyko uszkodzenia płytki podczas programowania.
 
-        1. Podłącz **ES.Pinio** do zasilania (12 VDC) oraz **ESP-12F** do konwertera USB:     
+        1. Podłącz **ES.Pinio** do zasilania **12 VDC** oraz **ESP-12F** do konwertera USB:     
         
             <img width="500" alt="schemat polaczenia esp12f" src="https://github.com/user-attachments/assets/f6a390f1-e84c-42fd-bcd5-89b84aceb9e5" />
 
             Schemat połączenia:
-        
+
             <img width="500" alt="schemat połączenia esp12f bez VCC" src="https://github.com/user-attachments/assets/15ae5c3d-9bca-4254-bc9e-ebec7dd0e90c" />
 
         2. Naciśnij i przytrzymaj jednocześnie przyciski **RST** oraz **BOOT** (*tryb flashowania*)
@@ -90,7 +132,7 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
         !!! info "Problemy"
         
-            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](../FAQ/ES.Pinio.md)
+            W razie problemów z ustawieniami lub instalacją przejdź do [FAQ](../FAQ/ES.Pinio.md)
     
     === "Alternatywna"
 
@@ -148,46 +190,4 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
         !!! info "Problemy"
         
-            W razie problemów z ustawieniami lub instalacją przejdź do [Problemy](../FAQ/ES.Pinio.md)
-
-=== "Wbudowany konwerter"
-
-    Firmware wgrywa się za pomocą programu **Tasmotizer**, który automatycznie wykrywa płytkę i przesyła obraz **Tasmota**. Metoda jest szybka i wygodna, idealna dla płytek z wbudowanym portem USB, bez konieczności dodatkowego sprzętu.
-
-    1. Podłącz **ES.Pinio** przez przewód microUSB do komputera:
-        
-        <img width="364" height="544" alt="obraz" src="https://github.com/user-attachments/assets/1b4cd00a-52ad-4cc7-978a-2b7ebcb58ed9" />
-
-    2. Otwórz program **Tasmotizer** [(**tasmotizer-1.2.exe**)](../Firmware/tasmotizer.md):
-    3. Wybierz odpowiedni port z listy `Select port` (sprawdzenie portu → [COM](../Firmware/PortCOM.md)):
-        
-        <img width="492" height="460" alt="obraz" src="https://github.com/user-attachments/assets/f53fed15-72a2-47b2-8e58-4e823aa7eef8" />
-
-    4. W sekcji `Select image` wybierz pobrany plik [**tasmota.bin**](../Firmware/tasmota.md):
-    
-        <img width="492" height="460" alt="obraz" src="https://github.com/user-attachments/assets/f21bdaf8-90fa-49db-9e8c-f1a5c4812a5f" />
-
-    5. Kliknij `Tasmotize!` - rozpocznie się proces flashowania:
-    
-        <img width="402" height="170" alt="obraz" src="https://github.com/user-attachments/assets/443b04ff-7143-4574-a173-b3d4f62651fd" />
-        
-        !!! info ""
-        
-            Dioda **STA** powinna zacząć świecić oraz mrugać dioda na układzie **ESP-12F**
-
-    6. Po zakończeniu pojawi się informacja:
-    
-        <img width="301" height="108" alt="obraz" src="https://github.com/user-attachments/assets/ade67d2f-71ac-49eb-99b8-a2ceab9bb66e" />
-    7. Urządzenie zostanie zresetowane i uruchomi swój AP, z którym możesz się połączyć celem zmiany ustawień Wi-Fi → [**łączenie z Access Pointem**](../ES_Pinio/Pierwsze-uruchomienie.md)
-
-    !!! tip "Zmiana ustawień przez program"
-    
-        Ustawienia Wi-Fi (oraz MQTT) można zmienić przez program, wybierając przycisk **Send config**, następnie zaznaczając okienko Wi-Fi, wpisując poprawne dane i klikając przycisk **Save**:
-        
-        <img width="642" height="375" alt="obraz" src="https://github.com/user-attachments/assets/ed3ca8c1-de72-4da6-88ba-a5617c573807" />
-        
-        Urządzenie się zrestartuje, a po kilku sekundach można odczytać jego **IP** klikając przycisk **Get IP**:
-        
-        <img width="300" height="123" alt="obraz" src="https://github.com/user-attachments/assets/c213f1df-0984-4e74-b100-22ec17327274" />
-        
-        Dalszą edycję należy przeprowadzić przez przeglądarkę, korzystając z uzyskanego adresu IP → [**Konfiguracja**](../ES_Pinio/Podstawowe-ustawienia-i-GPIO.md)
+            W razie problemów z ustawieniami lub instalacją przejdź do [FAQ](../FAQ/ES.Pinio.md)

@@ -1,6 +1,6 @@
 # Jeżeli
 
-W tym miejscu deklarowane są dodatkowe `warunki`, które **muszą** być spełnione, aby `wyzwalacze` z **Kiedy** zainicjowały `akcję` w miejscu **Wykonaj** - działanie zbliżone do bramki AND:    
+W tym miejscu deklarowane są dodatkowe `warunki`, które **muszą** być spełnione, aby `wyzwalacze` z **Kiedy** zainicjowały `akcję` w miejscu **Wykonaj** - działanie zbliżone do **bramki AND**:    
 
 !!! quote ""
 

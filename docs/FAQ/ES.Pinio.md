@@ -7,10 +7,10 @@
 ## Reset ustawień
 
 ### Przywrócenie domyślnej konfiguracji (jeśli znasz IP urządzenia w sieci)
-1. Połącz się z urządzeniem ES.Pinio wpisując jego **adres IP** w przeglądarce
+1. Połącz się z urządzeniem **ES.Pinio** wpisując jego **adres IP** w przeglądarce
 2. Przejdź do `Configuration`
 3. Kliknij **Reset** i potwierdź
-4. Po ponownym uruchomieniu przejdź do [konfiguracja ES.Pinio](../ES_Pinio/Pierwsze-uruchomienie.md)
+4. Przeprowadź [**konfigurację**](../ES_Pinio/Pierwsze-uruchomienie.md) od nowa
 
 ---
 ### Fast Power Cycle Device Recovery (reset do ustawień fabrycznych)
@@ -20,18 +20,25 @@
 1. Odłącz całkowicie zasilanie urządzenia na 30 sekund
 2. Włącz i wyłącz urządzenie 6 razy:
     
-    !!! quote "Każde włącz/wyłącz powinno mieć odstęp mniejszy niż 10 sekund między zmianami stanu. Zalecane jest około 2 sekund włączenia i 2 sekund wyłączenia."
+    !!! info "Każde włącz/wyłącz powinno mieć odstęp mniejszy niż 10 sekund między zmianami stanu. Zalecane jest około 2 sekund włączenia i 2 sekund wyłączenia."
 
 3. Przy 7 włączeniu urządzenie zresetuje się do ustawień fabrycznych i uruchomi **Access Point**
-4. Przejdź do [konfiguracja ES.Pinio](../ES_Pinio/Pierwsze-uruchomienie.md)
+4. Przeprowadź [**konfigurację**](../ES_Pinio/Pierwsze-uruchomienie.md#) od nowa
 
 ---
 ### Wymazanie pamięci flash przy pomocy narządznia [`esptool`](../Firmware/esptool.md) (*wymagany konwerter USB-UART*)
 Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć sie z urządzeniem, pozostaje wymazanie całej pamięci flash i ponowne wgranie firmware:  
 
-1. Podłącz ESP-12F do komputera ([**schemat**](../Firmware/ES_Pinio.md#__tabbed_2_1)) i wprowadź go w **tryb flashowania** (**RST+BOOT**)
-2. Otwórz **wiersz poleceń** (CMD) jako **administrator**    
-3. Wpisz polecenie do wymazania pamięci flash: 
+1. Zasil płytkę **ES.Pinio** i podłącz **ESP-12F** do komputera zgodnie ze schematem: 
+
+    <img width="500" alt="schemat połączenia esp12f bez VCC" src="https://github.com/user-attachments/assets/15ae5c3d-9bca-4254-bc9e-ebec7dd0e90c" />
+
+2. Wprowadź **ESP-12F** w *tryb flashowania*:
+
+    naciśnij jednocześnie **BOOT** i **RST**, następnie puść najpierw **RST**, a potem **BOOT**
+
+3. Otwórz **wiersz poleceń** (CMD) jako **administrator**    
+4. Wpisz polecenie do wymazania pamięci flash: 
     ``` 
     esptool.exe -p COMX erase_flash   
     ```
@@ -42,8 +49,8 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
     gdzie:  
     `COMX` - numer portu szeregowego przypisanego do konwertera USB   
     `tasmota` - nazwa pliku z firmware
-4. Zresetuj urządzenie (przycisk **RST**)
-5. Przejdź do [konfiguracja ES.Pinio](../ES_Pinio/Pierwsze-uruchomienie.md)  
+5. Zresetuj urządzenie (przycisk **RST**)
+6. Przejdź do [**konfiguracji**](../ES_Pinio/Pierwsze-uruchomienie.md)  
 
 ---
 
@@ -51,12 +58,12 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
 
 ### Masz dostęp do ustawień routera do którego jest podłączone ES.Pinio
 
-1. Zaloguj się do panelu administratora
-2. Znajdź zakładkę odpowiedzialną za przypisywanie adresu IP urządzeniom podłączonym do routera:  
+1. Zaloguj się do panelu administratora routera
+2. Znajdź zakładkę odpowiedzialną za przypisywanie **adresu IP** urządzeniom podłączonym do routera:  
     `DHCP → DHCP Client List`
 3. Wyszukaj urządzenie ES.Pinio (np. tasmota-6XXXXX-XXX2)
 4. Wpisz jego **adres IP** w przeglądarce (np. 192.168.119.28)
-5. Zmień ustawienia na stronie
+5. Zmień i zapisz ustawienia na stronie
 
 ### Urządzenie jest połączone z Home Assistant
 
@@ -64,9 +71,8 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
 
     <img width="236" height="245" alt="obraz" src="https://github.com/user-attachments/assets/96222e4d-49e9-4655-ab0e-7404c687187a" />
 
-2. W oknie `Diagnostyka` rozwiń `+X wyłączone encje`, wybierz `IP`, kliknij ikonę zębatki i zaznacz **Encja włączona**:
-
-    Poczekaj 30 sekund na włączenie encji i odśwież stronę:
+2. W oknie `Diagnostyka` rozwiń `+X wyłączone encje`, wybierz **IP**, kliknij ikonę zębatki i zaznacz **Encja włączona** 
+3. Poczekaj 30 sekund na włączenie encji i odśwież stronę:
     
     <img width="264" height="373" alt="obraz" src="https://github.com/user-attachments/assets/33362c5a-77e0-4b39-abc6-9095751bd389" />
 

@@ -12,7 +12,7 @@ Panel pozwala na szybkie sprawdzenie bieżącego stanu urządzenia - dzięki nie
 | Parametr               | Opis                                             |
 |------------------------|--------------------------------------------------|
 | **Firmware Version**   | Zainstalowana wersja Tasmota                     |
-| **IP**                 | Adres IP w sieci lokalnej                        |
+| **IP**                 | Adres IP urządzenia w sieci lokalnej             |
 | **Last Restart Time**  | Czas od ostatniego restartu urządzenia           |
 | **MQTT Connect Count** | Liczba połączeń MQTT od uruchomienia urządzenia  |
 | **Restart Reason**     | Powód restartu urządzenia                        |

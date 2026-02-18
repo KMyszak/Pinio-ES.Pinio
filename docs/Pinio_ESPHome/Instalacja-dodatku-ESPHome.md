@@ -1,6 +1,6 @@
-# Instalacja dodatku ESPHome
+# Instalacja dodatku
 
-Instalacja **ESPHome** odbywa się bezpośrednio w **Home Assistant** przez przeglądarkę, przy użyciu wbudowanego sklepu. 
+Instalacja dodatku **ESPHome** odbywa się bezpośrednio w **Home Assistant** przy użyciu wbudowanego sklepu. 
 
 ---
 
@@ -14,4 +14,4 @@ Instalacja **ESPHome** odbywa się bezpośrednio w **Home Assistant** przez prze
 4. Zaznacz **Obserwator**, **Pokaż na pasku bocznym** i **Uruchom** dodatek:
     <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/32e3cd7b-12b8-4760-b67c-acc5a7ae2bdb" />
 
-5. Przejdź dalej do tworzenia [**konfiguracji**](Pierwsza-konfiguracja-ESPHome.md)
+5. Przejdź dalej do [**Pierwszej konfiguracji**](Pierwsza-konfiguracja-ESPHome.md)

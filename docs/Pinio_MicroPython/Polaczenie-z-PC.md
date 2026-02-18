@@ -1,6 +1,7 @@
 # Połączenie z komputerem
 
-**Raspberry Pi Pico 2W** łączy się z komputerem za pomocą standardowego kabla micro‑USB typu B (kabel musi obsługiwać transmisję danych, nie tylko ładowanie). Do odczytu, edycji oraz wgrywania plików na płytkę należy użyć odpowiedniego oprogramowania, np. [**Thonny IDE :material-open-in-new:**](https://thonny.org/).
+**Raspberry Pi Pico 2W** łączy się z komputerem za pomocą standardowego kabla micro‑USB typu B (kabel musi obsługiwać transmisję danych, nie tylko ładowanie).   
+Do odczytu, edycji oraz wgrywania plików na płytkę należy użyć odpowiedniego oprogramowania, np. [**Thonny IDE :material-open-in-new:**](https://thonny.org/).
 
 ---
 

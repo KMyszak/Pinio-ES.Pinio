@@ -47,22 +47,23 @@ nav:
       - Diagnostyka:
         - ES_Pinio/Diagnostyka.md
         - ES_Pinio/Status-urzadzenia.md
-      - Aktualizacja opgrogramowania:
+      - Aktualizacja oprogramowania:
         - Bezprzewodowa (OTA):
           - ES_Pinio/Aktualizacja-przez-web-server.md
           - ES_Pinio/Aktualizacja-przez-plik-lokalny.md
           - ES_Pinio/Aktualizacja-przez-konsole.md
         - ES_Pinio/Reczna-aktualizacja.md
-      - ES_Pinio/Backup.md
+      - Dodatek:
+        - ES_Pinio/Backup.md
 
   - Pinio + ESPHome:
     - Pinio_ESPHome/index.md
     - Pierwsze kroki:
       - Pinio_ESPHome/Instalacja-dodatku-ESPHome.md
       - Pinio_ESPHome/Pierwsza-konfiguracja-ESPHome.md
+      - Pinio_ESPHome/Wgrywanie-.uf2.md
     - Czujniki:
       - Pinio_ESPHome/Kilka-czujnikow-1-Wire.md
-      - Pinio_ESPHome/Wgrywanie-.uf2.md
     - Oprogramowanie:
       - Pinio_ESPHome/Aktualizacja-bezprzewodowa.md
       - Pinio_ESPHome/Aktualizacja-oprogramowania.md
@@ -80,12 +81,14 @@ nav:
       - Pinio_MicroPython/Status-urzadzenia.md
   
   - MQTT:
-    - MQTT/index.md
-    - MQTT/Instalacja-dodatku.md
-    - MQTT/Tworzenie-uzytkownika.md
-    - MQTT/Dodanie-urzadzenia.md
-    - MQTT/Integracja.md
-    - MQTT/Encje.md
+    - Pierwsze kroki:
+      - MQTT/index.md
+      - MQTT/Instalacja-dodatku.md
+      - MQTT/Tworzenie-uzytkownika.md
+      - MQTT/Dodanie-urzadzenia.md
+      - MQTT/Integracja.md
+    - Dodatek:
+      - MQTT/Encje.md
 
   - Home Assistant:
     - HomeAssistant/index.md
@@ -117,10 +120,10 @@ nav:
       - Firmware/esptool.md
       - Firmware/tasmotizer.md
       - Firmware/tasmota.md
-    - Firmware/PortCOM.md
-
     - Pinio + Micropython:
       - Firmware/Pinio_MicroPython.md
+    - Dodatek:
+      - Firmware/PortCOM.md
 
   - FAQ:
     - FAQ/index.md

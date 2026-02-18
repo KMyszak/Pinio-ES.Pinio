@@ -2,16 +2,15 @@
 
 <img width="200" align="left" alt="obraz" src="https://github.com/user-attachments/assets/a311e24b-7518-4c6c-97aa-9c195ab1cc30" />
 
-Na urządzeniu po poprawnie przeprowadzonej [konfiguracji](Pierwsza-konfiguracja-ESPHome.md#edycja-konfiguracji) dioda statusowa **STA** pracuje w konfiguracji:
+Po poprawnie przeprowadzonych [ustawieniach](Pierwsza-konfiguracja-ESPHome.md#edycja-konfiguracji) dioda statusowa **STA** pracuje w konfiguracji:
 
+  - włączona¹ - urządzenie połączone z Home Assistant
+  - miga co 1 s - ostrzeżenie, np. problem z połączeniem Wi-Fi/MQTT
+  - miga co 0,5 s - błąd, np. ESPHome wykrył problem z czujnikiem
 
-Status diody STA: 
+¹ Opcję można zmienić poprzez przełączenie encji Status LED
 
-  - włączona¹ → urządzenie połączone z Home Assistant
-  - miga co 1 s → ostrzeżenie, np. problem z połączeniem Wi-Fi/MQTT
-  - miga co 0,5 s → błąd, np. ESPHome wykrył problem z czujnikiem
-
-    ¹ Opcję można zmienić poprzez przełączenie encji Status LED
+<br>
 
 Encję **Status LED** najprościej znaleźć przez wyszukanie w `Rejestrze encji` lub przechodząc do panelu urządzenia `Ustawienia → Urządzenia oraz usługi → ESPHome` do sekcji **Sterowanie**:  
 
@@ -20,15 +19,15 @@ Encję **Status LED** najprościej znaleźć przez wyszukanie w `Rejestrze encji
 !!! info "Dioda statusowa"
 
     Dioda włączy się ponownie po zresetowaniu urządzenia. 
-    Aby wyłączyć automatyczne zapalanie diody statusowej STA należy edytować plik `.YAML` 
+    Aby wyłączyć automatyczne zapalanie diody statusowej STA należy edytować plik *.YAML*.
 
 ## Wyłączenie automatycznego zapalania diody STA
 
-1. Przejdź do `ESPHome Builder` (zakładka w menu po lewej stronie):
+1. Wybierz na pasku bocznym **ESPHome Builder**:
 
     <img width="230" alt="obraz" src="https://github.com/user-attachments/assets/fead98e2-a8eb-4f5e-adb7-caf5b4bb9e2d" />
 
-2. Wybierz edycję kodu klikając **EDIT**:  
+2. Przejdź do edycji kodu klikając **EDIT**:  
 
     <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/3531764d-7d58-4168-9e69-c9f6bb7a7bfa" />
 
@@ -63,8 +62,10 @@ Encję **Status LED** najprościej znaleźć przez wyszukanie w `Rejestrze encji
             <img width="320" alt="obraz" src="https://github.com/user-attachments/assets/470bdf1e-43ed-40a7-a809-cb6bdc5fbb17" />
         </li>
         <li>Przejdź do <a href="../Wgrywanie-.uf2/"><strong>wgrywania</strong></a> firmware</li>
-        <li>Po restarcie dioda już nie będzie się automatycznie zapalać - wciąż będzie informować o&nbsp;ostrzeżeniach i błędach</li>
+        </li>
     </ol>
+
+    !!! info "Po restarcie dioda już nie będzie się automatycznie zapalać - wciąż będzie informować o&nbsp;ostrzeżeniach i błędach" 
 
 === "Wirelessly"
 
@@ -78,8 +79,8 @@ Encję **Status LED** najprościej znaleźć przez wyszukanie w `Rejestrze encji
         <li>Po zakończonej <strong>instalacji OTA</strong> pojawi się komunikat:<br>
             <img width="567" height="56" alt="obraz" src="https://github.com/user-attachments/assets/2e1c3e6c-160f-4210-9fa2-b17ac451cd9d" />
         </li>
-        <li>Po restarcie dioda już nie będzie się automatycznie zapalać - wciąż będzie informować o&nbsp;ostrzeżeniach i błędach</li>
     </ol>
+    !!! info "Po restarcie dioda już nie będzie się automatycznie zapalać - wciąż będzie informować o&nbsp;ostrzeżeniach i błędach" 
 
 
 

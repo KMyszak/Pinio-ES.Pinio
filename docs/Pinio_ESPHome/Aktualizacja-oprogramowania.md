@@ -18,7 +18,7 @@ Aktualizację oprogramowania można wykonać na dwa sposoby:
 
     3. Kliknij **Aktualizuj** - aktualizacja trwa do kilku minut  
 
-        !!! warning "Jeżeli aktualizacja się nie wykona lub napotka na jakiś problem warto ją przeprowadzić przez panel `ESPHome Builder`"
+        !!! warning "Jeżeli aktualizacja się nie wykona lub napotka na jakiś problem warto ją przeprowadzić przez panel *ESPHome Builder*"
 
 === "ESPHome Builder"
 

@@ -1,8 +1,8 @@
 ### Urządzenie lub jego encje nie są wykrywane przez MQTT
 
-Jeżeli dane z `config.py`/`config.json` są poprawne zajrzyj do konsoli dodatku:   
+Jeżeli dane z `config.py`/`config.json` są poprawne zajrzyj do konsoli dodatku **MQTT**:   
 
-1. Z menu po lewej stronie wybierz `Ustawienia → Dodatki → Mosquitto broker` i przejdź do zakładki `Logi`:
+1. Z menu po lewej stronie wybierz `Ustawienia → Dodatki → Mosquitto broker` i przejdź do zakładki **Logi**:
     
     <img width="680" alt="obraz" src="https://github.com/user-attachments/assets/f9ebe8fd-d0d9-4618-af19-5c7e242d3a74" />
 
@@ -25,7 +25,7 @@ Jeżeli dane z `config.py`/`config.json` są poprawne zajrzyj do konsoli dodatku
 
         <img width="443" height="76" alt="obraz" src="https://github.com/user-attachments/assets/ba95bfcc-6982-4c98-aed1-ca798240fff1" />
 
-6. Uruchom urządzenie - kliknij `F5` w programie
+6. Uruchom urządzenie - kliknij `F5` w programie lub przycisk `RST` na płytce
 7. Powinny pojawić się logi:
 
     <img width="266" height="57" alt="obraz" src="https://github.com/user-attachments/assets/31c934e0-9fa8-4baa-a956-3aecf09b4d22" />

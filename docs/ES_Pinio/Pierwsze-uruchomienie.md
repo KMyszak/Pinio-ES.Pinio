@@ -23,4 +23,4 @@ Pierwsze uruchomienie wymaga zasilania urządzenia napięciem **12 V**. Po włą
     
     !!! Warning "Zapamiętaj przydzielony **adres IP** - będzie potrzebny do dalszej konfiguracji"
 
-6. Przejdź do etapu [**Podstawowe ustawienia i GPIO**](Podstawowe-ustawienia-i-GPIO.md)
+6. Przejdź do etapu [**Podstawowe ustawienia**](Podstawowe-ustawienia-i-GPIO.md)

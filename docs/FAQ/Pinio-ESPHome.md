@@ -2,7 +2,7 @@
 
 Problemy mogą być spowodowane ustawieniami **routera** lub **Access Pointa** do którego podłączone jest urządzenie.  
 
-**Raspberry Pi Pico W** korzysta z układu Wi-Fi Infineon CYW43439, który:
+**Raspberry Pi Pico W** korzysta z układu Wi-Fi, który:
 
 - wspiera tylko podstawowe Wi-Fi (802.11b/g/n) w paśmie 2.4 GHz 
 - nie dokumentuje wsparcia dla:
@@ -44,4 +44,4 @@ należy jeszcze raz wprowadzić klucz szyfrujący. Aby pobrać klucz:
 
     !!! failure "Nieprawidłowy klucz" 
     
-        Jeżeli skopiowany klucz jest nieprawidłowy pozostaje zainstalowanie aktualnej konfiguracji `.YAML` w **ESPHome builder** na urządzenie (najlepiej manualnie) lub konfiguracja całości [**od nowa**](../Pinio_ESPHome/Pierwsza-konfiguracja-ESPHome.md).
+        Jeżeli skopiowany klucz jest nieprawidłowy pozostaje zainstalowanie aktualnej konfiguracji .YAML w **ESPHome builder** na urządzenie (najlepiej manualnie) lub konfiguracja całości [**od nowa**](../Pinio_ESPHome/Pierwsza-konfiguracja-ESPHome.md).

@@ -1,6 +1,6 @@
 # Instalacja dodatku
 
-Aby korzystać z **Mosquitto MQTT**, należy posiadać działającą instancję **Home Assistant**. Dodatek jest dostępny w Sklepie dodatków i jego instalacja jest bardzo intuicyjna.
+Aby korzystać z **Mosquitto MQTT**, należy posiadać działającą instancję **Home Assistant**. Dodatek jest dostępny w *Sklepie dodatków* a jego instalacja jest bardzo prosta.
 
 ---
 

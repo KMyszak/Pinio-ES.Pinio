@@ -1,8 +1,8 @@
 # FAQ
 
-W tej sekcji zebrano najważniejsze pytania i typowe problemy dotyczące trzech rodzajów urządzeń używanych w systemie: 
+W tej sekcji zebrano najważniejsze pytania i typowe problemy dotyczące urządzeń: 
 
-- **ES.Pinio** - urządzenie działające na oprogramowaniu **Tasmota**:
+- **ES.Pinio** - działające na oprogramowaniu **Tasmota**:
     - najczęstsze [**problemy**](ES.Pinio.md)
     - oficjalne wiki [**Tasmota :material-open-in-new:**](https://tasmota.github.io/docs/)
 

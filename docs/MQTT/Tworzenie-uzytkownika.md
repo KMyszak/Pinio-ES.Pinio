@@ -1,6 +1,6 @@
 # Tworzenie użytkownika
 
-Po zainstalowaniu dodatku należy utworzyć **nowego użytkownika**, który będzie używany do autoryzacji połączeń **MQTT**. W tym celu w ustawieniach dodatku definiuje się nazwę użytkownika oraz hasło, które następnie wykorzystuje się w aplikacjach lub urządzeniach łączących się z brokerem. 
+Po zainstalowaniu dodatku należy utworzyć **nowego użytkownika**, który będzie używany do autoryzacji połączeń **MQTT**. W tym celu, w ustawieniach dodatku definiuje się nazwę użytkownika oraz hasło, które następnie wykorzystuje się w aplikacjach lub urządzeniach łączących się z brokerem. 
 
 Dzięki temu dostęp do brokera jest **kontrolowany** i **bezpieczny**.
 
@@ -27,7 +27,7 @@ Dzięki temu dostęp do brokera jest **kontrolowany** i **bezpieczny**.
 
         W razie problemów uruchom ponownie cały Home Assistant.  
 
-6. Przejdź do [**Integracja**](Integracja.md)
+6. Przejdź do [**Dodanie urzadzenia**](Dodanie-urzadzenia.md)
 
 ---
 

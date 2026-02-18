@@ -1,11 +1,11 @@
 # Firmware
 
-Zakładka Firmware prezentuje proces aktualizacji lub instalacji oprogramowania dla dwóch urządzeń: 
+Zakładka **Firmware** prezentuje proces aktualizacji lub instalacji oprogramowania dla dwóch urządzeń: 
 
-- **ES.Pinio** - oparte na **ESP8266**, działające pod kontrolą Tasmota - z jak i bez wbudowanego konwertera
-- **Pinio** - działające z **Raspberry Pi Pico W 2** z dedykowanym firmware napisanym w MicroPythonie
+- **ES.Pinio** - oparte na **ESP8266**, działające pod kontrolą Tasmota - z jak i bez wbudowanego **konwertera**
+- **Pinio** - działające z **Raspberry Pi Pico W 2** z dedykowanym **firmware** napisanym w MicroPythonie
 
-Pokazuje wymagane składniki, narzędzia oraz kroki niezbędne do wgrania nowego oprogramowania, ułatwiając użytkownikowi bezpieczne i poprawne przeprowadzenie całego procesu.
+Sekcja przedstawia wymagane narzędzia oraz kolejne etapy instalacji, umożliwiając użytkownikowi prawidłowe przygotowanie i wgranie oprogramowania.
 
 <div class="grid cards" markdown>
 

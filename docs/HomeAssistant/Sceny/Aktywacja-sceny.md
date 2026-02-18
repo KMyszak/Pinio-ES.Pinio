@@ -3,11 +3,10 @@
 Aby korzystać ze stworzonych scen, należy utworzyć **automatyzację**.  
 W przykładzie zostały wykorzystane dwie sceny bazujące na dostępnych encjach urządzenia (`RELAY 1` oraz `RELAY 2`):   
 
-- **włączająca** encje urządzenia Pinio (Przełączniki ON)
-- **wyłączająca** encje urządzenia Pinio (Przełączniki OFF) 
+- **włączająca** encje urządzenia Pinio (*Przełączniki ON*)
+- **wyłączająca** encje urządzenia Pinio (*Przełączniki OFF*) 
 
 <img width="679" height="478" alt="obraz" src="https://github.com/user-attachments/assets/a9898bd1-ff14-458f-b82a-bfd872e3f02a" />
-
 
 ---
 

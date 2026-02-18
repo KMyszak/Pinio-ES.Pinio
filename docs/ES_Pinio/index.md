@@ -14,16 +14,14 @@ Moduły cechują się modularnością, otwartą architekturą i łatwą integrac
 
 **ESP8266** w wersji ESP-12F to kompaktowy moduł Wi-Fi, popularny w projektach **IoT** dzięki niskiej cenie i dobrej wydajności. 
 
-Posiada wbudowaną antenę PCB o **lepszym zasięgu** niż wcześniejsze wersje oraz **4 MB** pamięci Flash. Moduł udostępnia wiele pinów `GPIO`, w tym `UART`, `SPI`, `I²C` i `ADC`, co pozwala podłączać szeroki zakres czujników i peryferiów. Obsługuje tryby **STA**, **AP** i **AP+STA**, umożliwiając zarówno podłączenie do sieci Wi-Fi, jak i tworzenie własnego Access Pointa. 
-
-Dzięki wsparciu dla Arduino, MicroPythona i natywnego SDK jest łatwy do programowania i dobrze udokumentowany, co czyni go jednym z najpopularniejszych modułów w projektach komercyjnych i DIY.
+Posiada wbudowaną antenę PCB o **lepszym zasięgu** niż wcześniejsze wersje oraz **4 MB** pamięci Flash. Obsługuje tryby **STA**, **AP** i **AP+STA**, umożliwiając zarówno podłączenie do sieci Wi-Fi, jak i tworzenie własnego Access Pointa. 
 
 ## Funkcje
 
 Zastosowane komponenty i funkcje gwarantują szerokie zastosowanie w automatyce budynkowej:
  
 - **platforma:** natywne wsparcie Tasmota i ESPHome
-- **interfejsy:** 2 wejścia cyfrowe, 2 wyjścia przekaźnikowe (obciążalność 2 A), wsparcie magistrali 1‑Wire
+- **interfejsy:** 2 wejścia cyfrowe, 2 wyjścia przekaźnikowe (obciążalność 2 A), magistrala 1‑Wire
 - **komunikacja:** Wi‑Fi 2.4 GHz, protokół MQTT, integracja z Home Assistant
 - **zasilanie:** 12 VDC, bezpieczne złącze o niestandardowym rastrze
 - **złącza:** GPIO, terminal‑block, wyjścia na diody statusu i przycisk reset

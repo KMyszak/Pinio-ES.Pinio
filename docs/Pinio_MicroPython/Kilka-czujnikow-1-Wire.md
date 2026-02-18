@@ -1,4 +1,4 @@
-# Kilka czujników 1-Wire
+# Kilka czujników
 
 Podłączone **nowe** czujniki zostaną dopiero wykryte przy kolejnym utworzeniu integracji przez moduł `mqtt_creator.py`.
 

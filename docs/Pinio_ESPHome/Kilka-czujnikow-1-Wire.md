@@ -1,11 +1,10 @@
-# Kilka czujników 1-Wire
+# Kilka czujników
 
 Jeśli chcesz korzystać z więcej niż jednego czujnika, tego **SAMEGO** typu np. DS18B20, należy znać ich adresy. 
 
 ---
 
-1. Podłącz urządzenie do komputera
-2. Wybierz na pasku bocznym **ESPHome Builder**:  
+1. Wybierz na pasku bocznym **ESPHome Builder**:  
 
     <img width="230" alt="obraz" src="https://github.com/user-attachments/assets/fead98e2-a8eb-4f5e-adb7-caf5b4bb9e2d" />
 
@@ -37,11 +36,11 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika, tego **SAMEGO** typu n
 
             3.Kliknij **Otwórz interfejs użytkownika**
 
-3. Przejdź do logów klikając **LOGS**:  
+2. Przejdź do logów klikając **LOGS**:  
 
     <img width="403" height="121" alt="obraz" src="https://github.com/user-attachments/assets/040d4be4-e6d8-4913-bd42-ceb8f89de4fa" />
 
-4. Obserwuj dane wyjściowe:
+3. Obserwuj dane wyjściowe:
 
     <img width="700" height="90" alt="obraz" src="https://github.com/user-attachments/assets/955246cf-d666-4021-b693-3d4f0eda3554" />
 
@@ -51,8 +50,8 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika, tego **SAMEGO** typu n
         
         Każdy z nich ma swój unikalny adres hex (0x...)
 
-5. **Zapisz** adresy i zamknij konsolę
-6. Dodaj czujniki do kodu `.YAML` przechodząc do zakładki **EDIT**:  
+4. **Zapisz** adresy i zamknij konsolę
+5. Dodaj czujniki do kodu `.YAML` przechodząc do zakładki **EDIT**:  
 
     <img width="403" height="121" alt="obraz" src="https://github.com/user-attachments/assets/ca76fba7-03c2-452a-8c5d-e93d956d4488" />
 
@@ -80,15 +79,15 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika, tego **SAMEGO** typu n
     ```
     !!! info "Postępuj analogicznie z większą liczbą czujników."
 
-7. Kliknij w prawym górnym rogu **SAVE**, następnie **INSTALL**
-8. Wybierz **Manual download**
-9. Pierwsze kompilowanie projektu trwa około 5 minut:  
+6. Kliknij w prawym górnym rogu **SAVE**, następnie **INSTALL**
+7. Wybierz **Manual download**
+8. Pierwsze kompilowanie projektu trwa około 5 minut:  
     <img width="420 alt="obraz" src="https://github.com/user-attachments/assets/d860d512-1b22-40d6-9ff3-68f653e40272" />
 
-10. Po zakończonej kompilacji kliknij **3. Download project**:  
+9. Po zakończonej kompilacji kliknij **3. Download project**:  
     <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/049db2e9-1d0e-4d71-80da-c670d105f53f" />
 
-11. Wybierz `UF2 factory format`:  
+10. Wybierz `UF2 factory format`:  
     <img width="320" alt="obraz" src="https://github.com/user-attachments/assets/1fd1055a-a028-4160-9c42-97f6f0261cbd" />
 
-12. Przejdź do [**wgrywania**](Wgrywanie-.uf2.md) firmware
+11. Przejdź do [**wgrywania**](Wgrywanie-.uf2.md) firmware

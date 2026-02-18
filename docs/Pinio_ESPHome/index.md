@@ -12,18 +12,20 @@ Moduł idealnie integruje się z ekosystemem **Home Assistant**, umożliwiając 
 
 <img width="120" align="left" alt="obraz" src="https://github.com/user-attachments/assets/95632930-a802-40da-9c9a-f1d0e1fafafe" />
 
-Urządzenie bazuje na mikrokontrolerze **Raspberry Pi Pico W** (RP2040), który działa z&nbsp;**ESPHome**, co pozwala na łatwą konfigurację i obsługę nawet bez wiedzy programistycznej.
+**Pinio** bazuje na mikrokontrolerze **Raspberry Pi Pico W** (RP2040), który działa z&nbsp;**ESPHome**, co pozwala na łatwą konfigurację i obsługę nawet bez wiedzy programistycznej.
 
-**Raspberry Pi Pico W** to niewielka, energooszczędna płytka oparta na dwurdzeniowym układzie RP2040, wzbogacona o moduł Wi-Fi 2.4 GHz. Dzięki niskiemu poborowi mocy świetnie nadaje się do aplikacji **IoT**, czujników, sterowników oraz prostych urządzeń automatyki. 
+**Raspberry Pi Pico W** to niewielka, energooszczędna płytka oparta na dwurdzeniowym układzie RP2040, wzbogacona o moduł Wi-Fi 2.4 GHz. Dzięki wbudowanemu Wi-Fi może pełnić rolę prostego serwera lub urządzenia działającego w trybie **Access Point**.  
 
-Udostępnia bogaty zestaw interfejsów - `GPIO`, `UART`, `SPI`, `I²C`, `PWM` oraz przetwornik `ADC` - co pozwala łatwo podłączać różne peryferia. Dzięki wbudowanemu Wi-Fi może pełnić rolę prostego serwera lub urządzenia działającego w trybie **Access Point**. 
+Dzięki niskiemu poborowi mocy świetnie nadaje się do aplikacji **IoT**, czujników, sterowników oraz prostych urządzeń automatyki. 
+
+<br>
 
 ## Funkcje
 
 Zastosowane komponenty i funkcje gwarantują szerokie zastosowanie w automatyce budynkowej:
 
 - **platforma:** natywne wsparcie ESPHome
-- **interfejsy:** 2 wejścia cyfrowe, 2 przekaźniki (obciążalność 2 A), wsparcie magistrali 1‑Wire
+- **interfejsy:** 2 wejścia cyfrowe, 2 przekaźniki (obciążalność 2 A), magistrala 1‑Wire
 - **komunikacja:** Wi‑Fi 2.4 GHz, protokół MQTT, integracja z Home Assistant
 - **zasilanie:** 12 VDC, bezpieczne złącze o niestandardowym rastrze
 - **złącza:** GPIO, terminal‑block, wyjścia na diody statusu i przycisk reset

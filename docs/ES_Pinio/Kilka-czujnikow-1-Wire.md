@@ -1,4 +1,4 @@
-# Kilka czujników 1-Wire
+# Kilka identycznych czujników
 
 Oprogramowanie Tasmota automatycznie wykrywa **nowe** czujniki (wybranego typu) po restarcie urządzenia.  
 

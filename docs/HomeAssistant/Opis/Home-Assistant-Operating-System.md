@@ -2,7 +2,7 @@
 
 ## Czym jest HAOS?
 
-**HAOS (Home Assistant Operating System)** to dedykowany system operacyjny do uruchamiania Home Assistant - popularnej platformy do automatyzacji domu. Zapewnia pełne środowisko z pełną konfiguracją systemu.
+**HAOS** (**Home Assistant Operating System**) to dedykowany system operacyjny do uruchamiania Home Assistant - popularnej platformy do automatyzacji domu. Zapewnia pełne środowisko z pełną konfiguracją systemu.
 
 Prezentowane rozwiązanie opiera się na urządzeniu wykorzystującym system [**NASweb**](https://www.chomtech.pl/nasweb/) firmy [**Chomtech**](https://www.chomtech.pl/).  
 

@@ -1,18 +1,19 @@
 # Zmiana nazwy
 
-Nazwę urządzenia można zmienić bezpośrednio w interfejsie **Home Assistant**. Zmiana jest natychmiastowa i automatycznie aktualizuje powiązane encje.
+Nazwę urządzenia można zmienić bezpośrednio w interfejsie **Home Assistant**.   
+Zmiana jest natychmiastowa i automatycznie aktualizuje powiązane encje.
 
 ---
 
 ## Zmiana przez Home Assistant
 
-1. Przejdź na stronę swojego Home Assistant (haos.app)
+1. Przejdź na stronę swojego **Home Assistant** (*haos.app*)
 2. Z menu po lewej stronie wybierz:  
     `Ustawienia → Urządzenia oraz usługi → MQTT`
 
     <img width="263" height="114" alt="obraz" src="https://github.com/user-attachments/assets/28d608bc-524d-490b-b462-616fc66fe16a" />
 
-3. W usługach wybierz docelowe urządzenie i kliknij ikonę ołówka (Edytuj urządzenie):
+3. W usługach wybierz docelowe urządzenie i kliknij ikonę ołówka - **Edytuj urządzenie**:
 
     <img width="800" alt="obraz" src="https://github.com/user-attachments/assets/e6e5eb3d-3cba-4529-a6e9-93941933e57b" />
 
@@ -26,7 +27,7 @@ Nazwę urządzenia można zmienić bezpośrednio w interfejsie **Home Assistant*
 
 ## Zmiana przez plik
 
-Zmiany ustawień można wprowadzać również poprzez modyfikację pliku konfiguracyjnego znajdującego się na urządzeniu **Pinio** opartym na **Raspberry Pi Pico W 2**. Plik edytuje się bezpośrednio w systemie plików mikrokontrolera (np. za pomocą **Thonny** lub innego środowiska).
+Zmiany w ustawieniach można wprowadzać również poprzez modyfikację pliku konfiguracyjnego znajdującego się na urządzeniu **Pinio** (*wersja MicroPython*). Plik edytuje się bezpośrednio w systemie plików mikrokontrolera (np. za pomocą **Thonny** lub innego środowiska).
 
 1. Uruchom program **Thonny**
 2. Podłącz **Pinio** do komputera przez kabel microUSB

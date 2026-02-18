@@ -6,8 +6,8 @@
 
 1. Pobierz plik:
 
-    [http://ota.tasmota.com/tasmota/tasmota.bin](http://ota.tasmota.com/tasmota/tasmota.bin) (najnowsza wersja)
+    [http://ota.tasmota.com/tasmota/tasmota.bin :material-open-in-new:](http://ota.tasmota.com/tasmota/tasmota.bin) (*najnowsza wersja*)
     
-2. Pobrany plik `tasmota.bin` przenieś do wypakowanego folderu z `esptool`: 
+2. Pobrany plik `tasmota.bin` przenieś do wypakowanego folderu z narzędziem [`esptool`](esptool.md): 
 
     <img width="159" height="154" alt="tasmota_2" src="https://github.com/user-attachments/assets/094a363a-4823-437c-a368-e57c5fcdd932" />

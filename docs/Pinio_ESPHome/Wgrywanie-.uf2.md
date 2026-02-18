@@ -1,10 +1,10 @@
-# Wgrywanie pliku .uf2
+# Wgrywanie firmware
 
-Plik `.uf2` to format firmware używany m.in. przez **Raspberry Pi Pico** do łatwego wgrywania oprogramowania metodą *drag-and-drop*.
+**Raspberry Pi Pico** korzysta z formatu pliku `.uf2` który służy do łatwego wgrywania oprogramowania metodą *drag-and-drop*.
 
 ---
 
-1. Wciśnij i przytrzymaj przycisk `BOOTSEL` na Pico W (tryb bootloadera):   
+1. Wciśnij i przytrzymaj przycisk `BOOTSEL` na Pico W (*tryb bootloadera*):   
     <img width="450" height="185" alt="obraz" src="https://github.com/user-attachments/assets/45e3f7a5-8e13-4149-ac28-b6af3f6ff1bb" />
 
 2. Podłącz urządzenie do komputera przez kabel microUSB (wciąż trzymając przycisk)
@@ -33,20 +33,20 @@ Plik `.uf2` to format firmware używany m.in. przez **Raspberry Pi Pico** do ła
 ## Dostępne encje
 
 Do dyspozycji użytkownika są następujące encje:
-```
-  Sterowanie:
-      Przekaźnik 1   # Wyjście przekaźnikowe 1 (Relay 1)
-      Przekaźnik 2   # Wyjście przekaźnikowe 2 (Relay 2)
-      Status LED     # Dioda statusowa STA
 
-  Sensory:
-      Temperatura    # Czujnik 1-Wire (np. DS18B20)
-      Wejście 1      # Wejście cyfrowe 1 (IN1)
-      Wejście 2      # Wejście cyfrowe 2 (IN2)
+- Sterowanie:
+    - **Przekaźnik 1** - Wyjście przekaźnikowe 1 (Relay 1)
+    - **Przekaźnik 2** - Wyjście przekaźnikowe 2 (Relay 2)
+    - **Status LED** - Dioda statusowa STA
+
+- Sensory:
+    - **Temperatura** - Czujnik 1-Wire (np. DS18B20)
+    - **Wejście 1** - Wejście cyfrowe 1 (IN1)
+    - **Wejście 2** - Wejście cyfrowe 2 (IN2)
   
-  Konfiguracja:
-      Firmware       # Panel aktualizacji (encja wyłączona)
-```
+- Konfiguracja:
+    - **Firmware** -  Panel aktualizacji (encja wyłączona)
+
 !!! info "Widok panelu urządzenia w ESPHome"
 
     <img width="896" height="743" alt="obraz" src="https://github.com/user-attachments/assets/65bb78be-2a3b-4b6c-8054-8812780e9eb8" />

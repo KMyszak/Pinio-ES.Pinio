@@ -21,9 +21,9 @@ Proces jest intuicyjny i umożliwia budowanie zarówno prostych, jak i bardziej 
 4. Dodaj wszystkie wymagane elementy:
 
     - [**wyzwalacz**](../../HomeAssistant/Automatyzacje/Kiedy.md)
-    - [**warunek**](../../HomeAssistant/Automatyzacje/Jezeli.md) 
+    - [**warunek**](../../HomeAssistant/Automatyzacje/Jezeli.md) (*opcjonalny*) 
     - [**akcja**](../../HomeAssistant/Automatyzacje/Wykonaj.md)
-    - [**elementy**](../../HomeAssistant/Automatyzacje/Blok.md)
+    - [**blok**](../../HomeAssistant/Automatyzacje/Blok.md) (*opcjonalny*)
 
 5. **Zapisz** automatyzację
 
