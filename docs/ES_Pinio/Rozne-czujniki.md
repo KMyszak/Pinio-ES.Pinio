@@ -18,9 +18,11 @@ Aby podłączyć czujniki różnego typu należy skorzystać z **portów rozszer
 
 <img width="250" align="left" alt="obraz" src="https://github.com/user-attachments/assets/d139baaf-f411-4184-a5ea-4c3d82606c8a" />
 
-Każde urządzenie jest wyposażone w **dwa porty 4-pinowe** z dodatkowymi wyprowadzeniami do szybkiego montażu. Dzięki przemyślanej konstrukcji portów instalacja i wymiana podłączonych modułów jest szybka i bezproblemowa.
+Każde urządzenie jest wyposażone w **dwa 4-pinowe porty** z dodatkowymi wyprowadzeniami do szybkiego montażu. 
 
 Przy połączeniu należy mieć na uwadze kilka kwestii, ponieważ można podłączać inne elementy do `GPIO0`, `GPIO2` i `GPIO15`, ale trzeba uważać na ich stan przy starcie, aby **ESP-12F** w ogóle się uruchomił:
+
+<br>
 
 **Nie** powinno się wymuszać niewłaściwego stanu podczas włączenia zasilania:
 
