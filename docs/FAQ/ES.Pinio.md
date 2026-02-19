@@ -37,8 +37,9 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
 
     naciśnij jednocześnie **BOOT** i **RST**, następnie puść najpierw **RST**, a potem **BOOT**
 
-3. Otwórz **wiersz poleceń** (CMD) jako **administrator**    
-4. Wpisz polecenie do wymazania pamięci flash: 
+3. Otwórz **wiersz poleceń** (CMD) jako **administrator**   
+4. Przejdź do folderu z wypakowanym narzędziem `esptool` 
+5. Wpisz polecenie do wymazania pamięci flash: 
     ``` 
     esptool.exe -p COMX erase_flash   
     ```
@@ -49,8 +50,8 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
     gdzie:  
     `COMX` - numer portu szeregowego przypisanego do konwertera USB   
     `tasmota` - nazwa pliku z firmware
-5. Zresetuj urządzenie (przycisk **RST**)
-6. Przejdź do [**konfiguracji**](../ES_Pinio/Pierwsze-uruchomienie.md)  
+6. Zresetuj urządzenie (przycisk **RST**)
+7. Przejdź do [**konfiguracji**](../ES_Pinio/Pierwsze-uruchomienie.md)  
 
 ---
 

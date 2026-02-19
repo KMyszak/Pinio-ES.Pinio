@@ -7,11 +7,11 @@ Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje 
 
 ## Dodanie urządzenia
 
-1. Wybierz na pasku bocznym **ESPHome Builder**: 
+1. Wybierz z paska bocznego **ESPHome Builder**: 
 
     <img width="230" alt="obraz" src="https://github.com/user-attachments/assets/fead98e2-a8eb-4f5e-adb7-caf5b4bb9e2d" />
 
-    ??? failure "Brak skrótu"
+    ??? failure "Brak skrótu na pasku bocznym?"
 
         Jeśli nie widzisz skrótu na pasku bocznym:
         

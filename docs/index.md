@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Pinio & ES.Pinio
+# ES.Pinio & Pinio 
 
 <div class="grid cards" markdown>
 
@@ -12,7 +12,7 @@ hide:
 
     ---
 
-    Poznaj kontroler ES.Pinio oparty na ESP8266 - jego możliwości, sposób działania oraz konfigurację.
+    Poznaj mikrokontroler oparty na układzie ESP8266 - jego możliwości, sposób działania oraz konfigurację.
 
     ---
 
@@ -32,7 +32,7 @@ hide:
 
     ---
 
-    Pełna dokumentacja, przykłady i przewodnik po programowaniu urządzenia Pinio w MicroPythonie.
+    Pełna dokumentacja, przykłady i przewodnik po programowaniu urządzenia w MicroPythonie.
 
     ---
 
@@ -42,7 +42,7 @@ hide:
 
     ---
 
-    Jak działa komunikacja MQTT - tematy, payloady, integracja i przykłady.
+    Jak działa komunikacja MQTT - tematy, subskrypcje, integracja i przykłady.
 
     ---
 
@@ -52,7 +52,7 @@ hide:
 
     ---
 
-    Integracja z Home Assistant: konfiguracja, automatyzacje, encje, oraz praktyczne przykłady.
+    Integracja z Home Assistant - konfiguracja, automatyzacje, encje oraz praktyczne przykłady.
 
     ---
 
@@ -62,7 +62,7 @@ hide:
 
     ---
 
-    Jak aktualizować, flashować i zarządzać firmware urządzenia - procedury oraz narzędzia.
+    Jak aktualizować, wgrywać i zarządzać firmware urządzenia - procedury oraz narzędzia.
 
     ---
 
@@ -72,7 +72,7 @@ hide:
 
     ---
 
-    Najczęstsze problemy, diagnoza krok po kroku oraz gotowe rozwiązania, które szybko przywrócą działanie systemu.
+    Najczęstsze problemy oraz gotowe rozwiązania, które szybko przywrócą poprawne działanie urządzenia.
 
     ---
     

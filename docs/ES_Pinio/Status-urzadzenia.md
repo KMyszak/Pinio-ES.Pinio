@@ -2,9 +2,7 @@
 
 <img width="203" alt="obraz" align="left" src="https://github.com/user-attachments/assets/a81b3409-c0bd-4fa9-9cbc-7a433915e9b0" />
 
-Dioda statusowa **STA** sygnalizuje pracę urządzenia, a jej zachowanie można zmienić przy pomocy zmiennej `LedState`. Przez zmiany w konsoli ustawiony jest `tryb 4`.
-
-
+Dioda statusowa **STA** sygnalizuje pracę urządzenia, a jej zachowanie można zmienić przy pomocy zmiennej `LedState`. **Domyślnie** w konsoli ustawiony jest tryb `4`.
 
 Status diody STA:
 
@@ -19,16 +17,16 @@ Status diody STA:
 Dostępne tryby, które można wybrać poprzez zmianę wartości zmiennej `LedState` w [**konsoli**](Konsola.md):  
 
 
-| Wartość | Opis                                                                |
-|   :-:   |  :--                                                                |
-|  **0**  | Wyłącz użycie LED                                                   |
-|  **1**  | Pokaż stan zasilania¹ na LED (LED włączony, gdy zasilanie włączone) |
-|  **2**  | Pokaż subskrypcje MQTT jako miganie LED                             |
-|  **3**  | Pokaż stan zasilania¹ i subskrypcje MQTT jako miganie LED           |
-|  **4**  | Pokaż publikacje MQTT jako miganie LED                              |
-|  **5**  | Pokaż stan zasilania¹ i publikacje MQTT jako miganie LED            |
-|  **6**  | Pokaż wszystkie wiadomości MQTT jako miganie LED                    |
-|  **7**  | Pokaż stan zasilania¹ i wszystkie wiadomości MQTT jako miganie LED  |
+| Wartość | Opis                                                                      |
+|   :-:   |  :--                                                                      |
+|  **0**  | Wyłącz użycie diody STA                                                   |
+|  **1**  | Pokaż stan zasilania¹ (dioda STA włączonona, gdy zasilanie włączone)      |
+|  **2**  | Pokaż subskrypcje MQTT jako miganie diody STA                             |
+|  **3**  | Pokaż stan zasilania¹ i subskrypcje MQTT jako miganie diody STA           |
+|  **4**  | Pokaż publikacje MQTT jako miganie diody STA                              |
+|  **5**  | Pokaż stan zasilania¹ i publikacje MQTT jako miganie diody STA            |
+|  **6**  | Pokaż wszystkie wiadomości MQTT jako miganie diody STA                    |
+|  **7**  | Pokaż stan zasilania¹ i wszystkie wiadomości MQTT jako miganie diody STA  |
 
-¹ **Pokaż stan zasilania** - przełączenie któregokolwiek wyjścia w stan **ON** powoduje ciągłe świecenie diody 
+¹ **Pokaż stan zasilania** - przełączenie któregokolwiek wyjścia w stan **ON** powoduje ciągłe świecenie diody STA
 

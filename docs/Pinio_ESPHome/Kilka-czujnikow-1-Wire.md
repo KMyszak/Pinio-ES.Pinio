@@ -1,33 +1,33 @@
 # Kilka czujników
 
-Jeśli chcesz korzystać z więcej niż jednego czujnika, tego **SAMEGO** typu np. DS18B20, należy znać ich adresy. 
+Jeśli chcesz korzystać z więcej niż jednego czujnika **tego samego typu** (np. DS18B20), musisz znać ich **unikalne adresy**. 
 
 ---
 
-1. Wybierz na pasku bocznym **ESPHome Builder**:  
+1. Wybierz z paska bocznego **ESPHome Builder**:  
 
     <img width="230" alt="obraz" src="https://github.com/user-attachments/assets/fead98e2-a8eb-4f5e-adb7-caf5b4bb9e2d" />
 
-    ??? failure "Brak skrótu"
+    ??? failure "Brak skrótu na pasku bocznym?"
 
         Jeśli nie widzisz skrótu na pasku bocznym:
         
-        - przejdź do **konfiguracji** lub
-        - przejdź do **interejsu użytkownika**
+        - przejdź do **konfiguracji**, albo
+        - włącz go z poziomu **interejsu użytkownika**
 
         === "Konfiguracja"
             
-            1.Z menu po lewej stronie wybierz `Ustawienia → Aplikacje → ESPHome Builder`:
-
+            1.Z paska bocznego **Home Assistant** wybierz: 
+            `Ustawienia → Aplikacje → ESPHome Builder`
             <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
 
-            2.Zaznacz **Pokaż na pasku bocznym**:
+            2.Zaznacz opcję **Pokaż na pasku bocznym**:
 
             <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/c85b76f1-343c-4a04-9d09-4ff0459b5d02" />
 
         === "Ustawienia aplikacji"
 
-            1.Z menu po lewej stronie wybierz:  
+            1.Z paska bocznego **Home Assistant** wybierz:  
                 `Ustawienia → Aplikacje → Zainstaluj aplikację`
 
             2.Wyszukaj dodatek **ESPHome** i wybierz `ESPHome Device Builder`:   
@@ -46,9 +46,8 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika, tego **SAMEGO** typu n
 
     !!! success "Wykryte czujniki"
 
-        ESPHome wykryło podłączone dwa czujniki temperatury (DS18B20)  
-        
-        Każdy z nich ma swój unikalny adres hex (0x...)
+        ESPHome wykryło dwa czujniki DS18B20.     
+        Każdy ma unikalny adres hex w formie `0x...`.
 
 4. **Zapisz** adresy i zamknij konsolę
 5. Dodaj czujniki do kodu `.YAML` przechodząc do zakładki **EDIT**:  
@@ -77,14 +76,16 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika, tego **SAMEGO** typu n
         one_wire_id: onewirebus1
         update_interval: 60s
     ```
-    !!! info "Postępuj analogicznie z większą liczbą czujników."
+    !!! info "Masz więcej czujników?"
 
-6. Kliknij w prawym górnym rogu **SAVE**, następnie **INSTALL**
+        Dodaj kolejne wpisy analogicznie - każdy z własnym adresem.
+
+6. Kliknij **SAVE** w prawym górnym rogu, następnie **INSTALL**
 7. Wybierz **Manual download**
-8. Pierwsze kompilowanie projektu trwa około 5 minut:  
+8. Poczekaj na kompilację (pierwsza trwa ok. 5 min):  
     <img width="420 alt="obraz" src="https://github.com/user-attachments/assets/d860d512-1b22-40d6-9ff3-68f653e40272" />
 
-9. Po zakończonej kompilacji kliknij **3. Download project**:  
+9. Po kompilacji kliknij **3. Download project**:  
     <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/049db2e9-1d0e-4d71-80da-c670d105f53f" />
 
 10. Wybierz `UF2 factory format`:  
