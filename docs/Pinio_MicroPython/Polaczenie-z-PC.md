@@ -15,7 +15,7 @@ Do odczytu, edycji oraz wgrywania plików na płytkę zalecane jest użycie śro
 
     <img width="204" height="460" alt="obraz" src="https://github.com/user-attachments/assets/85e848cf-6c22-4672-a750-b3ab805dce20" />
   
-    !!! Failure ""
+    !!! Failure "Brak plików"
     
         Jeśli nie widzisz żadnych plików, kliknij ikonę 🛑 lub wybierz opcję z menu *Run* → *Stop/Restart backend*:
 

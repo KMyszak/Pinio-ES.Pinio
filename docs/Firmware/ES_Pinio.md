@@ -116,8 +116,8 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
             ```
             gdzie:  
             
-            - `COMX` - numer portu szeregowego przypisanego do konwertera USB   
-            - `tasmota` - nazwa pliku z firmware  
+            - `COMX` - numer portu COM konwertera USB-UART   
+            - `tasmota.bin` - plik firmware  
 
             Proces flashowania:
             
@@ -174,8 +174,8 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
             ```
             gdzie:  
             
-            - `COMX` - numer portu szeregowego przypisanego do konwertera USB   
-            - `tasmota` - nazwa pliku z firmware  
+            - `COMX` - numer portu COM konwertera USB-UART   
+            - `tasmota.bin` - plik firmware  
 
             Proces flashowania:
             

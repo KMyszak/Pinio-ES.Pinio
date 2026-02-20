@@ -1,4 +1,4 @@
-site_name:  ES.Pinio & Pinio 
+site_name:  ES.Pinio & Pinio wiki
 extra_css:
   - stylesheets/extra.css?v=2
 theme:
@@ -31,7 +31,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
-  - Strona Główna: 
+  - Start: 
     - index.md
 
   - ES.Pinio:
@@ -81,8 +81,8 @@ nav:
       - Pinio_MicroPython/Status-urzadzenia.md
   
   - MQTT:
+    - MQTT/index.md
     - Pierwsze kroki:
-      - MQTT/index.md
       - MQTT/Instalacja-dodatku.md
       - MQTT/Tworzenie-uzytkownika.md
       - MQTT/Dodanie-urzadzenia.md
@@ -92,11 +92,11 @@ nav:
 
   - Home Assistant:
     - HomeAssistant/index.md
-    - HomeAssistant/Opis/Home-Assistant-Operating-System.md
-    - HomeAssistant/Opis/Zmiana-nazwy.md
-    - HomeAssistant/Opis/Edycja-encji.md
-    - Automatyzacja Home Assistant:
-      - HomeAssistant/Automatyzacje/index.md
+    - Konfiguracja Home Assistant:
+      - HomeAssistant/Opis/Home-Assistant-Operating-System.md
+      - HomeAssistant/Opis/Zmiana-nazwy.md
+      - HomeAssistant/Opis/Edycja-encji.md
+      - HomeAssistant/Automatyzacje/Automatyzacja.md
     - Automatyzacje:
       - HomeAssistant/Automatyzacje/Tryby-automatyzacji.md
       - HomeAssistant/Automatyzacje/Kiedy.md
@@ -116,17 +116,18 @@ nav:
     - Firmware/index.md
     - ES.Pinio:
       - Firmware/ES_Pinio.md
-    - Potrzebne oprogramowanie:
+    - Pinio + Micropython:
+      - Firmware/Pinio_MicroPython.md
+    - Oprogramowanie:
       - Firmware/esptool.md
       - Firmware/tasmotizer.md
       - Firmware/tasmota.md
-    - Pinio + Micropython:
-      - Firmware/Pinio_MicroPython.md
     - Dodatek:
       - Firmware/PortCOM.md
 
   - FAQ:
     - FAQ/index.md
-    - ES.Pinio: FAQ/ES.Pinio.md
-    - Pinio + ESPHome: FAQ/Pinio-ESPHome.md
-    - Pinio + MicroPython: FAQ/Pinio-MicroPython.md
+    - Urządzenia:
+      - ES.Pinio: FAQ/ES.Pinio.md
+      - Pinio + ESPHome: FAQ/Pinio-ESPHome.md
+      - Pinio + MicroPython: FAQ/Pinio-MicroPython.md

@@ -1,4 +1,4 @@
-# Automatyzacja Home Assistant
+# Automatyzacja
 
 Przejdź na stronę swojego **Home Assistant** (*haos.app*) i z menu po lewej stronie wybierz:  
 `Ustawienia → Automatyzacje oraz sceny`

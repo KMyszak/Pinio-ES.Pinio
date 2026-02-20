@@ -25,7 +25,7 @@ Dzięki temu dostęp do brokera jest **kontrolowany** i **bezpieczny**.
 
     !!! tip ""
 
-        W razie problemów uruchom ponownie cały Home Assistant.  
+        W razie problemów uruchom ponownie cały **Home Assistant**.  
 
 6. Przejdź do [**Dodanie urzadzenia**](Dodanie-urzadzenia.md)
 

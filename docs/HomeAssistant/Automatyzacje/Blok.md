@@ -1,26 +1,31 @@
 # Blok
 
-Zarówno `Jeżeli` i `Wykonaj` posiadają własne elementy dodatkowe zwane **blokami**.   
+Zarówno sekcja `Jeżeli` i `Wykonaj` posiadają własne elementy dodatkowe, nazywane **blokami**.   
 
-**Bloki** pozwalają łączyć wiele warunków w bardziej złożone reguły. Użytkownik może z nich skorzystać, aby określić, w jaki sposób system ma oceniać zestaw warunków. Dzięki temu **automatyzacje** stają się elastyczne i mogą reagować tylko wtedy, gdy spełnione są dokładnie określone kryteria.
+**Bloki** umożliwiają tworzenie bardziej złożonych i elastycznych automatyzacji, pozwalając użytkownikowi decydować, **w jaki sposób** system ma oceniać warunki lub wykonywać akcje.
 
 ---
 
 ## Jeżeli
 
-W sekcji `Jeżeli` dostępne są dodatkowe funkcje działające jak bramki logiczne (**AND**, **OR**, **NOT**).  
-Pozwalają one budować bardziej złożone warunki, na przykład:
+W sekcji `Jeżeli` dostępne są bloki odpowiadające klasycznym bramkom logicznym:
 
-!!! quote ""
+- **I** (*AND*) – *wszystkie* warunki muszą zostać spełnione
+- **Lub** (*OR*) – *przynajmniej jeden* warunek musi być spełniony
+- **Nie** (*NOT*) – odwraca wynik warunku (***negacja***)
 
-    (warunek A i warunek B) LUB (warunek C)  
-    (A AND B) OR (C AND NOT D)
+Bloki te pozwalają łączyć warunki w dowolne, zagnieżdżone struktury logiczne.
+
+!!! example "Przykład złożonej logiki"
+    
+    **(**A I B**)** Lub **(**C I Nie D**)**    
+    Automatyzacja uruchomi się tylko wtedy, gdy spełniony zostanie **cał**y pierwszy zestaw **lub** drugi zestaw warunków.
 
 <img width="1026" height="433" alt="obraz" src="https://github.com/user-attachments/assets/540ee9fa-f561-4b30-a047-73a98d98b030" />
 
 ### Przykład
 
-Zastosowanie konstruktora `LUB`/`OR`:
+Poniżej przykład użycia bloku `LUB`/`OR` gdzie automatyzacja wykona akcję, jeśli spełniony będzie **którykolwiek** z zestawów warunków.
 
 !!! quote ""
 
@@ -32,7 +37,7 @@ Zastosowanie konstruktora `LUB`/`OR`:
 
 ## Wykonaj
 
-W sekcji `Wykonaj` dostępne są funkcje, które umożliwiają modyfikowanie sposobu wykonywania akcji - takie jak **opóźnienia**, **powtórzenia** czy **sekwencje**:
+W sekcji `Wykonaj` dostępne są bloki, które kontrolują sposób wykonywania akcji, a nie logikę warunków:
 
 <img width="1026" height="802" alt="obraz" src="https://github.com/user-attachments/assets/64dc7ce1-05e2-4fe4-88c6-3ed055294d30" />
 
@@ -42,6 +47,6 @@ Przykład użycia konstruktorów `Powtórzenie` oraz `Opóźnienie`:
 
 !!! quote ""
 
-    Przekaźnik 1 i 2 w urządzeniu **Pinio** zostają przełączone **10 razy**, z **jednosekundową przerwą** pomiędzy przełączeniami.
+    Przekaźnik 1 i 2 zostaną przełączone **10 razy**, z **1-sekundowym opóźnieniem** pomiędzy kolejnymi przełączeniami.
 
 <img width="900" alt="obraz" src="https://github.com/user-attachments/assets/52499549-b115-4230-be10-f011a1476519" />

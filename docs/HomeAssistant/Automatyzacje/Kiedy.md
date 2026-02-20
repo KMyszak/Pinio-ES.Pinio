@@ -1,8 +1,8 @@
 # Kiedy
 
-W tym miejscu deklarowane są `wyzwalacze` - elementy, które uruchamiają automatyzację - jeżeli zostanie spełniony wyzwalacz, wykona się przypisana mu **akcja** (**Wykonaj**) automatyzacji (jeśli nie ma dodatkowych **warunków** w **Jeżeli**).  
+W tym miejscu deklarowane są `wyzwalacze` - elementy, które uruchamiają automatyzację. Jeżeli którykolwiek wyzwalacz zostanie spełniony, automatyzacja przejdzie do sekcji **Wykonaj**, o ile w części **Jeżeli** nie ma dodatkowych warunków blokujących wykonanie.
 
-Można przypisać kilka warunków i akcja zostanie wykonana, jeżeli **jeden** z warunków zostanie spełniony - działanie zbliżone do bramki OR.  
+Jeśli dodasz wiele wyzwalaczy, automatyzacja uruchomi się, gdy **którykolwiek z nich** zostanie spełniony - działanie analogiczne do bramki **OR**.
 
 !!! tip ""
 
@@ -10,16 +10,17 @@ Można przypisać kilka warunków i akcja zostanie wykonana, jeżeli **jeden** z
 
 ## Przykład
 
-Zmiana stanu **Wejście 1** *LUB* **Wejście 2** przez **3 sekundy** spowoduje aktywację warunku i przejście do `Wykonaj`:
+Zmiana stanu **Wejście 1** *LUB* **Wejście 2** utrzymująca się przez **3 sekundy** spowoduje spełnienie wyzwalacza i przejście do sekcji `Wykonaj`:
 
 <img width="800" alt="obraz" src="https://github.com/user-attachments/assets/30c41b58-f541-4963-9d15-2a6ebda06616" />
     
-!!! warning "Wybór warunku"
-    Należy pamiętać o poprawnym doborze **warunku** (formie jego wyzwolenia), ponieważ w przykładzie jest *zmieni się stan lub atrybut*, przez co automatyzacja może zostać wywołana przez samo podłączenie urządzenia do zasilania, gdyż encja *zmieni stan* z **niedostępnej** na **on/off**.
+!!! warning "Poprawny wybór wyzwalacza"
+    Należy zwrócić uwagę na właściwą formę wyzwalacza - prawidłowy dobór **warunku**.  
+    W przykładzie użyto opcji *zmieni się stan lub atrybut*, co oznacza, że automatyzacja może uruchomić się również wtedy, gdy encja po starcie systemu zmieni stan z **niedostępna** na **on**/**off**.
 
 ## Sprawdzenie działania warunku
 
-Można w prosty sposób sprawdzić czy `warunek` został spełniony, ponieważ po aktywacji powinna pojawić się belka `WYZWOLONY`: 
+Po aktywacji `warunku`, w górnej części okna szczegółów automatyzacji pojawi się belka **WYZWOLONY**, dzięki czemu łatwo potwierdzić, że akcja została uruchomiona:
 
 <img width="800" alt="obraz" src="https://github.com/user-attachments/assets/11ac8a73-4546-49d5-ba95-ebd31487ecb0" />
 

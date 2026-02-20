@@ -1,9 +1,9 @@
-**Schematy** (*blueprints*) – to gotowe wzorce automatyzacji lub skryptów, które można łatwo ponownie wykorzystać, uzupełniając jedynie własne parametry. Dzięki nim nie trzeba pisać logiki **od zera**.
+**Schematy** (*blueprints*) - to gotowe wzorce automatyzacji lub skryptów, które można łatwo ponownie wykorzystać, uzupełniając jedynie własne parametry. Dzięki nim nie trzeba pisać logiki **od zera**.
 
 ---
 
 1. Przejdź na stronę swojego **Home Assistant** (*haos.app*)
-2. Z menu po lewej stronie wybierz:   
+2. Z paska bocznego wybierz:   
      `Ustawienia → Automatyzacje i sceny`  
 3. Wybierz `Schematy` z górnej belki:
      <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/e5c16ba9-166b-43ee-97fe-4eb3bb6b867f" />  
@@ -34,18 +34,18 @@
 
           <img  alt="obraz" src="https://github.com/user-attachments/assets/f4d8a68e-f288-4033-a6ca-9e4e359048ad" />
 
-     4. Zostaniesz przekierowany na stronę **My Home Assistant**:
+     4. Zostaniesz przekierowany na stronę konfiguracji **My Home Assistant**:
 
           <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/fc73759f-3b19-4efa-b656-5cacdd947c56" />
 
-     5. Ustaw swój **Home Assistant URL**, a następnie kliknij `Save`:
+     5. Ustaw swój **Home Assistant URL**, a następnie kliknij **`Save`**:
 
           <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/853b4d76-fb46-4176-b8ea-14ee30ae40f4" />
 
-     6. Kliknij `Open link`:
+     6. Kliknij **`Open link`**, aby przejść do importu schematu:
 
           <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/17823f08-f55a-4377-a070-3f3659812163" />
 
-     7. Kliknij `Podgląd`, aby zaimportować schemat:      
+     7. Kliknij `Podgląd`, aby zaimportować schemat do swojego **Home Assistant**:      
 
           <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/ecf7a659-f3ab-4160-90ca-d26428ac7573" />

@@ -30,7 +30,8 @@ Warto upewnić się, że wersja firmware jest zgodna z modułem (**Raspberry Pi 
 
 ### Wgranie firmware
 
-Wgranie firmware polega na przesłaniu pobranego pliku na pamięć urządzenia **Raspberry Pi Pico 2 W**. Po poprawnym wgraniu, **MicroPython** jest gotowy do pracy, a płytka pojawia się jako nowy interfejs dla IDE.
+Wgranie firmware polega na przesłaniu pobranego pliku na pamięć urządzenia **Raspberry Pi Pico 2 W**.    
+o poprawnym wgraniu, **MicroPython** jest gotowy do pracy, a płytka pojawia się jako nowy interfejs dla IDE.
 
 1. Wciśnij i przytrzymaj przycisk **BOOTSEL** na płytce **Raspberry Pi Pico 2 W** (*tryb bootloadera*):  
 

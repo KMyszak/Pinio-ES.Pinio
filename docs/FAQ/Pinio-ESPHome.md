@@ -35,7 +35,7 @@ należy jeszcze raz wprowadzić klucz szyfrujący. Aby pobrać klucz:
 
 3. Skopiuj klucz
 
-    !!! warning "Klucz na urządzeniu musi się pokrywać z tym w ESPHome builder"
+    !!! warning "Klucz na urządzeniu musi się pokrywać z kluczem w ESPHome builder"
 
 4. Wróć do `Ustawienia` i kliknij na powiadomienie
 5. Wklej skopiowany klucz i **ZATWIERDŹ**:
@@ -44,4 +44,4 @@ należy jeszcze raz wprowadzić klucz szyfrujący. Aby pobrać klucz:
 
     !!! failure "Nieprawidłowy klucz" 
     
-        Jeżeli skopiowany klucz jest nieprawidłowy pozostaje zainstalowanie aktualnej konfiguracji .YAML w **ESPHome builder** na urządzenie (najlepiej manualnie) lub konfiguracja całości [**od nowa**](../Pinio_ESPHome/Pierwsza-konfiguracja-ESPHome.md).
+        Jeżeli skopiowany klucz jest nieprawidłowy pozostaje zainstalowanie aktualnej konfiguracji .YAML w&nbsp;**ESPHome builder** na urządzenie (najlepiej manualnie) lub konfiguracja całości [**od nowa**](../Pinio_ESPHome/Pierwsza-konfiguracja-ESPHome.md).

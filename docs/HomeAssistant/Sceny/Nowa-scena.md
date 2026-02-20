@@ -6,8 +6,8 @@ Automatyzacje mogą je uruchamiać, ale same sceny **nie reagują** na zdarzenia
 
 ---
 
-1. Przejdź na stronę swojego Home Assistant (haos.app)
-2. Z menu po lewej stronie wybierz:  
+1. Przejdź na stronę swojego **Home Assistant** (*haos.app*)
+2. Z paska bocznego wybierz:  
     `Ustawienia → Automatyzacje oraz sceny`
 
 3. Wybierz `Sceny` z górnej belki:

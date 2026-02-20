@@ -36,29 +36,29 @@ Działa jako **centralny system** łącząc urządzenia, usługi i automatyzacje
 
 ## Jak to działa w praktyce?
 
-- Home Assistant **uruchamia się** na urządzeniu
-- **wczytuje** konfigurację i dostępne integracje
-- **wykrywa** urządzenia w sieci 
-- tworzy **encje** opisujące ich funkcje
-- **automatyzacje** reagują na zdarzenia i wykonują zdefiniowane akcje
+- Home Assistant uruchamia się na urządzeniu
+- wczytuje konfigurację i dostępne integracje
+- wykrywa urządzenia w sieci 
+- tworzy encje opisujące ich funkcje
+- automatyzacje reagują na zdarzenia i wykonują zdefiniowane akcje
 
-**Użytkownik** może:
+### Użytkownik może
 
-- **sterować** urządzeniami
-- **tworzyć** sceny
-- **budować** automatyzacje
-- **dodawać** dashboardy
+- sterować urządzeniami
+- tworzyć sceny
+- budować automatyzacje
+- dodawać dashboardy
 
 ## Dlaczego Home Assistant?
 
-- **lokalne** działanie (bez chmury) - większa prywatność i niezawodność
-- ogromna liczba **integracji**
-- **automatyzacje** na dowolnym poziomie - od prostych kliknięć po zaawansowane YAML
-- obsługa wszystkich najpopularniejszych **protokołów**
+- lokalne działanie (bez chmury) - większa prywatność i niezawodność
+- ogromna liczba integracji
+- automatyzacje na dowolnym poziomie - od prostych kliknięć po zaawansowane YAML
+- obsługa wszystkich najpopularniejszych protokołów
 - otwarto-źródłowy i darmowy
-- **duża społeczność** oraz regularne aktualizacje
-- współpracuje z urządzeniami **wielu** producentów
+- duża społeczność oraz regularne aktualizacje
+- współpracuje z urządzeniami wielu producentów
 
 !!! tip ""
 
-    Dowiedz się więcej, czym jest Home Assistant ze strony [home-assistant.io :material-open-in-new:](https://www.home-assistant.io/)
+    Dowiedz się więcej, czym jest **Home Assistant** ze strony [home-assistant.io :material-open-in-new:](https://www.home-assistant.io/)
