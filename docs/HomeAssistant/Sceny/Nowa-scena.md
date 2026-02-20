@@ -1,4 +1,4 @@
-# Sceny
+# Nowa scena
 
 **Sceny** w Home Assistant można traktować jak uproszczone automatyzacje - zamiast logiki z&nbsp;`wyzwalaczami` i `warunkami` zawierają tylko akcję końcową, czyli ustawienie określonego stanu urządzeń. 
 
