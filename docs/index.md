@@ -78,4 +78,14 @@ hide:
     
     [:octicons-arrow-right-24: Więcej](FAQ/index.md)
 
+- :material-domain:{ .lg .middle } __Chomtech__
+
+    ---
+
+    Poznaj producenta oraz filozofię tworzenia rozwiązań. Sprawdź, co wyróżnia nasze produkty na rynku.
+
+    ---
+
+    [:octicons-arrow-right-24: Więcej](https://www.chomtech.pl/)
+    
 </div>

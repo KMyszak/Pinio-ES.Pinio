@@ -44,7 +44,7 @@ Przy podłączaniu różnych elementów do pinów `GPIO0`, `GPIO2` i `GPIO15` na
 
 Podłączenie dodatkowego czujnika pomiaru temperatury i wilgotności typu **DHT11**:
 
-1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md#sprawdzenie-przypisanego-ip-do-urzadzenia))
+1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md#sprawdzenie-adresu-ip-przypisanego-do-urzadzenia))
 2. Przejdź do `Configuration → Module` i wybierz dla `GPIO2` opcję **DHT11**:  
     <img width="830" height="561" alt="obraz" src="https://github.com/user-attachments/assets/d558c59d-6d55-44cb-b45b-b8304474b153" />
     

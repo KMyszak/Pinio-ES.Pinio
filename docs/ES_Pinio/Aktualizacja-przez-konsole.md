@@ -4,7 +4,7 @@ Urządzenie można zaktualizować, korzystając z *wbudowanej konsoli* w **web U
 
 ---
 
-1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md#sprawdzenie-przypisanego-ip-do-urzadzenia))
+1. Połącz się z urządzeniem wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md#sprawdzenie-adresu-ip-przypisanego-do-urzadzenia))
 2. Wybierz opcję `Console`:   
     <img width="315" height="470" alt="obraz" src="https://github.com/user-attachments/assets/5473ac95-cf40-4051-81b0-8eb70c74fe02" />
 
