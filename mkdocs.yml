@@ -5,6 +5,7 @@ theme:
   name: material
   language: pl
   logo: logo.png
+  favicon: favicon.png
   palette:
     primary: custom
   features:
