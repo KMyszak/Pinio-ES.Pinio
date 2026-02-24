@@ -19,7 +19,7 @@ Bloki te pozwalają łączyć warunki w dowolne, zagnieżdżone struktury logicz
 !!! example "Przykład złożonej logiki"
     
     **(**A I B**)** Lub **(**C I Nie D**)**    
-    Automatyzacja uruchomi się tylko wtedy, gdy spełniony zostanie **cał**y pierwszy zestaw **lub** drugi zestaw warunków.
+    Automatyzacja uruchomi się tylko wtedy, gdy spełniony zostanie **cały** pierwszy zestaw **lub** drugi zestaw warunków.
 
 <img width="1026" height="433" alt="obraz" src="https://github.com/user-attachments/assets/540ee9fa-f561-4b30-a047-73a98d98b030" />
 
@@ -29,7 +29,8 @@ Poniżej przykład użycia bloku `LUB`/`OR` gdzie automatyzacja wykona akcję, j
 
 !!! quote ""
 
-    Realizowana jest funkcja **Switch1 OFF** i **Przekaźnik 2 ON** *LUB* **Wejście 2 ON** i **Przekaźnik 2 OFF**. 
+    Realizowana jest funkcja:   
+    (*Switch1* **OFF** i *Przekaźnik 2* **ON**) LUB (*Wejście 2* **ON** i *Przekaźnik 2* **OFF**) 
 
 <img width="900" alt="obraz" src="https://github.com/user-attachments/assets/554463e9-813e-4623-a22e-2b8dc7432c69" />
 
@@ -37,7 +38,7 @@ Poniżej przykład użycia bloku `LUB`/`OR` gdzie automatyzacja wykona akcję, j
 
 ## Wykonaj
 
-W sekcji `Wykonaj` dostępne są bloki, które kontrolują sposób wykonywania akcji, a nie logikę warunków:
+W sekcji `Wykonaj` dostępne są **bloki**, które kontrolują sposób wykonywania akcji, a nie logikę warunków:
 
 <img width="1026" height="802" alt="obraz" src="https://github.com/user-attachments/assets/64dc7ce1-05e2-4fe4-88c6-3ed055294d30" />
 
@@ -47,6 +48,6 @@ Przykład użycia konstruktorów `Powtórzenie` oraz `Opóźnienie`:
 
 !!! quote ""
 
-    Przekaźnik 1 i 2 zostaną przełączone **10 razy**, z **1-sekundowym opóźnieniem** pomiędzy kolejnymi przełączeniami.
+    *Przekaźnik 1* i *Przekaźnik 2* zostaną przełączone **10 razy**, z **1-sekundowym opóźnieniem** pomiędzy kolejnymi przełączeniami.
 
 <img width="900" alt="obraz" src="https://github.com/user-attachments/assets/52499549-b115-4230-be10-f011a1476519" />

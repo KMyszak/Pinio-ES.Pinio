@@ -17,24 +17,25 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika **tego samego typu** (n
 
         === "Konfiguracja"
             
-            1.Z paska bocznego **Home Assistant** wybierz: 
-            `Ustawienia → Aplikacje → ESPHome Builder`
+            1\. Z lewego paska bocznego wybierz:   
+                `Ustawienia → Aplikacje → ESPHome Builder`
+
             <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
 
-            2.Zaznacz opcję **Pokaż na pasku bocznym**:
+            2\. Zaznacz opcję **Pokaż na pasku bocznym**:
 
             <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/c85b76f1-343c-4a04-9d09-4ff0459b5d02" />
 
         === "Ustawienia aplikacji"
 
-            1.Z paska bocznego **Home Assistant** wybierz:  
+            1\. Z lewego paska bocznego wybierz:   
                 `Ustawienia → Aplikacje → Zainstaluj aplikację`
 
-            2.Wyszukaj dodatek **ESPHome** i wybierz `ESPHome Device Builder`:   
+            2\. Wyszukaj dodatek **ESPHome** i wybierz `ESPHome Device Builder`:   
 
             <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
 
-            3.Kliknij **Otwórz interfejs użytkownika**
+            3\. Kliknij **Otwórz interfejs użytkownika**
 
 2. Przejdź do logów klikając **LOGS**:  
 
@@ -55,7 +56,7 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika **tego samego typu** (n
     <img width="403" height="121" alt="obraz" src="https://github.com/user-attachments/assets/ca76fba7-03c2-452a-8c5d-e93d956d4488" />
 
     W miejsce:
-    ```
+    ``` yaml
         sensor:
         - platform: dallas_temp         ← typ czujnika (tutaj Dallas np. DS18B20)
         name: "Temperatura"
@@ -63,7 +64,7 @@ Jeśli chcesz korzystać z więcej niż jednego czujnika **tego samego typu** (n
         update_interval: 60s
     ```
     wprowadź (dodaj adresy wyszukanych czujników z konsoli):
-    ```
+    ``` yaml
         sensor:
         - platform: dallas_temp
         name: "Temperatura 1"

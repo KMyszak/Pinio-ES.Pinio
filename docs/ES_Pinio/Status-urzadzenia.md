@@ -20,13 +20,13 @@ Dostępne tryby, które można wybrać poprzez zmianę wartości zmiennej `LedSt
 | Wartość | Opis                                                                      |
 |   :-:   |  :--                                                                      |
 |  **0**  | Wyłącz użycie diody STA                                                   |
-|  **1**  | Pokaż stan zasilania¹ (dioda STA włączonona, gdy zasilanie włączone)      |
+|  **1**  | Pokaż stan zasilania[^1] (dioda STA włączonona, gdy zasilanie włączone)      |
 |  **2**  | Pokaż subskrypcje MQTT jako miganie diody STA                             |
-|  **3**  | Pokaż stan zasilania¹ i subskrypcje MQTT jako miganie diody STA           |
+|  **3**  | Pokaż stan zasilania[^1] i subskrypcje MQTT jako miganie diody STA           |
 |  **4**  | Pokaż publikacje MQTT jako miganie diody STA                              |
-|  **5**  | Pokaż stan zasilania¹ i publikacje MQTT jako miganie diody STA            |
+|  **5**  | Pokaż stan zasilania[^1] i publikacje MQTT jako miganie diody STA            |
 |  **6**  | Pokaż wszystkie wiadomości MQTT jako miganie diody STA                    |
-|  **7**  | Pokaż stan zasilania¹ i wszystkie wiadomości MQTT jako miganie diody STA  |
+|  **7**  | Pokaż stan zasilania[^1] i wszystkie wiadomości MQTT jako miganie diody STA  |
 
-¹ **Pokaż stan zasilania** - przełączenie któregokolwiek wyjścia w stan **ON** powoduje ciągłe świecenie diody STA
+[^1]: Przełączenie któregokolwiek wyjścia w stan **ON** powoduje ciągłe świecenie diody STA.
 

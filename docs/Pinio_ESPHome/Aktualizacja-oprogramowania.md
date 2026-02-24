@@ -22,7 +22,7 @@ Aktualizację oprogramowania można wykonać na dwa sposoby:
 
         !!! warning "Problemy z aktualizacją"
         
-            Jeżeli aktualizacja nie powiedzie się lub zostanie przerwana - przeprowadź ją przez panel ESPHome Builder.
+            Jeżeli aktualizacja nie powiedzie się lub zostanie przerwana - przeprowadź ją przez panel **ESPHome Builder**.
 
 === "ESPHome Builder"
 
@@ -34,32 +34,33 @@ Aktualizację oprogramowania można wykonać na dwa sposoby:
 
             Jeśli nie widzisz skrótu na pasku bocznym:
             
-            - przejdź do **konfiguracji** lub
-            - przejdź do **interejsu użytkownika**
+            - przejdź do **konfiguracji**, albo
+            - włącz go z poziomu **interejsu użytkownika**
 
             === "Konfiguracja"
                 
-                1.Z paska bocznego wybierz `Ustawienia → Aplikacje → ESPHome Builder`:
+                1\. Z lewego paska bocznego wybierz:   
+                    `Ustawienia → Aplikacje → ESPHome Builder`
 
                 <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
 
-                2.Zaznacz **Pokaż na pasku bocznym**:
+                2\. Zaznacz opcję **Pokaż na pasku bocznym**:
 
                 <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/c85b76f1-343c-4a04-9d09-4ff0459b5d02" />
 
             === "Ustawienia aplikacji"
 
-                1.Z paska bocznego wybierz:  
-                    `Ustawienia → Dodatki → Sklep z dodatkami (ikona koszyka w prawym dolnym rogu)`
+                1\. Z lewego paska bocznego wybierz:   
+                    `Ustawienia → Aplikacje → Zainstaluj aplikację`
 
-                2.Wyszukaj**ESPHome** i wybierz `ESPHome Device Builder`:   
+                2\. Wyszukaj dodatek **ESPHome** i wybierz `ESPHome Device Builder`:   
 
                 <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
 
-                3.Kliknij **Otwórz interfejs użytkownika**
+                3\. Kliknij **Otwórz interfejs użytkownika**
 
-    2. Wybierz urządzenie, które chcesz zaktualizować i kliknij `UPDATE`. 
-        Aby zaktualizować **wszystkie urządzenia**, kliknij **UPDATE ALL** (w prawym górnym rogu):
+    2. Wybierz urządzenie, które chcesz zaktualizować i kliknij `UPDATE`.   
+        Aby zaktualizować **wszystkie urządzenia**, kliknij `UPDATE ALL` (*prawym górny róg*):
 
         <img width="402" height="129" alt="obraz" src="https://github.com/user-attachments/assets/abc035e8-5510-442a-9e42-14b155e83ff4" />    
 
@@ -67,8 +68,8 @@ Aktualizację oprogramowania można wykonać na dwa sposoby:
 
         Po wybraniu jednej pozycji zostanie wyświetlone menu wyboru sposobu instalacji - tak jak przy pierwszym programowaniu:
 
-        - aktualizacja bezprzewodowa → [Wirelessly :material-open-in-new:](Aktualizacja-bezprzewodowa.md)
-        - aktualizacja manualna → [Manual download :material-open-in-new:](Wgrywanie-.uf2.md)
+        - aktualizacja bezprzewodowa → [**Wirelessly**](Aktualizacja-bezprzewodowa.md)
+        - aktualizacja manualna → [**Manual download**](Wgrywanie-.uf2.md)
         
         <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/70cd2f33-648b-4888-a6b1-6eed000a9bdb" />
 

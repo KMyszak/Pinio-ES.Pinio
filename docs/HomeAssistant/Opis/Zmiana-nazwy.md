@@ -7,8 +7,8 @@ Zmiana jest natychmiastowa i automatycznie aktualizuje powiązane encje.
 
 ## Zmiana przez Home Assistant
 
-1. Przejdź na stronę swojego **Home Assistant** (*haos.app*)
-2. Z menu po lewej stronie wybierz:  
+1. Przejdź na stronę swojego **Home Assistant** (np. *haos.app*)
+2. Z paska bocznego wybierz:   
     `Ustawienia → Urządzenia oraz usługi → MQTT`
 
     <img width="263" height="114" alt="obraz" src="https://github.com/user-attachments/assets/28d608bc-524d-490b-b462-616fc66fe16a" />
@@ -31,24 +31,24 @@ Nazwę można również zmienić bezpośrednio w pliku konfiguracyjnym na urząd
 Zmiana ta zostanie uwzględniona dopiero po **ponownej inicjalizacji** integracji.
 
 1. Uruchom program **Thonny**
-2. Podłącz **Pinio** do komputera przez kabel micro-USB
+2. Podłącz **Pinio** do komputera przez kabel Micro-USB
 3. Kliknij w prawym dolnym rogu okna i wybierz z listy właściwe urządzenie:
 
     <img width="344" height="104" alt="k_pinio_1" src="https://github.com/user-attachments/assets/6f237c7e-1fa1-431e-82ff-e6769c3e67df" />
 
-4. W eksploratorze plików po lewej stronie znajdź  i otwórz`mqtt_creator.py`:  
+4. W eksploratorze plików po lewej stronie znajdź i otwórz `mqtt_creator.py`:  
 
     <img width="220" height="455" alt="obraz" src="https://github.com/user-attachments/assets/27b743a7-67fd-4c60-a5c9-31f4fc3a8fa5" />
 
     !!! Failure "Brak plików"
 
-        Jeśli nie widzisz żadnych plików, kliknij ikonę 🛑 lub wybierz opcję z menu *Run* → *Stop/Restart backend*:
+        Jeśli nie widzisz żadnych plików, kliknij ikonę 🛑 lub wybierz opcję z menu   
+        `Run → Stop/Restart backend`:
         
         <img width="443" height="76" alt="obraz" src="https://github.com/user-attachments/assets/ba95bfcc-6982-4c98-aed1-ca798240fff1" />
 
-
 5. W funkcji `create_mqtt_discovery()` zmień wartość `"name"` w słowniku `device_info`:
-```
+``` python
 def create_mqtt_discovery(mac, mqtt_client, action, roms):
         device_info = {
             "identifiers": [mac],

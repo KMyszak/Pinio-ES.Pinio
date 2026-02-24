@@ -13,7 +13,7 @@ Sekcja przedstawia wymagane narzędzia oraz kolejne etapy instalacji, umożliwia
 
     Urządzenie **z wbudowanym** konwerterem:
 
-    - przewód microUSB
+    - przewód Micro-USB
     - program Tasmotizer
     - obraz Tasmota (`.bin`)
 
@@ -34,7 +34,7 @@ Sekcja przedstawia wymagane narzędzia oraz kolejne etapy instalacji, umożliwia
 
     Wymagania:
 
-    - przewód microUSB
+    - przewód Micro-USB
     - firmware MicroPython (`.bin`)
 
     ---

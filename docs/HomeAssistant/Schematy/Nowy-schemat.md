@@ -2,7 +2,7 @@
 
 ---
 
-1. Przejdź na stronę swojego **Home Assistant** (*haos.app*)
+1. Przejdź na stronę swojego **Home Assistant** (np. *haos.app*)
 2. Z paska bocznego wybierz:   
      `Ustawienia → Automatyzacje i sceny`  
 3. Wybierz `Schematy` z górnej belki:

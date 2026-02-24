@@ -55,9 +55,8 @@ Działa jako **centralny system** łącząc urządzenia, usługi i automatyzacje
 - ogromna liczba integracji
 - automatyzacje na dowolnym poziomie - od prostych kliknięć po zaawansowane YAML
 - obsługa wszystkich najpopularniejszych protokołów
-- otwarto-źródłowy i darmowy
 - duża społeczność oraz regularne aktualizacje
-- współpracuje z urządzeniami wielu producentów
+- współpraca z urządzeniami wielu producentów
 
 !!! tip ""
 

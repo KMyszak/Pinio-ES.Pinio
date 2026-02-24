@@ -21,14 +21,14 @@
 !!! warning "Funkcja usuwa WSZYSTKIE ustawienia Tasmota" 
 
 1. Odłącz zasilanie urządzenia na **30 sekund**
-2. Włącz i wyłącz urządzenie 6 razy:
+2. Włącz i wyłącz urządzenie **6 razy**:
     
     !!! note ""
     
         Każde **włączenie**/**wyłączenie** musi nastąpić w odstępie **krótszym niż 10 sekund**.    
         Rekomendowane: ~2 sekundy włączenia i ~2 sekundy wyłączenia.
 
-3. Przy 7 włączeniu urządzenie zresetuje się do ustawień fabrycznych i uruchomi **Access Point**
+3. **Przy 7** włączeniu urządzenie zresetuje się do ustawień fabrycznych i uruchomi **Access Point**
 4. Przeprowadź ponownie [**konfigurację**](../ES_Pinio/Pierwsze-uruchomienie.md#)
 
 ---
@@ -59,7 +59,7 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
     gdzie:  
     `COMX` - numer portu COM konwertera USB-UART  
     `tasmota.bin` - plik firmware
-6. Zresetuj urządzenie (**RST**)
+6. Zresetuj urządzenie (przycisk **RST**)
 7. Przeprowadź ponownie [**konfigurację**](../ES_Pinio/Pierwsze-uruchomienie.md)  
 
 ---
@@ -73,12 +73,12 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
     `DHCP → DHCP Client List`
 3. Znajdź na liście urządzenie **ES.Pinio** (może być widoczne jako np. `tasmota-6XXXXX-XXX2`)
 4. Wpisz jego **adres IP** w przeglądarce (np. `192.168.119.28`)
-5. Wprowadź potrzebne zmiany na stronie urządzenia i zapisz ustawienia.
+5. Wprowadź potrzebne zmiany na stronie urządzenia i zapisz ustawienia
 
 ### Urządzenie jest połączone z Home Assistant
 
-1. Z paska bocznego wybierz:  
- `Ustawienia → Urządzenia oraz usługi → Tasmota` i znajdź swoje urządzenie:
+1. Z paska bocznego wybierz:    
+    `Ustawienia → Urządzenia oraz usługi → Tasmota` i znajdź swoje urządzenie
 
     <img width="236" height="245" alt="obraz" src="https://github.com/user-attachments/assets/96222e4d-49e9-4655-ab0e-7404c687187a" />
 
@@ -89,7 +89,8 @@ Jeśli reset konfiguracji nie rozwiązuje problemów lub nie możesz połączyć
 
 ### Sprawdzenie logów MQTT
 
-1. Z paska bocznego wybierz `Ustawienia → Aplikacje → Mosquitto broker`
+1. Z paska bocznego wybierz:   
+    `Ustawienia → Aplikacje → Mosquitto broker`
 2. Wybierz zakładkę `Logi`:
     
     <img width="1139" height="196" alt="obraz" src="https://github.com/user-attachments/assets/a16e7545-6b37-442d-8c38-f5bee74f9f27" />

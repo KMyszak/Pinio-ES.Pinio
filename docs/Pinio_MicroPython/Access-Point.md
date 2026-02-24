@@ -1,18 +1,17 @@
 # Access Point
 
-Jeśli urządzenie napotka problem z połączeniem z siecią Wi-Fi lub brokerem **MQTT**, automatycznie uruchomi własny **webserver** w trybie *Access Point*.   
-Stan ten sygnalizowany jest przez diodę statusową **STA**, która miga **dwukrotnie** co 2 sekundy.
+Jeśli urządzenie napotka problem z połączeniem z siecią Wi-Fi lub brokerem **MQTT**, automatycznie uruchomi własny **webserver** w trybie *Access Point*. Stan ten sygnalizowany jest przez diodę statusową **STA**, która miga **dwukrotnie** co 2 sekundy.
 
 Tryb *Access Point* umożliwia zmianę podstawowych ustawień bez konieczności podłączania urządzenia przez USB - wystarczy połączyć się z jego siecią Wi-Fi:
 
-- **SSID**: `Pinio_{MAC}`
-- **Password**: `12345678`
+- **SSID**: *Pinio_{MAC}*
+- **Password**: *12345678*
 
 !!! info ""
 
-    Nazwę *Access Pointa* oraz hasło możesz zmienić w pliku ***webserver.py*** w funkcji ***start_ap()***:
+    Nazwę *Access Pointa* oraz hasło możesz zmienić w pliku `webserver.py` w funkcji `start_ap()`:
 
-    ```
+    ``` python
     def start_ap():
         ap.active(False)
         sleep(0.5)
@@ -21,7 +20,7 @@ Tryb *Access Point* umożliwia zmianę podstawowych ustawień bez konieczności 
         mac = hexlify(ap.config('mac')).decode()
         
         essid = f"Pinio_{mac[-6:].upper()}"    ← nazwa Access Pointa
-        password = "12345678"                  ← hasło Access Pointa
+        password = "12345678"                    ← hasło Access Pointa
         ap.config(essid=essid, password=password)
     ```
 
@@ -30,7 +29,9 @@ Tryb *Access Point* umożliwia zmianę podstawowych ustawień bez konieczności 
 ## Łącznie z Access Pointem 
 
 1. Połącz się z siecią Wi-Fi o nazwie **Pinio_{MAC}**   
-    Zgodnie z wartościami ustawionymi w `webserver.py`.
+
+    !!! info "Zgodnie z wartościami ustawionymi w `webserver.py`"
+
 2. W przeglądarce wpisz adres `192.168.4.1`:    
 
     <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/40c5685c-89e5-4e63-8395-9ac33e414e91" />
@@ -51,8 +52,8 @@ Tryb *Access Point* umożliwia zmianę podstawowych ustawień bez konieczności 
 
 !!! info "Timeout"
 
-    Jeśli urządzenie nie zostanie skonfigurowane w ciągu 3 minut, uruchomi się ponownie.   
-    Wartość tę można zmienić w pliku *webserver.py*.
+    Jeśli urządzenie nie zostanie skonfigurowane w ciągu **3 minut**, uruchomi się ponownie.   
+    Wartość tę można zmienić w pliku `webserver.py`.
 
 !!! failure "Dalsze problemy z połączeniem"
 

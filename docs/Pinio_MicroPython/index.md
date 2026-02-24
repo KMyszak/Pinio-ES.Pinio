@@ -14,7 +14,7 @@ Dzięki natywnej obsłudze **MQTT**, **Pinio** idealnie nadaje się jako interfe
 
 Urządzenie posiada zintegrowany moduł Wi-Fi 2.4 GHz oraz obsługę Bluetooth, co znacząco rozszerza jego możliwości komunikacyjne.
 
-Dzięki wsparciu dla MicroPythona, CircuitPythona, C/C++ i bogatej dokumentacji platforma jest przystępna dla początkujących, ale jednocześnie wystarczająco elastyczna do zastosowań profesjonalnych. 
+Dzięki wsparciu dla popularnych języków programowania i bogatej dokumentacji platforma jest przystępna dla początkujących, ale jednocześnie wystarczająco elastyczna do zastosowań profesjonalnych. 
 
 ## Funkcje
  

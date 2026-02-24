@@ -1,6 +1,6 @@
 # Kilka identycznych czujników
 
-Oprogramowanie Tasmota automatycznie wykrywa **nowe czujniki** (wybranego typu) po restarcie urządzenia, jeśli są podłączone do magistrali **1-Wire**.
+Oprogramowanie Tasmota automatycznie wykrywa **nowe czujniki** (wybranego typu) podłączone do magistrali **1-Wire** (`GPIO14`) po restarcie urządzenia.
 
 Typ czujnika został wybrany podczas [**konfiguracji**](Podstawowe-ustawienia-i-GPIO.md) w ustawieniach `Module`:  
 
@@ -8,13 +8,15 @@ Typ czujnika został wybrany podczas [**konfiguracji**](Podstawowe-ustawienia-i-
 
 ---
 
-**Czujniki tego samego typu** należy podłączyć do portu **1-Wire** (1-W). Po restarcie urządzenia (np. przyciskiem *RST*) Tasmota automatycznie wykryje wszystkie podłączone czujniki.
+**Czujniki tego samego typu** należy podłączyć do portu **1-Wire** (1-W). Po restarcie urządzenia (np. przyciskiem RST) Tasmota automatycznie wykryje wszystkie podłączone czujniki.
 
 Podłączony **jeden czujnik**:   
-    <img width="720" height="147" alt="obraz" src="https://github.com/user-attachments/assets/85f1abae-a336-44d1-bf19-3c5e00b9334a" />
+
+<img width="720" height="147" alt="obraz" src="https://github.com/user-attachments/assets/85f1abae-a336-44d1-bf19-3c5e00b9334a" />
 
 Podłączone **dwa czujniki**:   
-    <img width="720" height="147" alt="obraz" src="https://github.com/user-attachments/assets/640302af-092f-426b-bce1-70669643f784" />
+
+<img width="720" height="147" alt="obraz" src="https://github.com/user-attachments/assets/640302af-092f-426b-bce1-70669643f784" />
 
 !!! info "Identyfikacja czujników"
     

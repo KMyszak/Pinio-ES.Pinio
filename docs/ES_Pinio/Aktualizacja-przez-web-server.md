@@ -1,6 +1,6 @@
 # Aktualizacja przez web server
 
-**Tasmota** posiada wbudowany web serwer, który umożliwia bezpośrednią aktualizację oprogramowania (firmware) bez konieczności używania dodatkowych narzędzi. Poniższe kroki pokazują, jak wgrać najnowszą wersję.
+Oprogramowanie Tasmota posiada wbudowany *web serwer*, który umożliwia bezpośrednią aktualizację oprogramowania (firmware) bez konieczności używania dodatkowych narzędzi. Poniższe kroki pokazują, jak wgrać najnowszą wersję.
 
 ---
 
@@ -21,11 +21,13 @@
         <img width="900" height="224" alt="obraz" src="https://github.com/user-attachments/assets/0e07bcd9-5430-4a01-b7f3-aec1da2b2348" />
 
 3. Kliknij **Start upgrade** - urządzenie się zrestartuje:    
+
     <img width="292" height="479" alt="obraz" src="https://github.com/user-attachments/assets/72f6e013-5dd6-4dc9-8a48-95394db462f5" />
  
-4. Po automatycznym restarcie strona główna pokaże **MINIMAL firmware**, a po kolejnym restarcie zostanie wczytany aktualny stan wyprowadzeń GPIO, co oznacza zakończenie aktualizacji.   
+4. Po automatycznym restarcie strona główna pokaże **MINIMAL firmware**, a po kolejnym restarcie zostanie wczytany aktualny stan wyprowadzeń **GPIO**, co oznacza zakończenie aktualizacji.   
 
     Odświeżenie strony spowoduje wczytanie wszystkich modułów: 
+    
     <img width="900" height="451" alt="obraz" src="https://github.com/user-attachments/assets/9f8db5ef-b914-4634-abc2-0cb2aaddf0fc" />
     !!! tip "Weryfikacja wersji"
     

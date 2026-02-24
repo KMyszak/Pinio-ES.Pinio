@@ -16,7 +16,7 @@ Zmiana stanu **Wejście 1** *LUB* **Wejście 2** utrzymująca się przez **3 sek
     
 !!! warning "Poprawny wybór wyzwalacza"
     Należy zwrócić uwagę na właściwą formę wyzwalacza - prawidłowy dobór **warunku**.  
-    W przykładzie użyto opcji *zmieni się stan lub atrybut*, co oznacza, że automatyzacja może uruchomić się również wtedy, gdy encja po starcie systemu zmieni stan z **niedostępna** na **on**/**off**.
+    W przykładzie użyto opcji `zmieni się stan lub atrybut`, co oznacza, że automatyzacja może uruchomić się również wtedy, gdy encja po starcie systemu zmieni stan z **niedostępna** na **on**/**off**.
 
 ## Sprawdzenie działania warunku
 

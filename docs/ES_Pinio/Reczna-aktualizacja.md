@@ -11,7 +11,7 @@
 [**Alternatywne połączenie**](../Firmware/ES_Pinio.md#__tabbed_2_2)
 
 - wykorzystuje połączenie **ES.Pinio** ⇄ konwerter USB-UART (**RX, TX, GND** oraz **VCC**)
-- należy bezwarunkowo **upewnić się**, że pin `VCC` konwertera podaje **DOKŁADNIE 3,3 V** (🛑 **NIE** 5 V)
+- należy bezwarunkowo **upewnić się**, że pin `VCC` konwertera podaje **DOKŁADNIE 3,3 V**
 - niewłaściwe napięcie może **trwale uszkodzić układ**
 
 ---
@@ -20,6 +20,6 @@
 
 [**Wykorzystanie programu Tasmotizer**](../Firmware/ES_Pinio.md#__tabbed_1_2)
 
-- wymagane **jedynie** podpięcie **ES.Pinio** przez przewód microUSB
+- wymagane **jedynie** podpięcie **ES.Pinio** przez przewód Micro-USB
 - dedykowany program **Tasmotizer**
 - możliwość zmiany podstawowych ustawień **Tasmota** w programie

@@ -6,6 +6,8 @@
 
 Prezentowane rozwiązanie opiera się na urządzeniu wykorzystującym system [**NASweb**](https://www.chomtech.pl/nasweb/) firmy [**Chomtech**](https://www.chomtech.pl/).  
 
+---
+
 Aby przejść do panelu zarządzania:
 
 1. Otwórz przeglądarkę
@@ -36,7 +38,7 @@ Panel webowy dostępny pod adresem `twoja_domena.haos.app` umożliwia:
 
 1. Zaloguj się do interfejsu Home Assistant przez adres:   
 
-    `https://twoja_domena.haos.app`
+    *`https://twoja_domena.haos.app`*
 
 2. Wybierz na lewym pasku bocznym:  
 
@@ -50,7 +52,7 @@ Panel webowy dostępny pod adresem `twoja_domena.haos.app` umożliwia:
 
 !!! tip "Szybka edycja"
 
-    Tryb można także uruchomić przytrzymując *Home Assistant* (lewy górny róg ekranu) lewym przyciskiem myszy przez 2 sekundy.
+    Tryb można także uruchomić przytrzymując **Home Assistant** (lewy górny róg ekranu) lewym przyciskiem myszy przez 2 sekundy.
 
 ---
 

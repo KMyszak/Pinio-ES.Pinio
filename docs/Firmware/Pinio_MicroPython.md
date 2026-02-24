@@ -8,8 +8,8 @@ Instalacja MicroPythona pozwala przekształcić płytkę **Pinio** w pełni prog
 
 Do instalacji potrzebne są podstawowe narzędzia, które pozwolą na połączenie i wgranie firmware’u - ważne jest, aby przewód USB był sprawny, a komputer miał zainstalowane aktualne sterowniki:
 
-- **przewód microUSB** - zapewnia połączenie płytki z komputerem
-- **pobrany firmware MicroPython** - plik `.bin` ze strony producenta, zgodny z modułem Raspberry Pi Pico 2 W
+- **przewód Micro-USB** - zapewnia połączenie urządzenia z komputerem
+- **pobrany firmware MicroPython** - plik `.bin` ze strony producenta, zgodny z modułem *Raspberry Pi Pico 2 W*
 
 ## Instalacja
 
@@ -18,7 +18,7 @@ Proces instalacji dzieli się na kilka prostych kroków, które należy wykonać
 ### Pobranie firmware
 
 Firmware MicroPython można pobrać ze strony oficjalnej lub z repozytorium producenta modułu.
-Warto upewnić się, że wersja firmware jest zgodna z modułem (**Raspberry Pi Pico 2W**) i wspiera wszystkie potrzebne funkcje.
+Warto upewnić się, że wersja firmware jest zgodna z modułem **Raspberry Pi Pico 2W** i wspiera wszystkie potrzebne funkcje.
 
 1. Przejdź na stronę:  
 
@@ -31,7 +31,7 @@ Warto upewnić się, że wersja firmware jest zgodna z modułem (**Raspberry Pi 
 ### Wgranie firmware
 
 Wgranie firmware polega na przesłaniu pobranego pliku na pamięć urządzenia **Raspberry Pi Pico 2 W**.    
-o poprawnym wgraniu, **MicroPython** jest gotowy do pracy, a płytka pojawia się jako nowy interfejs dla IDE.
+Po poprawnym wgraniu, MicroPython jest gotowy do pracy, a płytka pojawia się jako nowy interfejs dla IDE.
 
 1. Wciśnij i przytrzymaj przycisk **BOOTSEL** na płytce **Raspberry Pi Pico 2 W** (*tryb bootloadera*):  
 

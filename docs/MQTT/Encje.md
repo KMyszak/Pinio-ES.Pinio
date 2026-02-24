@@ -6,14 +6,14 @@ Dzięki **encjom** można łatwo integrować i kontrolować różne elementy spr
 
 Dla urządzeń **Pinio** (MicroPython + MQTT) dostępne jest 5 [**encji :material-open-in-new:**](https://www.home-assistant.io/docs/configuration/entities_domains/) (*entities*):
 
-!!! note "Sterowanie"
-    **RELAY 1** - Wyjście 1 (GPIO20)  
-    **RELAY 2** - Wyjście 2 (GPIO21)
+- Sterowanie:
+    - **RELAY 1** - Wyjście 1 (`GPIO20`)  
+    - **RELAY 2** - Wyjście 2 (`GPIO21`)
 
-!!! note "Sensory" 
-    **IN 1** - Wejście cyfrowe 1 (GPIO18)   
-    **IN 2** - Wejście cyfrowe 2 (GPIO19)  
-    **1-Wire** - Wejście 1-Wire (bez podłączonego czujnika) 
+- Sensory:
+    - **1-Wire** - Wejście 1-Wire (bez podłączonego czujnika) 
+    - **IN 1** - Wejście cyfrowe 1 (`GPIO18`)   
+    - **IN 2** - Wejście cyfrowe 2 (`GPIO19`) 
 
 ---
 
@@ -24,7 +24,7 @@ Dla urządzeń **Pinio** (MicroPython + MQTT) dostępne jest 5 [**encji :materia
 Klikając `urządzenie` otworzy się panel **MQTT**, z listą wszystkich urządzeń połączonych z aplikacją.   
 Kliknięcie wybranego urządzenia, otworzy kolejny panel, w którym dostępne są **wszystkie encje** wraz z możliwością ich edycji oraz szybkiego dodania do panelu:
 
-<img width="521" alt="obraz" src="https://github.com/user-attachments/assets/9482097c-1b39-4da0-964b-5f381ee8549f" />
+<img width="530" alt="obraz" src="https://github.com/user-attachments/assets/9482097c-1b39-4da0-964b-5f381ee8549f" />
 
 !!! tip ""
 
@@ -43,4 +43,4 @@ Rejestr pokazuje wszystkie encje podłączonych wszystkich urządzeń, umożliwi
 
 !!! tip ""
 
-    Można w tym miejscu przejść do ustawień encji klikając na nią, następnie ikonę zębatki.
+    Można w tym miejscu przejść do ustawień encji klikając na nią, następnie wybierając ikonę zębatki.

@@ -8,17 +8,18 @@ Po wykonaniu poleceń urządzenie automatycznie się zrestartuje i zacznie dzia�
 
 1. Połącz się z urządzeniem, wpisując jego **adres IP** w przeglądarce (w razie trudności zajrzyj do [**FAQ**](../FAQ/ES.Pinio.md#sprawdzenie-adresu-ip-przypisanego-do-urzadzenia))
 2. Wybierz opcję `Console`:   
+
     <img width="315" height="470" alt="obraz" src="https://github.com/user-attachments/assets/5473ac95-cf40-4051-81b0-8eb70c74fe02" />
 
 3. W konsoli wpisz kolejno poniższe komendy, zatwierdzjąc każdą klawiszem **Enter**:
 
-    | Polecenie        | Opis                                                                                                                                              |
-    |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-    | <pre><code>SetOption114 1   </code></pre> | Auto-konfiguracja przycisków w trybie przełącznika                                                                       |
-    | <pre><code>SwitchMode1 16   </code></pre> | Wysyłanie stanu wejścia 1 do MQTT                                                                                        |
-    | <pre><code>SwitchMode2 16   </code></pre> | Wysyłanie stanu wejścia 2 do MQTT                                                                                        |
-    | <pre><code>LedState 4   </code></pre>     | Konfiguracja diody statusowej (STA) - więcej o [**trybach**](Status-urzadzenia.md#tryby-diody-sta)                       |
-    | <pre><code>Restart 1   </code></pre>      | Urządzenie uruchomi się ponownie, zachowując wszystkie ustawienia                                                        |
+    | Polecenie        | Opis                                                                                                                                  |
+    |------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+    | <pre><code>SetOption114 1   </code></pre> | Auto-konfiguracja przycisków w trybie przełącznika                                                           |
+    | <pre><code>SwitchMode1 16   </code></pre> | Wysyłanie stanu *Wejścia 1* do MQTT                                                                          |
+    | <pre><code>SwitchMode2 16   </code></pre> | Wysyłanie stanu *Wejścia 2* do MQTT                                                                          |
+    | <pre><code>LedState 4   </code></pre>     | Konfiguracja diody statusowej (STA) - więcej o [**trybach**](Status-urzadzenia.md#tryby-diody-sta)           |
+    | <pre><code>Restart 1   </code></pre>      | Urządzenie uruchomi się ponownie, zachowując wszystkie ustawienia                                            |
               
     !!! Success "Wprowadzone komendy w konsoli"
 

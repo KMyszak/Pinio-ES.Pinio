@@ -1,6 +1,6 @@
 # Wykonaj 
 
-W tej części znajdują się wszystkie `akcje`, które zostaną wykonane po spełnieniu wyzwalaczy z sekcji `Kiedy` oraz - jeśli zostały zdefiniowane - wszystkich `warunków` z sekcji `Jeżeli.`
+W tym miejscu znajdują się wszystkie `akcje`, które zostaną wykonane po spełnieniu wyzwalacza z sekcji `Kiedy` oraz - *jeśli zostały zdefiniowane* - wszystkich `warunków` z sekcji `Jeżeli`.
 
 !!! tip ""
 
@@ -14,7 +14,7 @@ Poniższy przykład demonstruje wykorzystanie **Elementu konstrukcyjnego** - `Po
 
 Automatyzacja wykona:
 
-- **10-krotne** przełączenie *Przekaźnika 1* oraz *Przekaźnika 2*
+- **10-krotne** przełączenie *RELAY 1* (Przekaźnik 1) oraz *RELAY 2* (Przekaźnik 2)
 - z **1-sekundowym opóźnieniem** między kolejnymi cyklami
 
 Powtórzenie (ilość przebiegów) oraz opóźnienie są zdefiniowane wewnątrz elementu `Powtórz`, dzięki czemu całość wykonuje się w pełnej pętli:

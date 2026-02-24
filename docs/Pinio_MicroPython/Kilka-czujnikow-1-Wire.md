@@ -4,7 +4,7 @@ Podłączone **nowe** czujniki zostaną dopiero wykryte przy kolejnym utworzeniu
 
 ---
 
-1. Podłącz urządzenie do komputera przez **USB**
+1. Podłącz urządzenie do komputera przez kabel Micro-USB
 2. Otwórz jego pliki w programie, np. przez [**Thonny :material-open-in-new:**](https://thonny.org/)
 3. Usuń plik `mac.conf`   
  

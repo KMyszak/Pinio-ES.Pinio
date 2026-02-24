@@ -1,7 +1,7 @@
 # Pierwsza konfiguracja
 
 Pierwsza konfiguracja polega na utworzeniu nowego urządzenia w dodatku **ESPHome**, przypisaniu mu nazwy i przygotowaniu podstawowego pliku `.YAML`.   
-Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje się widoczne w **Home Assistant**. 
+Następnie urządzenie łączy się z siecią Wi‑Fi po konfiguracji staje się widoczne w **Home Assistant**. 
 
 ---
 
@@ -20,24 +20,25 @@ Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje 
 
         === "Konfiguracja"
             
-            1.Z menu po lewej stronie wybierz `Ustawienia → Aplikacje → ESPHome Builder`:
+            1\. Z lewego paska bocznego wybierz:    
+                `Ustawienia → Aplikacje → ESPHome Builder`:
 
             <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
 
-            2.Zaznacz **Pokaż na pasku bocznym**:
+            2\. Zaznacz **Pokaż na pasku bocznym**:
 
             <img width="400" alt="obraz" src="https://github.com/user-attachments/assets/c85b76f1-343c-4a04-9d09-4ff0459b5d02" />
 
         === "Ustawienia aplikacji"
 
-            1.Z menu po lewej stronie wybierz:  
+            1\. Z lewego paska bocznego wybierz:  
                 `Ustawienia → Aplikacje → Zainstaluj aplikację`
 
-            2.Wyszukaj dodatek **ESPHome** i wybierz `ESPHome Device Builder`:   
+            2\. Wyszukaj dodatek **ESPHome** i wybierz `ESPHome Device Builder`:   
 
             <img width="697" height="114" alt="obraz" src="https://github.com/user-attachments/assets/f003fb0b-7fcf-4e66-8383-54edee34ec2d" />  
 
-            3.Kliknij **Otwórz interfejs użytkownika**
+            3\. Kliknij **Otwórz interfejs użytkownika**
 
 2. Kliknij **+ NEW DEVICE**: 
 
@@ -51,13 +52,16 @@ Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje 
 
     <img width="371" height="129" alt="obraz" src="https://github.com/user-attachments/assets/3deac809-f62a-423e-a5f0-d0d29f89203a" />
 
+8. Przejdź do [**Edycji konfiguracji**](#edycja-konfiguracji)
+
 ## Edycja konfiguracji
 
 1. Przejdź do edycji klikając **EDIT**:  
+
     <img width="371" height="129" alt="obraz" src="https://github.com/user-attachments/assets/ed969c22-e043-43eb-b0fa-cc2ba651247b" />
 
 2. Dodaj kod do pliku `.yaml`:
-    ```
+    ``` yaml
     one_wire:
     - platform: gpio
         pin: GPIO17
@@ -87,13 +91,13 @@ Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje 
         pin: GPIO20
         name: "RELAY 1"
         id: out1
-        restore_mode: RESTORE_DEFAULT_OFF  # przywraca poprzedni stan (sprzed ~30 sekund)  
+        restore_mode: RESTORE_DEFAULT_OFF  # przywraca poprzedni stan (sprzed ~30 sekund)
                                            # jeśli się nie uda, ustawiany jest stan OFF
     - platform: gpio                 
         pin: GPIO21
         name: "RELAY 2"
         id: out2
-        restore_mode: RESTORE_DEFAULT_OFF  # przywraca poprzedni stan (sprzed ~30 sekund) 
+        restore_mode: RESTORE_DEFAULT_OFF  # przywraca poprzedni stan (sprzed ~30 sekund)
                                            # jeśli się nie uda, ustawiany jest stan OFF
     light:
     - platform: status_led
@@ -112,12 +116,15 @@ Następnie urządzenie łączy się z siecią Wi‑Fi po wgraniu firmware staje 
 3. Kliknij w prawym górnym rogu **SAVE**, następnie **INSTALL**
 4. Wybierz **Manual download**
 5. Pierwsze kompilowanie projektu trwa około 5 minut:  
+
     <img width="420 alt="obraz" src="https://github.com/user-attachments/assets/d860d512-1b22-40d6-9ff3-68f653e40272" />
 
 6. Po zakończonej kompilacji kliknij ***3. Download project***:  
+
     <img width="420" alt="obraz" src="https://github.com/user-attachments/assets/049db2e9-1d0e-4d71-80da-c670d105f53f" />
 
 7. Wybierz `UF2 factory format`:  
+
     <img width="320" alt="obraz" src="https://github.com/user-attachments/assets/1fd1055a-a028-4160-9c42-97f6f0261cbd" />
 
 8. Przejdź do [**wgrywania**](Wgrywanie-.uf2.md) firmware

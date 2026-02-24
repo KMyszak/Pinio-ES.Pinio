@@ -47,7 +47,7 @@ Dodatkowego użytkownika wprowadzamy w identyczny sposób:
 
 Pliki konfiguracyjne **ESPHome** używają **YAML**, czyli przyjaznego dla człowieka standardu serializacji danych.
 
-**YAML** został zaprojektowany tak, aby był czytelny i łatwy do edycji, ale czasami może sprawiać problemy, zwłaszcza jeśli chodzi o wcięcia - jest nadzbiorem **JSON**, więc składnia **JSON** może być również używana w plikach **YAML**.
+Został zaprojektowany tak, aby był czytelny i łatwy do edycji, ale czasami może sprawiać problemy, zwłaszcza jeśli chodzi o wcięcia - jest nadzbiorem **JSON**, więc jego składania może być również używana w plikach `.YAML`.
 
 Więcej o **YAML** dowiesz sie ze strony [**https://esphome.io/guides/yaml/ :material-open-in-new:**](https://esphome.io/guides/yaml/)
 

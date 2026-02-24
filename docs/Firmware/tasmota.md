@@ -1,6 +1,6 @@
 # Oprogramowanie Tasmota
 
-**Tasmota** to otwarte oprogramowanie dla modułów ESP8266, które pozwala sterować urządzeniami **IoT** bez użycia chmury producenta. Oferuje webowy interfejs konfiguracji, obsługę MQTT oraz szeroką kompatybilność z czujnikami i przekaźnikami.
+**Tasmota** to otwarte oprogramowanie dla modułów **ESP8266**, które pozwala sterować urządzeniami **IoT** bez użycia chmury producenta. Oferuje webowy interfejs konfiguracji, obsługę MQTT oraz szeroką kompatybilność z czujnikami i przekaźnikami.
 
 ---
 

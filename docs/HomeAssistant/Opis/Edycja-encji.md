@@ -1,7 +1,7 @@
 # Edycja encji
 
 Encje można edytować bezpośrednio z poziomu **Home Assistant**.   
-W panelu szczegółów dostępne są opcje zmiany nazwy, ikony, widoczności oraz etykiet, co pozwala łatwo dostosować sposób prezentacji danych w interfejsie.
+W panelu szczegółów dostępne są opcje zmiany nazwy, ikony, widoczności oraz etykiety, co pozwala łatwo dostosować sposób prezentacji danych w interfejsie.
 
 ---
 

@@ -1,12 +1,12 @@
 # Port COM
 
-**Port COM** to numer interfejsu komunikacyjnego, przez który komputer łączy się z płytką ESP za pomocą konwertera USB-UART. Warto zapamiętać jego numer, ponieważ podczas wgrywania firmware należy wskazać **dokładnie** ten port, aby narzędzia takie jak `esptool` czy **Tasmotizer** mogły nawiązać połączenie z urządzeniem.
+**Port COM** to interfejs komunikacyjny, przez który komputer łączy się z modułem **ESP8266** za pomocą konwertera USB-UART. Warto zapamiętać jego numer, ponieważ podczas wgrywania firmware należy wskazać **dokładnie** ten port, aby narzędzia takie jak `esptool` czy **Tasmotizer** mogły nawiązać połączenie z urządzeniem.
 
 ---
 
 ## Sprawdzaniu numeru Portu COM
 
-Podłącz konwerter USB do komputera i w **Menedżerze urządzeń** sprawdź jaki numer portu COM został mu przypisany.
+Podłącz konwerter USB do komputera i w **Menedżerze urządzeń** sprawdź jaki numer *portu COM* został mu przypisany.
 
 1. Otwórz menu **Start**  
     Kliknij ikonę *Start* (lub naciśnij klawisz *Windows* na klawiaturze)

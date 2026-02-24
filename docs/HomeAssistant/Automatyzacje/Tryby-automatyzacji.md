@@ -1,7 +1,7 @@
 # Tryby automatyzacji
 
 Automatyzacje mogą uruchamiać wiele akcji jednocześnie, a sposób ich działania zależy od wybranego trybu pracy.  
-Domyślnie używany jest tryb `Pojedynczy`.  
+Domyślnie używany jest tryb **Pojedynczy**.  
 
 ---
 
@@ -29,17 +29,18 @@ Gdy limit zostanie przekroczony:
 
 ## Zmiana trybu
 
-1. Przejdź do:  
+1. Przejdź na stronę swojego **Home Assistant** (np. *haos.app*)
+2. Z paska bocznego wybierz:  
     `Ustawienia → Automatyzacje oraz sceny`
 
-2. Wybierz zakładkę`Automatyzacje` z górnej belki:
+3. Wybierz zakładkę `Automatyzacje` z górnej belki:
 
     <img width="500" alt="obraz" src="https://github.com/user-attachments/assets/3d19432f-94c8-431a-ac91-af8af0459b75" />
 
-3. Otwóz wybraną automatyzację i z menu **`⋮`** wybierz opcję `Zmień tryb`:
+4. Otwórz wybraną automatyzację i z menu **`⋮`** wybierz opcję `Zmień tryb`:
 
     <img width="170" alt="obraz" src="https://github.com/user-attachments/assets/e37632b6-d0db-4dc4-abfb-8d0c01860213" />
 
-4. Wybierz odpowiedni tryb i zatwierdź klikając **Zmień tryb**:
+5. Wybierz odpowiedni tryb i zatwierdź klikając **Zmień tryb**:
 
     <img width="350" alt="obraz" src="https://github.com/user-attachments/assets/2191413a-85c3-4de8-9a01-51c550509a73" />

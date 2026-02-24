@@ -20,7 +20,8 @@ Warunki dodaje się klikając **+ Dodaj warunek**, wybierając typ `Urządzenie`
 
 Przykład przedstawia dwa warianty tego samego warunku zapisane w różny sposób - oba działają **identycznie**:
 
-<img width="728 alt="obraz" src="https://github.com/user-attachments/assets/55cef7b0-3e29-421a-aa0b-e1cdf31290bb" />
+<img width="930" height="530" alt="obraz" src="https://github.com/user-attachments/assets/8864bfe7-1df0-465d-b868-ecde22aa82ee" />
+
 
 ## Czas trwania
 

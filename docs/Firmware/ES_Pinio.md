@@ -3,13 +3,15 @@ Tasmota to **otwarte oprogramowanie** przeznaczone dla modułów **ESP8266**, kt
 
 Pozwala na konfigurację przez **przeglądarkę internetową** lub **MQTT**. Wspiera szeroką gamę czujników, przekaźników i inteligentnych wtyczek, a jego główną zaletą jest pełna kontrola nad urządzeniem **lokalnie**.
 
+---
+
 ## Wymagane narzędzia
 
 Płytka występuje w dwóch wersjach i od tego zależy, jakie narzędzia będą potrzebne do wgrania **firmware**:
 
 - **Wersja z wbudowanym konwerterem:** 
     
-    - przewód microUSB
+    - przewód Micro-USB
     - program [**Tasmotizer**](tasmotizer.md)
     - obraz [**Tasmota**](tasmota.md)
 
@@ -36,12 +38,12 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
     **Firmware** jest wgrywany za pomocą programu **Tasmotizer**, który automatycznie wykrywa płytkę i przesyła obraz **Tasmota**. Metoda jest szybka i wygodna bez konieczności używania dodatkowego sprzętu.
 
-    1. Podłącz **ES.Pinio** przez przewód microUSB do komputera:
+    1. Podłącz **ES.Pinio** przez przewód Micro-USB do komputera:
         
         <img width="320" alt="obraz" src="https://github.com/user-attachments/assets/a1960707-2f9a-4e0f-a597-47b5bb02d2f2" />
 
     2. Otwórz program **Tasmotizer** [(**tasmotizer-1.2.exe**)](../Firmware/tasmotizer.md):
-    3. Wybierz odpowiedni port z listy `Select port` (jak sprawdzić [**portCOM**](../Firmware/PortCOM.md)):
+    3. W sekcji `Select port` wbierz odpowiedni port (jak sprawdzić [**port COM**](../Firmware/PortCOM.md)):
         
         <img width="450" alt="obraz" src="https://github.com/user-attachments/assets/f53fed15-72a2-47b2-8e58-4e823aa7eef8" />
 
@@ -68,7 +70,7 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
         
         <img width="642" height="375" alt="obraz" src="https://github.com/user-attachments/assets/ed3ca8c1-de72-4da6-88ba-a5617c573807" />
         
-        Urządzenie się zrestartuje, a po kilku sekundach można odczytać jego **IP** klikając przycisk **Get IP**:
+        Urządzenie się zrestartuje, a po kilku sekundach można odczytać jego **adres IP** klikając przycisk **Get IP**:
         
         <img width="300" height="123" alt="obraz" src="https://github.com/user-attachments/assets/c213f1df-0984-4e74-b100-22ec17327274" />
         
@@ -83,7 +85,7 @@ Sposób wgrywania oprogramowania zależy od typu używanego konwertera:
 
         Firmware wgrywa się przy zasilaniu z wbudowanego stabilizatora płytki. Jest to metoda bezpieczna, stabilna i minimalizująca ryzyko uszkodzenia płytki podczas programowania.
 
-        1. Podłącz **ES.Pinio** do zasilania **12 VDC** oraz **ESP-12F** do konwertera USB:     
+        1. Podłącz **ES.Pinio** do zasilania **12 V DC** oraz **ESP-12F** do konwertera USB:     
         
             <img width="500" alt="schemat polaczenia esp12f" src="https://github.com/user-attachments/assets/f6a390f1-e84c-42fd-bcd5-89b84aceb9e5" />
 

@@ -1,10 +1,10 @@
 # Pinio + ESPHome
 
-Urządzenie oparte na **Raspberry Pi Pico W** (RP2040), zaprojektowane z myślą o nowoczesnej, lokalnej **automatyzacji budynków**, bez konieczności korzystania z chmury.
+Urządzenie oparte na **Raspberry Pi Pico W** (RP2040), zaprojektowane z myślą o nowoczesnej, lokalnej automatyzacji budynków, bez konieczności korzystania z chmury.
 
-**Pinio** wyróżnia się elastycznością i otwartą architekturą - działa **ESPHome**, co pozwala na szybką konfigurację i obsługę nawet bez specjalistycznej wiedzy programistycznej.
+**Pinio** wyróżnia się elastycznością i otwartą architekturą - działa z **ESPHome**, co pozwala na szybką konfigurację i obsługę nawet bez specjalistycznej wiedzy programistycznej.
 
-Doskonale integruje się z ekosystemem **Home Assistant**, umożliwiając tworzenie funkcji wykonawczych, statusowych oraz pomiarowych. Sprawdza się zarówno w projektach hobbystycznych, jak i&nbsp;w&nbsp;profesjonalnych instalacjach automatyki budynkowej - z szybkim wdrożeniem dzięki ESPHome API (YAML).
+Doskonale integruje się z ekosystemem **Home Assistant**, umożliwiając tworzenie funkcji wykonawczych, statusowych oraz pomiarowych. Sprawdza się zarówno w projektach hobbystycznych, jak i&nbsp;w&nbsp;profesjonalnych instalacjach automatyki budynkowej - z szybkim wdrożeniem dzięki ESPHome.
 
 ---
 
@@ -30,7 +30,7 @@ Ze względu na niski pobór mocy doskonale nadaje się do projektów **IoT**, cz
 
 ## Zastosowanie
 
-Moduł z **ESPHome** doskonale sprawdzi się tam, gdzie liczy się niezależność, lokalne przetwarzanie i&nbsp;szybka konfiguracja - idealny do tworzenia własnej logiki automatyki opartej na **Raspberry Pi Pico W**. 
+Moduł z **ESPHome** doskonale sprawdzi się tam, gdzie liczy się niezależność, lokalne przetwarzanie i&nbsp;szybka konfiguracja - idealny do tworzenia własnej logiki automatyki. 
 
 Urządzenie znajdzie zastosowanie m.in. w:
 

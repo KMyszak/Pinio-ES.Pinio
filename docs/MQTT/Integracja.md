@@ -6,7 +6,7 @@ Integracja zapewnia spójny przepływ danych między urządzeniami a systemem, a
 
 ---
 
-1. Przejdź na stronę swojego **Home Assistant** (haos.app)
+1. Przejdź na stronę swojego **Home Assistant** (np. *haos.app*)
 2. Z menu po lewej stronie wybierz:   
     `Ustawienia → Urządzenia oraz usługi`   
 3. Znajdź panel MQTT:
