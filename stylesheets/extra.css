@@ -1,0 +1,56 @@
+:root {
+  --md-primary-fg-color:        #083B5B;
+  --md-primary-fg-color--light: #F28C14;
+  --md-primary-fg-color--dark:  #53ace4;
+}
+
+/* Pomniejszenie głównej treści */
+.md-typeset p,
+.md-typeset li {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+/* Pomniejszenie admonitions (musi być bardzo specyficzne) */
+.md-typeset .admonition,
+.md-typeset .admonition * {
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+}
+
+/* Inline code w admonition – dopasowanie rozmiaru fontu */
+.md-typeset .admonition code {
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+}
+
+/* Nagłówek admonition (też ma swój własny font w Material) */
+.md-typeset .admonition .admonition-title {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+/* Dopasowanie kart Material (żeby pasowały do p/li) */
+.md-card .md-card__description {
+    font-size: 14px !important;
+}
+
+/* Styl obrazków */
+.md-typeset img {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+/* Tabele centrowane */
+.center-table {
+  text-align: center;
+}
+.md-typeset .center-table :is(td, th):not([align]) {
+  text-align: initial;
+}
+
+/* Szerokie tabele */
+.wide-table {
+  width: 100%;
+}
